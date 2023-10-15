@@ -1,29 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
 }
 
 :root {
-    --bs-serenety: #B3CEE5;
-    --bs-rosequartz: #f7cac9;
-    --bs-blue: #0000FF;
-    --bs-watermelon-pink: #FC6C85;
-    --bs-green: #008000;
-    --bs-pinkr: #e4aebe;
-    --bg-color: ;
-    --text-color: #191a1c;
+  --bs-serenety: #b3cee5;
+  --bs-rosequartz: #f7cac9;
+  --bs-blue: #0000ff;
+  --bs-watermelon-pink: #fc6c85;
+  --bs-green: #008000;
+  --bs-pinkr: #e4aebe;
+  --bg-color: ;
+  --text-color: #191a1c;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+header .logo {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #333;
+}
+
+header .navbar ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+header .navbar ul li a {
+  font-size: 20px;
+  padding: 20px 30px;
+  color: black;
+  display: block;
+}
+
+header .navbar ul li a:hover {
+  color: #008000;
+  text-shadow: 0 5px 10px #fc6c85;
+  text-underline-offset: 1rem;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: #fff;
+  display: none;
+}
+
+header .navbar ul li ul li {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .navbar ul li ul li ul {
+  left: 200px;
+  top: 0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
+  background-size: cover;
+  background-position: center;
+}
 
 html {
-    font-size: 62.5%;
-    overflow-x: hidden;
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
