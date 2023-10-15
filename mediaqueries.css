@@ -1,10 +1,48 @@
-@media screen and (max-width: 1680px)
-body, input, textarea, select {
-    font-size: 12pt;
-}
+/* @media screen and (max-width: 1680px) body, input, textarea, select {
+  font-size: 12pt;
+} */
 
 @media (max-width: 1200px) {
-    html {
-        font-size: 55%;
-    }
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 999px) {
+  header {
+    padding: 20px;
+  }
+  header label {
+    display: initial;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  header .navbar ul li {
+    width: 100%;
+  }
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+
+  header .navbar ul li ul li {
+    background: #eee;
+  }
+
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
 }
