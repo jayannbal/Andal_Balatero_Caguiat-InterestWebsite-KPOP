@@ -28,8 +28,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  /* background: #ffffff; */
-  background: #ffffff75;
+  background: #ffffff;
+  /* background: #ffffff75; */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   padding: 10px 7%;
   display: flex;
@@ -40,6 +40,7 @@ header {
 
 header:hover {
   background: #ffffff;
+  opacity: 1;
 }
 
 header .logo {
@@ -172,6 +173,11 @@ html {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 } */
 
+.description-content p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
 .description-content img {
   max-width: 100%;
   height: auto;
@@ -198,6 +204,11 @@ html {
 .group-def-text {
   font-size: 1.8rem;
   text-transform: uppercase;
+}
+
+.group-def-text h2 {
+  text-transform: uppercase;
+  padding-bottom: 5%;
 }
 
 .group-def-text p {
@@ -247,6 +258,15 @@ html {
   margin-top: 4%;
 }
 
+.award-title h2 {
+  padding-top: 7%;
+  padding-bottom: 30px;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .awards {
   position: relative;
   max-width: 1200px;
@@ -261,11 +281,41 @@ html {
 }
 
 .text-box {
-  padding: 20px 30px;
+  padding: 20px 40px;
   background: #fff;
   position: relative;
-  border-radius: 66px;
+  border-radius: 30px;
   font-size: 12px;
+}
+
+.text-box::after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 0;
+}
+
+/* .left-container .text-box:nth-child(odd)::after {
+  transform: translate(50%, -50%);
+  right: -47px;
+}
+
+.right-container .text-box:nth-child(odd)::after {
+  transform: translate(50%, -50%);
+  right: -47px;
+} */
+
+.text-box:nth-of-type(odd)::after {
+  transform: translate(50%, -30%);
+  right: -47px;
+}
+
+.text-box:nth-of-type(even)::after {
+  transform: translate(-50%, -50%);
+  left: -47px;
 }
 
 .left-container {
@@ -276,22 +326,24 @@ html {
   left: 50%;
 }
 
-.awards::after {
+.awards::before {
   content: "";
   position: absolute;
-  width: 6px;
+  width: 5px;
   height: 300px;
   background: #fff;
   top: 0;
   left: 50%;
   margin-left: -3px;
   z-index: -1;
+  transform: translate(-50%);
 }
 
 .text-box h2 {
   font-weight: 600;
+  padding-bottom: 4%;
 }
-
+/* 
 .left-container-arrow {
   height: 0;
   width: 0;
@@ -314,4 +366,4 @@ html {
   border-bottom: 15px solid transparent;
   border-right: 40px solid #fff;
   left: -15px;
-}
+} */
