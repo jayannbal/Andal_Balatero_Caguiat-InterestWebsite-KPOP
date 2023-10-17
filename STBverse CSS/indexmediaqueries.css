@@ -6,6 +6,10 @@
   html {
     font-size: 55%;
   }
+
+  .latestwrapper .caroussel {
+    grid-auto-columns: calc((100% / 3) - 12px);
+  }
 }
 
 @media (max-width: 999px) {
@@ -44,5 +48,18 @@
 
   #menu-bar:checked ~ .navbar {
     display: initial;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .latestwrapper .caroussel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .latestwrapper .caroussel {
+    grid-auto-columns: 100%;
   }
 }
