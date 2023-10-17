@@ -29,6 +29,7 @@ header {
   left: 0;
   right: 0;
   /* background: #ffffff; */
+  background: #ffffff75;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   padding: 10px 7%;
   display: flex;
@@ -108,9 +109,209 @@ body {
   background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
   background-size: cover;
   background-position: center;
+  text-align: center;
 }
 
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+}
+
+/* Profile */
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.banner-area {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  /* margin-top: 80px; */
+  background-image: url(/assetskpop/txt/profile/TXT_header.jpg);
+  opacity: 0.5;
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner-area h2 {
+  padding-top: 30%;
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.description-area {
+  width: 100%;
+  position: relative;
+  margin-top: 35px;
+  height: 440px;
+}
+
+.description-area h2 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  font-size: 40px;
+  margin: 0;
+}
+
+.description-area p {
+  padding: 3dvh 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+/* .description-content {
+  background-color: #fff;
+  padding: 20%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+.description-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.group-definition {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  gap: 1.5rem;
+  background-color: rgba(210, 180, 140, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.group-img img {
+  border-radius: 2.5rem;
+  max-width: 500px;
+  height: auto;
+}
+
+.group-def-text {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.group-def-text p {
+  font-size: 15px;
+  margin: 0.5rem 0 1.1rem;
+  text-align: left;
+  padding: 1%;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+.fandom-name {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.fan-img {
+  position: relative;
+}
+
+.fan-img img {
+  max-width: 1500px;
+  margin-top: 7%;
+}
+
+.fan-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 1;
+}
+
+.fan-text h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.fan-text p {
+  font-size: 14px;
+  margin: 0.5rem 0 1.1rem;
+  text-align: left;
+  padding-left: 25%;
+  padding-right: 20%;
+  margin-top: 4%;
+}
+
+.awards {
+  position: relative;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  /* background: rgba(210, 180, 140, 0.5); */
+}
+
+.text-box {
+  padding: 20px 30px;
+  background: #fff;
+  position: relative;
+  border-radius: 66px;
+  font-size: 12px;
+}
+
+.left-container {
+  left: 0;
+}
+
+.right-container {
+  left: 50%;
+}
+
+.awards::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 300px;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+}
+
+.text-box h2 {
+  font-weight: 600;
+}
+
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 40px solid #fff;
+  right: -15px;
+}
+
+.right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 40px solid #fff;
+  left: -15px;
 }
