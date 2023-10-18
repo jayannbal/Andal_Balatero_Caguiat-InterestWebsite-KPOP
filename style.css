@@ -143,6 +143,7 @@ html {
   color: #fff;
 }
 
+/* DESCRIPTION SECTION */
 .description-area {
   width: 100%;
   position: relative;
@@ -162,16 +163,8 @@ html {
   padding: 3dvh 0;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
-
-/* .description-content {
-  background-color: #fff;
-  padding: 20%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} */
 
 .description-content p {
   font-family: "Poppins", sans-serif;
@@ -183,6 +176,7 @@ html {
   height: auto;
 }
 
+/* GROUP SECTION */
 .group-definition {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
@@ -199,11 +193,15 @@ html {
   border-radius: 2.5rem;
   max-width: 500px;
   height: auto;
+  transition: transform 0.3s;
+}
+
+.group-img img:hover {
+  transform: scale(1.05);
 }
 
 .group-def-text {
   font-size: 1.8rem;
-  text-transform: uppercase;
 }
 
 .group-def-text h2 {
@@ -220,6 +218,7 @@ html {
   margin-left: 7%;
 }
 
+/* FANDOM SECTION */
 .fandom-name {
   display: flex;
   align-items: center;
@@ -258,10 +257,11 @@ html {
   margin-top: 4%;
 }
 
+/* AWARDS SECCTION */
 .award-title h2 {
   padding-top: 7%;
   padding-bottom: 30px;
-  font-size: 45px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -277,15 +277,15 @@ html {
   padding: 10px 50px;
   position: relative;
   width: 50%;
-  /* background: rgba(210, 180, 140, 0.5); */
 }
 
 .text-box {
   padding: 20px 40px;
-  background: #fff;
+  background: #ddb39e;
   position: relative;
-  border-radius: 30px;
+  border-radius: 25px;
   font-size: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* .text-box::after {
@@ -330,18 +330,20 @@ html {
   content: "";
   position: absolute;
   width: 5px;
-  height: 300px;
-  background: #fff;
+  height: 305px;
+  background: #ddb39e;
   top: 0;
   left: 50%;
   margin-left: -3px;
   z-index: -1;
   transform: translate(-50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .text-box h2 {
   font-weight: 600;
   padding-bottom: 4%;
+  font-size: 200%;
 }
 
 .left-container-arrow {
@@ -352,7 +354,7 @@ html {
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 40px solid #fff;
+  border-left: 40px solid #ddb39e;
   right: -15px;
 }
 
@@ -364,24 +366,29 @@ html {
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 40px solid #fff;
+  border-right: 40px solid #ddb39e;
   left: -15px;
 }
 
-/* Family site */
+/* FAMILY SITE SECTION */
 .family-site-title h2 {
-  padding-top: 20%;
+  padding-top: 7%;
   padding-bottom: 5%;
-  font-size: 45px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: #fff;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, auto));
+  background-color: rgba(210, 180, 140, 0.5);
+  margin-top: 15%;
 }
 
 .family-site {
   width: 100%;
   height: 27vh;
   display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, auto));
+  background-color: rgba(210, 180, 140, 0.5);
   align-items: center;
   justify-content: center;
   padding-bottom: 20%;
@@ -395,7 +402,7 @@ html {
   background: #fff;
   margin: 20px;
   text-align: center;
-  font-size: 50px;
+  font-size: 26px;
   line-height: 100px;
   font-family: "Poppins", sans-serif;
   overflow: hidden;
@@ -404,7 +411,7 @@ html {
 }
 
 .icons:hover {
-  width: 400px;
+  width: 250px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -416,7 +423,7 @@ html {
   color: #fff;
 }
 
-.icons .fa-square-instagram {
+.icons .fa-instagram {
   color: #8d6e63;
 }
 
@@ -424,7 +431,7 @@ html {
   background: #8d6e63;
 }
 
-.icons .fa-square-x-twitter {
+.icons .fa-x-twitter {
   color: #8d6e63;
 }
 
@@ -440,7 +447,7 @@ html {
   background: #8d6e63;
 }
 
-.icons .fa-browser {
+.icons .fa-globe {
   color: #8d6e63;
 }
 
@@ -448,7 +455,7 @@ html {
   background: #8d6e63;
 }
 
-.icons .fa-square-w {
+.icons .fa-w {
   color: #8d6e63;
 }
 
