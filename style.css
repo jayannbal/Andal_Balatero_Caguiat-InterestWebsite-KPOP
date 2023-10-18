@@ -288,35 +288,35 @@ html {
   font-size: 12px;
 }
 
-.text-box::after {
+/* .text-box::after {
   content: "";
   position: absolute;
   height: 20px;
   width: 20px;
-  background-color: #fff;
+  background-color: red;
   border-radius: 50%;
   top: 0;
-}
+} */
 
 /* .left-container .text-box:nth-child(odd)::after {
   transform: translate(50%, -50%);
   right: -47px;
 }
 
-.right-container .text-box:nth-child(odd)::after {
-  transform: translate(50%, -50%);
-  right: -47px;
+.right-container .text-box:nth-child(even)::after {
+  transform: translate(-50%, 50%);
+  right: 14px;
 } */
 
-.text-box:nth-of-type(odd)::after {
+/* .text-box:nth-of-type(odd)::after {
   transform: translate(50%, -30%);
-  right: -47px;
-}
-
+  right: 40px;
+} */
+/* 
 .text-box:nth-of-type(even)::after {
   transform: translate(-50%, -50%);
-  left: -47px;
-}
+  left: -50px;
+} */
 
 .left-container {
   left: 0;
@@ -343,7 +343,7 @@ html {
   font-weight: 600;
   padding-bottom: 4%;
 }
-/* 
+
 .left-container-arrow {
   height: 0;
   width: 0;
@@ -366,4 +366,100 @@ html {
   border-bottom: 15px solid transparent;
   border-right: 40px solid #fff;
   left: -15px;
-} */
+}
+
+/* Family site */
+.family-site-title h2 {
+  padding-top: 20%;
+  padding-bottom: 5%;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.family-site {
+  width: 100%;
+  height: 27vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20%;
+  padding-top: 6%;
+}
+
+.icons {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: #fff;
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 100px;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  box-shadow: 5px 10px 20px rgba(150, 150, 150, 0.3);
+  transition: all 0.3s ease-out;
+}
+
+.icons:hover {
+  width: 400px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.icons:hover i {
+  color: #fff;
+}
+
+.icons .fa-square-instagram {
+  color: #8d6e63;
+}
+
+.insta:hover {
+  background: #8d6e63;
+}
+
+.icons .fa-square-x-twitter {
+  color: #8d6e63;
+}
+
+.twt:hover {
+  background: #8d6e63;
+}
+
+.icons .fa-youtube {
+  color: #8d6e63;
+}
+
+.yt:hover {
+  background: #8d6e63;
+}
+
+.icons .fa-browser {
+  color: #8d6e63;
+}
+
+.ofc:hover {
+  background: #8d6e63;
+}
+
+.icons .fa-square-w {
+  color: #8d6e63;
+}
+
+.wvrs:hover {
+  background: #8d6e63;
+}
+
+.icons .fa-tiktok {
+  color: #8d6e63;
+}
+
+.tk:hover {
+  background: #8d6e63;
+}
