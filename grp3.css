@@ -118,7 +118,11 @@ html {
   overflow-x: hidden;
 }
 
-/* Profile */
+/*===============================
+    Grp3.html
+=================================*/
+
+/* BANNER SECTION */
 .wrapper {
   width: 60%;
   margin: 0 auto;
@@ -480,3 +484,7 @@ html {
   text-decoration: none;
   color: #fff;
 }
+
+/*===============================
+    Mem3.html
+=================================*/
