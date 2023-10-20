@@ -100,13 +100,3 @@ latestwrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 latestwrapper.addEventListener("mouseleave", autoPLay);
 
 
-document.getElementById('page-wrapper').addEventListener('click', function (event) {
-    event.preventDefault(); // Prevent the default behavior of the link
-
-    // Scroll smoothly to the top of the page
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth' // This enables smooth scrolling, but it may not work in all browsers.
-    });
-  });
-  
