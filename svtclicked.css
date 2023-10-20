@@ -9,7 +9,6 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
 }
 
 :root {
@@ -207,7 +206,7 @@ html {
 .container4 {
   height: 200px;
   width: 80rem;
-  margin-left: 10rem;
+  margin-left: 12rem;
   background-color: transparent;
 }
 
@@ -226,7 +225,7 @@ html {
   background-color: #ddd;
   opacity: 75%;
   margin-left: 20rem;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 .container5 a:hover {
