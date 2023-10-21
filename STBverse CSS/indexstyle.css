@@ -9,14 +9,13 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
 }
 
 :root {
-  --bs-serenety: #b3cee5;
+  --bs-serenity: #b3cee5;
   --bs-rosequartz: #f7cac9;
   --bs-blue: #0000ff;
-  --bs-watermelon-pink: #fc6c85;
+  --bs-watermelon-pink: #fc6c843d;
   --bs-green: #008000;
   --bs-pinkr: #e4aebe;
   --bg-color: ;
@@ -115,9 +114,7 @@ html {
   overflow-x: hidden;
 }
 
-
-
-.homepage{
+.homepage {
   margin: 15vh;
   padding: 15vh;
   height: 100vh;
@@ -126,34 +123,32 @@ html {
   align-items: center;
 }
 
-.slider{
+.slider {
   width: 1270px;
   height: 700px;
   border-radius: 30px;
   background: #ffaf7a;
-  box-shadow:  39px -39px 100px #ffffbd,
-             -39px 39px 100px #ffffbd;
-  
-  overflow: hidden;
+  box-shadow: 39px -39px 100px #ffffbd, -39px 39px 100px #ffffbd;
 
+  overflow: hidden;
 }
 
-.slide{
+.slide {
   width: 500%;
   height: 500px;
   display: flex;
 }
 
-.slide input{
+.slide input {
   display: none;
 }
 
-.st{
+.st {
   width: 20%;
   transition: 1.5s;
 }
 
-.st img{
+.st img {
   width: auto;
   height: 700px;
 }
@@ -183,16 +178,15 @@ html {
   background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
 }
 
-
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
   margin-left: 0;
 }
 
-#radio2:checked ~ .first{
+#radio2:checked ~ .first {
   margin-left: -20%;
 }
 
-#radio3:checked ~ .first{
+#radio3:checked ~ .first {
   margin-left: -40%;
 }
 
@@ -212,7 +206,6 @@ html {
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
-  
 }
 
 .nav-auto div:not(:last-child) {
@@ -221,22 +214,21 @@ html {
 
 /* Your existing code for highlighting the active button */
 
-
-#radio1:checked ~ .nav-auto .a-b1{
+#radio1:checked ~ .nav-auto .a-b1 {
   background-color: #191a1c;
 }
 
-#radio2:checked ~ .nav-auto .a-b2{
+#radio2:checked ~ .nav-auto .a-b2 {
   background-color: #191a1c;
 }
 
-#radio3:checked ~ .nav-auto .a-b3{
+#radio3:checked ~ .nav-auto .a-b3 {
   background-color: #191a1c;
 }
 
 /* Style the container within the additional content wrapper */
 #aboutkpop {
-  background-color: transparent; 
+  background-color: transparent;
   padding: 30px 0;
   display: flex;
   justify-content: space-between; /* Align the content to the left and right edges */
@@ -250,7 +242,6 @@ html {
   text-align: left;
   line-height: 1.2;
   margin-top: 20vh;
-
 }
 
 /* Styling for the paragraph text */
@@ -270,12 +261,10 @@ html {
   margin: 0; /* Adjust margin as needed */
 }
 
-
 /* Styling for the span within the heading */
 .left-box h2 span {
   color: #ffffff;
 }
-
 
 .container-box {
   display: flex; /* Create a flex container to organize the boxes */
@@ -288,8 +277,8 @@ html {
   background: transparent;
   padding: 20px; /* Increase the padding for more spacing */
   border-radius: 10px;
-  width: 40%; 
-  margin-right: auto; 
+  width: 40%;
+  margin-right: auto;
   margin-left: 60px;
   font-size: 4.5rem;
   line-height: 1.2;
@@ -301,16 +290,13 @@ html {
   text-align: center; /* Center the content horizontally */
   border-radius: 39px;
   background: #ffaf7a;
-  box-shadow: 19px 19px 50px #ffffbd,
-              -19px 19px 50px #ffffbd;
+  box-shadow: 19px 19px 50px #ffffbd, -19px 19px 50px #ffffbd;
   padding: 20px; /* Increase the padding for more spacing */
   border-radius: 10px;
   width: 40%; /* Adjust the width of the container area as needed */
   margin-left: auto; /* Move the container to the right */
   margin-right: 60px; /* Add margin to the right side */
 }
-
-
 
 #latestupdate {
   background-color: transparent;
@@ -354,7 +340,6 @@ html {
   background-color: #ffc894;
 }
 
-
 .image-content,
 .card-content {
   display: flex;
@@ -381,7 +366,7 @@ html {
 
 .overlay::before,
 .overlay::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   bottom: -10px; /* Further reduced gap */
@@ -409,8 +394,7 @@ html {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #7d5b3b; /* Reduced border width */
-  box-shadow:  -5px 5px 20px #90443f,
-             5px -5px 20px #f5f2f2;
+  box-shadow: -5px 5px 20px #90443f, 5px -5px 20px #f5f2f2;
 }
 
 .name {
@@ -443,7 +427,6 @@ html {
 
 /* ... (Rest of the CSS remains the same) */
 
-
 .image-container .image {
   width: 100%;
   height: 100%;
@@ -466,14 +449,12 @@ html {
   align-items: center;
   width: 50px; /* Adjust the size of the link container as needed */
   height: 50px; /* Adjust the size of the link container as needed */
-  background: #1DB954; /* Background color for the link */
+  background: #1db954; /* Background color for the link */
   border-radius: 50%;
   text-decoration: none; /* Remove default link underline */
   transition: opacity 0.3s;
   opacity: 0; /* Start with 0 opacity, so it's hidden */
 }
-
-
 
 .image-container a i {
   font-size: 24px; /* Adjust the size of the Spotify icon as needed */
@@ -483,8 +464,6 @@ html {
 .image-container:hover a {
   opacity: 1; /* Show the link on hover */
 }
-
-
 
 .swiper-navBtn {
   color: #191a1c;
@@ -517,7 +496,6 @@ html {
   background-color: #333;
 }
 
-
 /*ABOUT US*/
 #about-us {
   background-color: transparent;
@@ -532,7 +510,6 @@ html {
   font-size: 36px;
   color: white;
   margin-bottom: 20px;
-
 }
 
 .about-us-content p {
@@ -549,15 +526,13 @@ html {
   margin-top: 40px; /* Adjust the value as needed */
 }
 
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: -40px;  /* Adjust the left padding as needed */
+  padding-left: -40px; /* Adjust the left padding as needed */
   padding-right: -40px; /* Adjust the right padding as needed */
   padding-bottom: 20vh;
 }
-
 
 .teamwrapper {
   display: flex;
@@ -590,7 +565,6 @@ html {
   transform: scale(1.1); /* Increase or decrease the scale factor as needed */
 }
 
-
 .teamcard:before {
   content: "";
   position: absolute;
@@ -609,7 +583,6 @@ html {
   opacity: 1; /* Change this to 1 (fully opaque) */
 }
 
-
 .teamcard img {
   display: block;
   width: 100%;
@@ -619,7 +592,6 @@ html {
   top: 0;
   left: 0;
 }
-
 
 .teamcard .info {
   position: absolute;
@@ -671,21 +643,17 @@ html {
   width: 2.5rem;
   height: 2.5rem;
   background: transparent;
-  border: .2rem solid #e9925c;
+  border: 0.2rem solid #e9925c;
   border-radius: 50%;
   font-size: 1rem;
   color: #e9925c;
   margin: 0rem 1.5rem 3rem 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-
-
-
 
 .teamcard .info a:hover {
-  color: #007BFF;
+  color: #007bff;
 }
-
 
 /*---------CONTACT SECTION---------*/
 
@@ -697,9 +665,9 @@ html {
   box-shadow: 0 0 1rem #ffffbd;
   font-size: 1.6rem;
   color: #e9925c;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: 600;
-  transition: .5s ease;
+  transition: 0.5s ease;
   transition: background-color 0.3s ease-in-out 0.1s;
 }
 
@@ -710,19 +678,16 @@ html {
 .title2 {
   text-align: center;
   font-size: 4.5rem;
-  background:#191a1c;
+  background: #191a1c;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   margin-bottom: 2rem;
 }
 
-
-
 .contact h2 {
   margin-bottom: 2rem;
 }
-
 
 .contact form {
   max-width: 70rem;
@@ -743,7 +708,6 @@ html {
   transform: scale(0.95);
 }
 
-
 .contact form .input-box {
   display: flex;
   justify-content: space-between;
@@ -757,11 +721,10 @@ html {
   font-size: 1.6rem;
   color: #e9925c;
   background: #191a1c;
-  border-radius: .8rem;
-  margin: .7rem 0;
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 .contact form .input-box input {
   width: 49%;
@@ -771,23 +734,26 @@ html {
   resize: none;
 }
 
-
 .contact form .btn:active {
   transform: scale(0.95);
 }
 
 .contact form .btn:hover {
-  background: linear-gradient(to bottom right, #e9925c, #837a55); /* Replace these colors with your desired gradient */
+  background: linear-gradient(
+    to bottom right,
+    #e9925c,
+    #837a55
+  ); /* Replace these colors with your desired gradient */
   transform: scale(1.1);
   color: linear-gradient(to bottom right, #837a55, #e9925c);
-  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 
 .parent-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; 
+  height: 100%;
 }
 
 #msg {
@@ -799,7 +765,6 @@ html {
   align-items: center;
   height: 100%;
 }
-
 
 /*---------FOOTER SECTION---------*/
 .footer {
@@ -814,17 +779,16 @@ html {
 
 .footer-text p {
   font-size: 1.5rem;
-
 }
 
 .footer-iconTop a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: .8rem;
+  padding: 0.8rem;
   background: #e9925c;
-  border-radius: .8rem;
-  transition: .5s ease;
+  border-radius: 0.8rem;
+  transition: 0.5s ease;
 }
 
 .footer-iconTop a:hover {
