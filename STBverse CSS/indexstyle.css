@@ -9,17 +9,15 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
 }
 
 :root {
-  --bs-serenety: #b3cee5;
+  --bs-serenity: #b3cee5;
   --bs-rosequartz: #f7cac9;
   --bs-blue: #0000ff;
-  --bs-watermelon-pink: #fc6c85;
+  --bs-watermelon-pink: #fc6c843d;
   --bs-green: #008000;
   --bs-pinkr: #e4aebe;
-  --bg-color: ;
   --text-color: #191a1c;
 }
 
