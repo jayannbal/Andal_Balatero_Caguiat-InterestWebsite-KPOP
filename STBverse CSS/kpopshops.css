@@ -126,64 +126,77 @@ html {
 
   
 .banner-area {
-    background-color: transparent;
-    padding: 20px;
-    text-align: center;
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
 }
   
 .banner-area h2 {
-    font-size: 4.2rem;
-    font-weight: 700;
+  font-size: 4.2rem;
+  font-weight: 700;
 }
 
 .banner-area h3 {
-    font-size: 4.2rem;
-    font-weight: 700;
+  font-size: 4.2rem;
+  font-weight: 700;
 }
 
 
-.swiper {
-    width: 100%;
-    height: 100%;
-}
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(43.33% - 20px); /* Set the width to fit three slides */
+  margin-right: 20px; /* Add some margin between slides */
+}
+
+.swiper-slide:last-child {
+  margin-right: 0; /* Remove margin from the last slide */
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-top: 50px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 50px;
+  border-radius: 30px;
 }
+
 
 
 
 /* Global Styles */
 #globalshops {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-x: auto; /* Add this to enable horizontal scrolling if the globalcontainers don't fit in the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.globalcontainer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
   
 #globalshops .globalcontainer {
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
+    text-align: center; 
     margin: 5px;
     display: inline-block;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: 10vh;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 10vh;
-    border-radius: 20px;
-    transition: transform 0.2s; /* Add a smooth transition for the hover effect */
+    border-radius: 18px;
+    transition: transform 0.2s;
 }
   
 #globalshops .globalcontainer a {
@@ -194,6 +207,7 @@ html {
 #globalshops .globalcontainer img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
   
 #globalshops .globalcontainer:hover {
@@ -202,22 +216,11 @@ html {
 }
 
 
-.globalcontainer {
-    width: 600px;
-    height: 600px;
-    display: inline-block;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 10vh;
-    border-radius: 20px;
-    transition: transform 0.2s; /* Add a smooth transition for the hover effect */
-  }
+
   
-  .hover-content {
+.hover-content {
     position: absolute;
     color: #191a1c;
-    align-items: center;
-    display: flex;
     top: 0;
     left: 0;
     width: 100%;
@@ -228,22 +231,24 @@ html {
     animation: grow 0.5s ease-in-out;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background-color: rgba(255, 255, 255, 0.8);
-    justify-content: center; /* Add this to center the content horizontally */
-    text-align: center; /* Add this to center the content vertically */
-  }
+    justify-content: center; 
+}
   
 .globalcontainer-link:hover .hover-content {
     opacity: 1;
-  }
+}
   
-  .hover-content h2 {
-    margin-bottom: 10px;
-    text-align: center;
-  }
+.hover-content h2 {
+  font-size: 5rem;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   
-  .hover-content i {
-    display: block;
-  } 
 
 @keyframes grow {
     from {

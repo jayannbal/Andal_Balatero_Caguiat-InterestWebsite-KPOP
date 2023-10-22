@@ -1,0 +1,147 @@
+/* Media Query for Screen Width: 1200px to 991px */
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+
+  .swiper-slide {
+    width: 33.33%; /* Set the width to fit three slides */
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+  }
+
+  #globalshops .globalcontainer {
+    width: 30%; /* Adjust the width as needed */
+    margin: 10px;
+  }
+
+  .globalcontainer-link:hover .hover-content {
+    opacity: 1;
+  }
+}
+
+/* Media Query for Screen Width: 990px to 768px */
+@media screen and (max-width: 990px) {
+
+  header {
+    padding: 20px;
+  }
+  header label {
+    display: initial;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  header .navbar ul li {
+    width: 100%;
+  }
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+
+  header .navbar ul li ul li {
+    background: #eee;
+  }
+
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+
+  
+
+
+  #globalshops .globalcontainer {
+    width: 45%; /* Adjust the width as needed */
+    margin: 10px;
+  }
+
+  .globalcontainer-link:hover .hover-content {
+    opacity: 1;
+  }
+}
+
+/* Media Query for Screen Width: 767px to 576px */
+@media screen and (max-width: 767px) {
+  #globalshops .globalcontainer {
+    width: 70%; /* Adjust the width as needed */
+    margin: 10px;
+  }
+
+  .globalcontainer-link:hover .hover-content {
+    opacity: 1;
+  }
+
+  .hover-content h2 {
+    font-size: 3rem; /* Adjust the font size as needed */
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  .swiper-slide {
+    margin: 0 10px;
+  }
+
+  
+}
+
+/* Media Query for Screen Width: 575px to 300px */
+@media screen and (max-width: 575px) {
+
+  .swiper-wrapper {
+    slidesPerView: 1;
+  }
+    
+  #globalshops .globalcontainer {
+    width: 100%; /* Adjust the width as needed */
+    margin: 10px;
+  }
+
+  .globalcontainer-link:hover .hover-content {
+    opacity: 1;
+  }
+
+  .hover-content h2 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+}
+
+/* Apply styles for screens narrower than 300px */
+/* Media Query for Screen Width: 390px and below */
+@media (max-width: 390px) {
+  .swiper-slide {
+    width: 100%; /* Set the width to 100% to center the slider */
+    margin: 0 auto; /* Center the slider horizontally */
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    display: none; /* Hide the next and previous buttons for better centering */
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev,
+  .swiper-pagination {
+    top: auto;
+    bottom: 10px; /* Adjust the value to your preference for vertical positioning */
+  }
+}
+
+
