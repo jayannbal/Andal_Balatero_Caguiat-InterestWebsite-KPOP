@@ -107,7 +107,7 @@ header label {
 }
 
 body {
-  min-height: 100vh;
+  min-height: 200vh;
   background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
   background-size: cover;
   background-position: center;
