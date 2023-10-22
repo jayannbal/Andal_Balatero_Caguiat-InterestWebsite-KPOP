@@ -106,6 +106,22 @@
   .swiper-wrapper {
     slidesPerView: 1;
   }
+
+  .swiper-slide {
+    width: 100%; /* Set the width to 100% to center the slider */
+    margin: 0 auto; /* Center the slider horizontally */
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    display: none; /* Hide the next and previous buttons for better centering */
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev,
+  .swiper-pagination {
+    top: auto;
+    bottom: 10px; /* Adjust the value to your preference for vertical positioning */
+  }
     
   #globalshops .globalcontainer {
     width: 100%; /* Adjust the width as needed */

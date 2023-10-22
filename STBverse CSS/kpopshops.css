@@ -307,3 +307,18 @@ html {
     color: #333;
   }
   
+  /* CSS for the "Back" link */
+.previous {
+  text-decoration: none;
+  background-color: #007BFF; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding around the text */
+  border-radius: 4px; /* Rounded corners */
+  margin-top: 20px; /* Adjust the margin to your liking */
+  display: inline-block;
+}
+
+.previous:hover {
+  background-color: #0056b3; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+}
