@@ -587,6 +587,7 @@ html {
   text-transform: uppercase;
   padding-bottom: 2%;
   padding-top: 5%;
+  padding-right: 3%;
   font-size: 25px;
   color: #fff;
 }
@@ -631,7 +632,7 @@ html {
 .members-text-left ul {
   list-style: none;
   font-size: 17px;
-  margin-right: 70%;
+  margin-right: 69%;
 }
 
 .members-text-left ul li {
