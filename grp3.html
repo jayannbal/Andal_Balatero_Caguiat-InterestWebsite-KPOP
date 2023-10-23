@@ -77,7 +77,7 @@
   </header>
   <body>
     <!-- Start Banner Area -->
-    <div class="banner-area">
+    <div class="banner-area" id="profile">
       <h2>Tomorrow X Together</h2>
     </div>
     <!-- End Banner Area -->
@@ -102,6 +102,46 @@
       </div>
     </div>
     <!-- End Description Area -->
+
+    <!-- Start New Group Name -->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img
+          src="/assetskpop/txt/profile/TXT_debut_img.jpeg"
+          style="width: 100%"
+        />
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img
+          src="/assetskpop/txt/profile/TXT_debut_img.jpeg"
+          style="width: 100%"
+        />
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img
+          src="/assetskpop/txt/profile/TXT_debut_img.jpeg"
+          style="width: 100%"
+        />
+        <div class="text">Caption Text</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="prev" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <br />
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlides(1)"></span>
+      <span class="dot" onclick="currentSlides(2)"></span>
+      <span class="dot" onclick="currentSlides(3)"></span>
+    </div>
+
+    <!-- End Ne Group Name -->
 
     <!-- Start Group Name Area -->
     <div class="group-definition" id="group">
@@ -222,6 +262,27 @@
     </div>
     <!-- End Awards Area -->
 
+    <!-- Start Video Area -->
+    <div class="card-content">
+      <h2 class="name">TXT</h2>
+      <p class="description">
+        TXT (투모로우바이투게더) 'Chasing That Feeling' Official MV
+      </p>
+
+      <div class="video-container">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube-nocookie.com/embed/ISnyONG1dEc?si=bvsVXTM3OMkOPWOF"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <!-- End Video Area -->
+
     <!-- Start Family Site Area -->
     <div class="family-site-title">
       <h2>Family site</h2>
@@ -293,5 +354,86 @@
       </div>
     </div>
     <!-- End Family Site Area -->
+
+    <!-- Footer Area -->
+    <footer>
+      <div class="footer-content">
+        <div class="row">
+          <div class="footer-col">
+            <img
+              src="assetskpop/blackpink/Blackpink (블랙핑크)‘Square One’.png"
+              class="logopic"
+              alt="Logopic"
+            />
+          </div>
+          <div class="footer-col">
+            <h4>
+              QUICK LINKS
+              <div class="underline"><span></span></div>
+            </h4>
+            <ul>
+              <li><a href="#">SEVENTEEN</a></li>
+              <li><a href="#">TOMORROW X TOGETHER</a></li>
+              <li><a href="#">BLACKPINK</a></li>
+              <li><a href="#">DISCOGRAPHY</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>
+              CONTACT US
+              <div class="underline"><span></span></div>
+            </h4>
+            <ul>
+              <li><a href="#">Contact Form</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>
+              FOLLOW US
+              <div class="underline"><span></span></div>
+            </h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#profile"><i class="bx bx-chevrons-up"></i></a>
+        </div>
+      </div>
+      <div class="footer-hr">
+        <hr />
+      </div>
+      <div class="footer-text">&copy; 2023 STBverse. All rights reserved.</div>
+    </footer>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var footer = document.querySelector(".footer");
+        var scrollHeight = Math.max(
+          document.documentElement.scrollHeight,
+          document.body.scrollHeight
+        );
+        var scrollTop = Math.max(
+          document.documentElement.scrollTop,
+          document.body.scrollTop
+        );
+        var clientHeight = document.documentElement.clientHeight;
+
+        // Adjust this value based on when you want the footer to appear
+        var scrollTrigger = 100;
+
+        if (scrollHeight - scrollTop - scrollTrigger <= clientHeight) {
+          footer.style.visibility = "visible";
+          footer.style.opacity = 1;
+        } else {
+          footer.style.visibility = "hidden";
+          footer.style.opacity = 0;
+        }
+      });
+    </script>
   </body>
 </html>
