@@ -137,6 +137,7 @@ html {
   opacity: 0.5;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 .banner-area h2 {
@@ -231,6 +232,14 @@ html {
 
 .fan-img {
   position: relative;
+  background-image: url(/assetskpop/txt/profile/TXT_withmoa2.jpeg);
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 60vh;
+  padding-top: -10%;
+  margin-top: 10%;
 }
 
 .fan-img img {
@@ -488,6 +497,43 @@ html {
 /*===============================
     Mem3.html
 =================================*/
+
+.banner-area p {
+  padding-top: -5%;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.container-mem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 85%;
+  margin: 90px;
+  margin-bottom: -5%;
+  margin-top: 2%;
+  text-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 50px;
+  width: calc(33.33% - 20px);
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: rgba(98, 56, 23, 0.4);
+}
+
 .members-name {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, auto));
@@ -526,7 +572,7 @@ html {
 }
 
 .members-text {
-  color: #fff;
+  color: #2a0800;
   font-family: "Poppins", sans-serif;
   flex: 1;
 }
@@ -535,6 +581,7 @@ html {
   list-style: none;
   padding-right: 15%;
   font-size: 17px;
+  font-weight: 500;
 }
 
 .members-text ul li {
@@ -549,7 +596,7 @@ html {
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: #2a0800;
 }
 
 .members-ans {
@@ -570,10 +617,15 @@ html {
   text-align: left;
 }
 
+/* MEMBERS' FACTS AND TRIVIA */
+
 .members-facts {
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
   align-items: center;
-  background-color: rgba(98, 56, 23, 0.4);
+  background-image: url(/assetskpop/txt/profile/TXT_soobin3.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   border-radius: 10px;
   margin-left: 7%;
   margin-right: 7%;
@@ -590,6 +642,8 @@ html {
   padding-right: 3%;
   font-size: 25px;
   color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .members-facts p {
@@ -599,10 +653,164 @@ html {
   margin-right: 10%;
   margin-left: 7%;
   color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .members-text strong {
   font-size: 18px;
+}
+
+.members-facts-two {
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  background-image: url(/assetskpop/txt/profile/TXT_yeonjun2.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-radius: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.members-facts-two h2 {
+  text-transform: uppercase;
+  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-right: 3%;
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.members-facts-two p {
+  font-size: 15px;
+  margin: 0.5rem 0 1.1rem;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 7%;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.members-facts-three {
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  background-image: url(/assetskpop/txt/profile/TXT_beomgyu2.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-radius: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.members-facts-three h2 {
+  text-transform: uppercase;
+  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-right: 3%;
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.members-facts-three p {
+  font-size: 15px;
+  margin: 0.5rem 0 1.1rem;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 7%;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.members-facts-four {
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  background-image: url(/assetskpop/txt/profile/TXT_taehyun2.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-radius: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.members-facts-four h2 {
+  text-transform: uppercase;
+  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-right: 3%;
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.members-facts-four p {
+  font-size: 15px;
+  margin: 0.5rem 0 1.1rem;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 7%;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.members-facts-five {
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  background-image: url(/assetskpop/txt/profile/TXT_hyuka.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-radius: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.members-facts-five h2 {
+  text-transform: uppercase;
+  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-right: 3%;
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.members-facts-five p {
+  font-size: 15px;
+  margin: 0.5rem 0 1.1rem;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 7%;
+  color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .members-profile2 {
@@ -623,10 +831,11 @@ html {
 }
 
 .members-text-left {
-  color: #fff;
+  color: #2a0800;
   font-family: "Poppins", sans-serif;
   flex: 1;
   margin-left: -5rem;
+  font-weight: 500;
 }
 
 .members-text-left ul {
@@ -647,7 +856,7 @@ html {
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: #2a0800;
 }
 
 .members-ans-left {
