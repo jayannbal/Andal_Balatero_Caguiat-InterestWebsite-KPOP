@@ -142,7 +142,7 @@
 
 /* Apply styles for screens narrower than 300px */
 /* Media Query for Screen Width: 390px and below */
-@media (max-width: 390px) {
+@media screen and  (max-width: 390px) {
   .swiper-slide {
     width: 100%; /* Set the width to 100% to center the slider */
     margin: 0 auto; /* Center the slider horizontally */

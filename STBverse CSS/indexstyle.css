@@ -122,16 +122,22 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   line-height: normal;
   font-family: 'Poppins', sans-serif;
 }
+
+
+
+
 
 /* HTML Styles */
 html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+
+
 
 /* Homepage Styles */
 .homepage {
@@ -150,7 +156,7 @@ html {
   height: 700px;
   border-radius: 30px;
   background: #ffaf7a;
-  box-shadow: 39px -39px 100px #ffffbd, -39px 39px 100px #ffffbd;
+  box-shadow: 17px -17px 25px #241b00, -17px 17px 25px #241b00;
   overflow: hidden;
 }
 
@@ -238,14 +244,8 @@ html {
 }
 
 /* Active Button Styles */
-#radio1:checked ~ .nav-auto .a-b1 {
-  background-color: #191a1c;
-}
-
-#radio2:checked ~ .nav-auto .a-b2 {
-  background-color: #191a1c;
-}
-
+#radio1:checked ~ .nav-auto .a-b1,
+#radio2:checked ~ .nav-auto .a-b2,
 #radio3:checked ~ .nav-auto .a-b3 {
   background-color: #191a1c;
 }
@@ -317,8 +317,8 @@ html {
   flex: 1;
   text-align: center;
   border-radius: 39px;
-  background: #ffaf7a;
-  box-shadow: 19px 19px 50px #ffffbd, -19px 19px 50px #ffffbd;
+  background: #d6ba94;
+  box-shadow: 17px -17px 25px #241b00, -17px 17px 25px #241b00;
   padding: 20px;
   border-radius: 10px;
   width: 40%;
@@ -407,7 +407,7 @@ html {
 
 .overlay::after {
   border-radius: 0 25px 0 0;
-  background-color: #ffc894
+  background-color: #ffc894;
 }
 
 .card-image {
