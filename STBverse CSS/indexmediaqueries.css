@@ -44,8 +44,48 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-  /* Same as 1300px breakpoint */
+@media screen and (max-width: 1230px) {
+  
+  .teamwrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .teamcard {
+    width: 30%;
+    margin: 0 auto; /* This will center the team cards horizontally */
+  }
+
+  .teamcard img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .teamcard .info {
+    text-align: center;
+  }
+
+  .teamcard .info h5,
+  .teamcard .info h6,
+  .teamcard .info p {
+    font-size: smaller;
+  }
+
+  .teamcard .social-media {
+    text-align: center;
+  }
+
+  .teamcard .social-media a {
+    margin: 0 5px;
+  }
+
+  /* Display the team cards in a single column */
+  #team h2 {
+    font-size: 50px;
+    letter-spacing: 50px;
+    text-indent: 50px;
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -398,6 +438,15 @@
   .contact {
     flex-basis: 100%;
   }
+
+  .contact form {
+    max-width: 95%; /* Adjust the maximum width as needed */
+  }
+
+  .contact form .btn {
+    padding: 1rem 1.5rem; /* Adjust the button padding as needed */
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -452,8 +501,8 @@
   }
 
   .right-box, .left-box {
-    width: 100%;
-    margin: 0;
+    width: 95%;
+    margin: auto;
     padding: 35px 5px; /* Adjust the padding as needed */
   }
 
@@ -542,7 +591,7 @@
     background: rgba(23, 23, 23, 0.8);
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
-    bottom: 10px;
+    bottom: 6px;
     right: 200px;
     height: 22px;
     position: absolute;
@@ -575,7 +624,7 @@
     width: 360px;
     height: 460px;
     margin-bottom: 30px;
-    left: -5%;
+    left: -1%;
     transform: translateX(1%);
   }
 
