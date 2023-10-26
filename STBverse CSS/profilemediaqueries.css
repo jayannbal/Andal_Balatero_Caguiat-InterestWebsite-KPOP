@@ -1,0 +1,227 @@
+@media screen and (max-width: 1680px) {
+  body,
+  input,
+  textarea,
+  select {
+    font-size: 12pt;
+  }
+
+  .banner-area {
+    /* padding-top: 5%; */
+    /* margin-top: 50%; */
+    /* width: 100%; */
+    /* height: 300px; */
+  }
+}
+
+html {
+  font-size: 55%;
+}
+
+body {
+  background-size: cover;
+  background-position: center center;
+}
+
+/* HEADER SECTION */
+.banner-area h2 {
+  padding-top: 30%;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* HEADER SECTION */
+@media screen and (max-width: 1300px) {
+  .banner-area h2 {
+    padding-top: 38%;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+
+    /* VIDEO SECTION */
+    .video-container {
+      position: relative;
+      width: 75%;
+      flex-grow: 1;
+      height: 600px;
+      margin-top: 10px;
+      padding-top: 5%;
+      /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    }
+  }
+}
+
+/* HEADER SECTION */
+@media screen and (max-width: 995px) {
+  .banner-area h2 {
+    padding-top: 45%;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+
+    /* VIDEO SECTION */
+    .video-container {
+      position: relative;
+      width: 75%;
+      flex-grow: 1;
+      height: 550px;
+      margin-top: 10px;
+      padding-top: 5%;
+      /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    }
+  }
+}
+
+/* FANDOM SECTION */
+@media screen and (max-width: 890px) {
+  .fan-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 1;
+  }
+
+  /* VIDEO SECTION */
+  .video-container {
+    position: relative;
+    width: 75%;
+    flex-grow: 1;
+    height: 500px;
+    margin-top: 10px;
+    padding-top: 5%;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .group-definition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+  }
+
+  .group-img {
+    margin-top: 2rem;
+  }
+
+  .group-def-text {
+    margin-top: 0rem;
+    padding-top: 5%;
+  }
+
+  /* VIDEO SECTION */
+  .video-container {
+    position: relative;
+    width: 75%;
+    flex-grow: 1;
+    height: 450px;
+    margin-top: 10px;
+    padding-top: 5%;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner-area h2 {
+    padding-top: 60%;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .description-area img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* VIDEO SECTION */
+  .video-container {
+    position: relative;
+    width: 75%;
+    flex-grow: 1;
+    height: 400px;
+    margin-top: 10px;
+    padding-top: 5%;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  }
+}
+
+/* AWARDS SECTION (TIMELINE) */
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .container-new {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .container-new::before {
+    left: 60px;
+    border: medium solid #574236;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #574236 transparent transparent;
+  }
+
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+
+  .right {
+    left: 0%;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  /* VIDEO SECTION */
+  .video-container {
+    position: relative;
+    width: 75%;
+    flex-grow: 1;
+    height: 350px;
+    margin-top: 10px;
+    padding-top: 5%;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .group-img img {
+    border-radius: 2.5rem;
+    max-width: 400px;
+    height: auto;
+    transition: transform 0.3s;
+  }
+
+  .banner-area {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    /* margin-top: 80px; */
+    background-image: url(/assetskpop/txt/profile/TXT_header.jpg);
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .banner-area {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin-top: 50%;
+  }
+}

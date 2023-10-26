@@ -410,9 +410,9 @@ html {
 
 .video-container {
   position: relative;
-  width: 90%;
+  width: 75%;
   flex-grow: 1;
-  height: auto;
+  height: 750px;
   margin-top: 10px;
   padding-top: 5%;
   /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
