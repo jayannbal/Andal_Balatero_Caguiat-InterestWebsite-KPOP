@@ -45,14 +45,6 @@ header:hover {
   background: #ffffff;
 }
 
-/* Logo Styles */
-header .logo {
-  font-weight: bolder;
-  font-size: 25px;
-  color: #333;
-}
-
-
 
 /* Navbar Styles */
 header .navbar ul {
@@ -109,8 +101,8 @@ header .logo {
 }
 
 header .logo img {
-  width: 150px;
-  height: 100px;
+  width: 80px;
+  height: 50px;
   margin: 0 auto;
 }
 
