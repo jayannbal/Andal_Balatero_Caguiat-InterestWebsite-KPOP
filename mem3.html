@@ -74,7 +74,7 @@
 
   <body>
     <!-- Start Banner Area -->
-    <div class="banner-area">
+    <div class="banner-area" id="header">
       <h2>Tomorrow X Together</h2>
       <p>MEMBERS PROFILE</p>
     </div>
@@ -394,5 +394,86 @@
       <p>His favorite foods are seafood, pizza</p>
     </div>
     <!-- End Heuning Kai Area -->
+
+    <!-- Footer Area -->
+    <footer>
+      <div class="footer-content">
+        <div class="row">
+          <div class="footer-col">
+            <img
+              src="assetskpop/blackpink/Blackpink (블랙핑크)‘Square One’.png"
+              class="logopic"
+              alt="Logopic"
+            />
+          </div>
+          <div class="footer-col">
+            <h4>
+              QUICK LINKS
+              <div class="underline"><span></span></div>
+            </h4>
+            <ul>
+              <li><a href="#">SEVENTEEN</a></li>
+              <li><a href="#">TOMORROW X TOGETHER</a></li>
+              <li><a href="#">BLACKPINK</a></li>
+              <li><a href="#">DISCOGRAPHY</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>
+              CONTACT US
+              <div class="underline"><span></span></div>
+            </h4>
+            <ul>
+              <li><a href="#">Contact Form</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>
+              FOLLOW US
+              <div class="underline"><span></span></div>
+            </h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#header"><i class="bx bx-chevrons-up"></i></a>
+        </div>
+      </div>
+      <div class="footer-hr">
+        <hr />
+      </div>
+      <div class="footer-text">&copy; 2023 STBverse. All rights reserved.</div>
+    </footer>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var footer = document.querySelector(".footer");
+        var scrollHeight = Math.max(
+          document.documentElement.scrollHeight,
+          document.body.scrollHeight
+        );
+        var scrollTop = Math.max(
+          document.documentElement.scrollTop,
+          document.body.scrollTop
+        );
+        var clientHeight = document.documentElement.clientHeight;
+
+        // Adjust this value based on when you want the footer to appear
+        var scrollTrigger = 100;
+
+        if (scrollHeight - scrollTop - scrollTrigger <= clientHeight) {
+          footer.style.visibility = "visible";
+          footer.style.opacity = 1;
+        } else {
+          footer.style.visibility = "hidden";
+          footer.style.opacity = 0;
+        }
+      });
+    </script>
   </body>
 </html>
