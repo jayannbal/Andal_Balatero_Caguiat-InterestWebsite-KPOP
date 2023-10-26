@@ -171,21 +171,21 @@ html {
 
 
 
-/* Global Styles */
-#globalshops {
+/* localphysicalstores Styles */
+#localphysicalstores {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow-x: auto;
 }
 
-.globalcontainer-wrapper {
+.localphysicalstorescontainer-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
   
-#globalshops .globalcontainer {
+#localphysicalstores .localphysicalstorescontainer {
     width: 450px;
     height: 450px;
     text-align: center; 
@@ -199,18 +199,18 @@ html {
     transition: transform 0.2s;
 }
   
-#globalshops .globalcontainer a {
+#localphysicalstores .localphysicalstorescontainer a {
     display: block;
     border-radius: 20px;
 }
   
-#globalshops .globalcontainer img {
+#localphysicalstores .localphysicalstorescontainer img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
   
-#globalshops .globalcontainer:hover {
+#localphysicalstores .localphysicalstorescontainer:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow for a lifted appearance */
 }
@@ -234,7 +234,7 @@ html {
     justify-content: center; 
 }
   
-.globalcontainer-link:hover .hover-content {
+.localphysicalstorescontainer-link:hover .hover-content {
     opacity: 1;
 }
   
@@ -307,18 +307,3 @@ html {
     color: #333;
   }
   
-  /* CSS for the "Back" link */
-.previous {
-  text-decoration: none;
-  background-color: #007BFF; /* Background color */
-  color: #fff; /* Text color */
-  padding: 10px 20px; /* Padding around the text */
-  border-radius: 4px; /* Rounded corners */
-  margin-top: 20px; /* Adjust the margin to your liking */
-  display: inline-block;
-}
-
-.previous:hover {
-  background-color: #0056b3; /* Background color on hover */
-  color: #fff; /* Text color on hover */
-}

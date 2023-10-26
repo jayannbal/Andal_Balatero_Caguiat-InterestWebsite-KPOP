@@ -1,5 +1,7 @@
+/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+/* Reset and Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +13,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Color Variables */
 :root {
   --bs-serenity: #b3cee5;
   --bs-rosequartz: #f7cac9;
@@ -21,6 +24,8 @@
   --text-color: #191a1c;
 }
 
+/* Header Styles */
+/* Header Styles */
 header {
   position: fixed;
   top: 0;
@@ -35,16 +40,21 @@ header {
   z-index: 1000;
 }
 
+
 header:hover {
   background: #ffffff;
 }
 
+/* Logo Styles */
 header .logo {
   font-weight: bolder;
   font-size: 25px;
   color: #333;
 }
 
+
+
+/* Navbar Styles */
 header .navbar ul {
   list-style: none;
 }
@@ -67,6 +77,7 @@ header .navbar ul li a:hover {
   text-underline-offset: 1rem;
 }
 
+/* Dropdown Menu Styles */
 header .navbar ul li ul {
   position: absolute;
   left: 0;
@@ -85,15 +96,18 @@ header .navbar ul li ul li ul {
   top: 0;
 }
 
+/* Show Dropdown on Hover/Focus */
 header .navbar ul li:focus-within > ul,
 header .navbar ul li:hover > ul {
   display: initial;
 }
 
+/* Menu Bar Styles */
 #menu-bar {
   display: none;
 }
 
+/* Label Styles */
 header label {
   font-size: 20px;
   color: #333;
@@ -101,13 +115,23 @@ header label {
   display: none;
 }
 
+
+
+/* Body Styles */
 body {
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  line-height: normal;
+  font-family: 'Poppins', sans-serif;
 }
 
+
+
+
+
+/* HTML Styles */
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -115,6 +139,7 @@ html {
 
 .homepage {
   margin: 15vh;
+  margin-bottom: 200px;
   padding: 15vh;
   height: 100vh;
   display: flex;
@@ -152,11 +177,12 @@ html {
   height: 700px;
 }
 
+/* Styles for Navigation Buttons */
 .nav-m {
   position: absolute;
   width: max-content;
-  bottom: 20px; /* Adjust this value to control the vertical position */
-  left: 50%; /* Center the buttons horizontally */
+  bottom: 20px;
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
 }
@@ -189,11 +215,12 @@ html {
   margin-left: -40%;
 }
 
+/* Auto Navigation Buttons */
 .nav-auto {
   position: absolute;
   width: 800px;
-  bottom: 20px; /* Adjust this value to control the vertical position */
-  left: 50%; /* Center the buttons horizontally */
+  bottom: 20px;
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
@@ -230,12 +257,12 @@ html {
   background-color: transparent;
   padding: 30px 0;
   display: flex;
-  justify-content: space-between; /* Align the content to the left and right edges */
+  justify-content: space-between;
   align-items: center;
-  text-align: center; /* Center the text within the section */
+  text-align: center;
 }
 
-/* Styling for the heading */
+/* About Kpop Heading Styles */
 .aboutkpop-content h2 {
   font-size: 4.5rem;
   text-align: left;
@@ -243,21 +270,22 @@ html {
   margin-top: 20vh;
 }
 
-/* Styling for the paragraph text */
+/* Right Box (Text) Styles */
 .right-box p {
   font-size: 2.5rem;
   line-height: 1.5;
   color: #191a1c;
-  text-align: center; /* Center the text within the section */
-  margin: 2rem 0; /* Adjust margin as needed */
+  text-align: center;
+  margin: 2rem 0;
 }
 
+/* Left Box (Image) Styles */
 .left-box h2 {
   font-size: 4.5rem;
   line-height: 1.5;
   color: #191a1c;
-  text-align: center; /* Center the text within the section */
-  margin: 0; /* Adjust margin as needed */
+  text-align: center;
+  margin: 0;
 }
 
 /* Styling for the span within the heading */
@@ -266,15 +294,16 @@ html {
 }
 
 .container-box {
-  display: flex; /* Create a flex container to organize the boxes */
+  display: flex;
 }
 
+/* Left Box Styles */
 .left-box {
-  flex: 1; /* Make the left box occupy 50% of the container */
-  text-align: center; /* Center the content horizontally */
+  flex: 1;
+  text-align: center;
   border-radius: 39px;
   background: transparent;
-  padding: 20px; /* Increase the padding for more spacing */
+  padding: 20px;
   border-radius: 10px;
   width: 40%;
   margin-right: auto;
@@ -284,9 +313,10 @@ html {
   margin-top: 15vh;
 }
 
+/* Right Box Styles */
 .right-box {
-  flex: 1; /* Make the right box occupy 50% of the container */
-  text-align: center; /* Center the content horizontally */
+  flex: 1;
+  text-align: center;
   border-radius: 39px;
   background: #ffaf7a;
   box-shadow: 19px 19px 50px #ffffbd, -19px 19px 50px #ffffbd;
@@ -299,10 +329,11 @@ html {
 
 #latestupdate {
   background-color: transparent;
-  padding: 200px 0;
+  padding: 120px 0;
   text-align: center;
 }
 
+/* Slide Container Styles */
 .slide-container {
   max-width: 1200px;
   width: 100%;
@@ -311,17 +342,13 @@ html {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* Add this line to center the content */
   margin: 0 auto;
-}
-
-.slide-container {
-  /* Add this line to center the content vertically */
   height: 100vh;
   display: flex;
   align-items: center;
 }
 
+/* Slide Content Styles */
 .slide-content {
   overflow: hidden;
   border-radius: 25px;
@@ -331,10 +358,11 @@ html {
   width: 100%;
 }
 
+/* Card Styles */
 .card {
-  width: calc(33.33% - 5px); /* Divide by 3 and reduce margin */
+  width: calc(33.33% - 5px);
   height: 400px;
-  margin: 2.5px; /* Reduced margin for spacing */
+  margin: 2.5px;
   border-radius: 25px;
   background-color: #ffc894;
 }
@@ -344,15 +372,17 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2px 3.5px; /* Further reduced padding for card content */
+  padding: 2px 3.5px;
 }
 
+/* Image Content Styles */
 .image-content {
   position: relative;
-  row-gap: 1px; /* Smaller gap between elements */
+  row-gap: 1px;
   padding: 5px 0;
 }
 
+/* Overlay Styles */
 .overlay {
   position: absolute;
   left: 0;
@@ -368,9 +398,9 @@ html {
   content: "";
   position: absolute;
   right: 0;
-  bottom: -10px; /* Further reduced gap */
-  height: 10px; /* Further reduced height */
-  width: 10px; /* Further reduced width */
+  bottom: -10px;
+  height: 10px;
+  width: 10px;
   background-color: #ffaf7a;
 }
 
@@ -412,16 +442,16 @@ html {
 .image-container {
   position: relative;
   margin-top: 15px;
-  width: 130px; /* Adjust the width as needed */
-  height: 130px; /* Adjust the height as needed */
+  width: 130px; 
+  height: 130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-radius: 5px; /* Adjust the border-radius to create rounded corners */
+  border-radius: 5px; 
   transition: all 0.3s;
-  background: rgba(0, 0, 0, 0.7); /* Background color for the container */
+  background: rgba(0, 0, 0, 0.7); 
 }
 
 /* ... (Rest of the CSS remains the same) */
@@ -440,8 +470,8 @@ html {
 
 .image-container a {
   position: absolute;
-  top: 50%; /* Adjust the position as needed */
-  left: 50%; /* Adjust the position as needed */
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
@@ -450,18 +480,67 @@ html {
   height: 50px; /* Adjust the size of the link container as needed */
   background: #1db954; /* Background color for the link */
   border-radius: 50%;
-  text-decoration: none; /* Remove default link underline */
+  text-decoration: none; 
   transition: opacity 0.3s;
-  opacity: 0; /* Start with 0 opacity, so it's hidden */
+  opacity: 0; 
 }
 
 .image-container a i {
-  font-size: 24px; /* Adjust the size of the Spotify icon as needed */
-  color: #fff; /* Color for the Spotify icon */
+  font-size: 24px; 
+  color: #fff;
 }
 
 .image-container:hover a {
-  opacity: 1; /* Show the link on hover */
+  opacity: 1;
+}
+
+.video-container {
+  position: relative;
+  margin-top: 15px;
+  width: 230px; 
+  height: 130px;
+}
+
+.ytp-cued-thumbnail-overlay-image {
+  margin-top: 5px;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 130px;
+  padding-top: 48.25%;
+  background-color: #eee; 
+  background-image: url('https://i.ytimg.com/vi_webp/6lw4Cbk1IzA/sddefault.webp');
+}
+
+.ytp-large-play-button {
+  width: 80px;
+  height: 60px;
+  background-color: #f00;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+  position: absolute; 
+  top: 80%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.ytp-large-play-button svg {
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
+
+.ytp-impression-link {
+  background: rgba(23, 23, 23, 0.8);
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  bottom: 22px;
+  right: 131.5px;
+  height: 22px;
+  position: absolute;
+  display: flex; /* Add flex display to center content vertically */
+  align-items: center; /* Vertically center the content */
 }
 
 .swiper-navBtn {
@@ -475,7 +554,7 @@ html {
 
 .swiper-navBtn::before,
 .swiper-navBtn::after {
-  font-size: 28px; /* Slightly reduced font size */
+  font-size: 28px; 
 }
 
 .swiper-button-next {
@@ -486,9 +565,24 @@ html {
   left: 0;
 }
 
+/* Move Swiper Pagination */
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px; /* Adjust this value to your preference */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+/* Style Swiper Pagination Bullets */
 .swiper-pagination-bullet {
   background-color: #191a1c;
-  opacity: 1;
+  opacity: 0.7;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px; /* Adjust the margin to your preference */
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .swiper-pagination-bullet-active {
@@ -498,7 +592,7 @@ html {
 /*ABOUT US*/
 #about-us {
   background-color: transparent;
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .about-us-content {
@@ -506,7 +600,7 @@ html {
 }
 
 .about-us-content h2 {
-  font-size: 36px;
+  font-size: 50px;
   color: white;
   margin-bottom: 20px;
 }
@@ -515,14 +609,14 @@ html {
   font-size: 16px;
   line-height: 1.5;
   color: white;
-  margin: 0 auto; /* Center-align the paragraph text */
+  margin: 0 auto; 
   max-width: 1000px;
 }
 
 /*TEAM*/
 
 .container + div {
-  margin-top: 40px; /* Adjust the value as needed */
+  margin-top: 40px; 
 }
 
 .container {
@@ -543,25 +637,29 @@ html {
   font-size: 50px;
   color: white;
   text-align: center;
-  padding-bottom: 5vh;
+  padding-bottom: 3vh;
   letter-spacing: 100px;
   text-indent: 100px;
 }
 
 .teamcard {
-  width: 380px;
+  width: 360px;
   height: 460px;
+  margin-left: 30px;
   padding: 3rem 2rem;
   background: #191a1c;
   position: relative;
   display: flex;
   align-items: flex-end;
-  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  box-shadow: 0px 8px 11px rgba(0, 0, 0, 1);
   transition: 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .teamcard:hover {
-  transform: scale(1.1); /* Increase or decrease the scale factor as needed */
+  transform: scale(1.1); 
+  z-index: 1100;
 }
 
 .teamcard:before {
@@ -570,16 +668,16 @@ html {
   top: 0;
   left: 0;
   display: block;
-  width: 100%;
-  height: 100%; /* Change this from 0% to 100% */
+  width: 110%;
+  height: 110%; 
   background: #191a1c;
-  z-index: 2;
+  z-index: 3;
   transition: 0.5s all;
   opacity: 0;
 }
 
 .teamcard:hover:before {
-  opacity: 1; /* Change this to 1 (fully opaque) */
+  opacity: 1; 
 }
 
 .teamcard img {
@@ -597,33 +695,42 @@ html {
   z-index: 3;
   color: #7d5b3b;
   opacity: 0;
-  top: 10%;
+  top: 10%; /* Vertically center */
+  left: 10%;
+  right: 10%;
+  transform: translate(-30%, -50%, -50%, -20%); /* Center the element */
   transition: 0.5s all;
+  text-align: center; /* Center text within the info element */
 }
+
 
 .teamcard:hover .info {
   opacity: 1;
 }
 
+.teamcard .info h5,
+.teamcard .info h6,
+.teamcard .info h1,
+.teamcard .info p {
+  text-align: center;
+}
+
 .teamcard .info h5 {
   margin: 0;
-  font-size: 23px;
-  text-align: center; /* Add this line to center the h5 element */
+  font-size: 20px;
 }
 
 .teamcard .info h6 {
   margin: 0;
-  font-size: 22px;
-  text-align: center; /* Add this line to center the h6 element */
+  font-size: 20px;
 }
 
 .teamcard .info h1 {
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   margin-top: 8px;
   margin-bottom: 10px;
-  text-align: center; /* Add this line to center the h1 element */
 }
 
 .teamcard .info p {
@@ -631,20 +738,23 @@ html {
   font-size: 18px;
   font-weight: 600;
   margin-top: 8px;
-  margin-bottom: 10px;
-  text-align: center; /* Add this line to center the p element */
+  margin-bottom: 15px;
 }
 
-.teamcard .info a {
+.social-media {
+  margin-top: 0;
+}
+
+.social-media a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background: transparent;
   border: 0.2rem solid #e9925c;
   border-radius: 50%;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #e9925c;
   margin: 0rem 1.5rem 3rem 0;
   transition: 0.5s ease;
@@ -766,14 +876,98 @@ html {
 }
 
 /*---------FOOTER SECTION---------*/
-.footer {
+
+
+footer {
+  background-color: #333; /* Background color for the footer */
+  color: #fff; /* Text color */
+  padding: 20px 0; /* Padding around the footer content */
+  text-align: center; /* Center-align the text */
+}
+
+.footer-content {
   display: flex;
-  margin-top: 5rem;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px; /* Adjust this as needed */
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+
+.footer-text {
+  margin-top: 20px;
+}
+
+
+
+
+
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
   flex-wrap: wrap;
-  padding: 2rem 9%;
-  background: #333;
+  list-style: none;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+.logopic {
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.footer-col {
+  flex-basis: 25%;
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  text-align: left; /* Add this line */
+}
+
+.underline {
+  width: 70%;
+  height: 5px;
+  margin-top: 5px;
+  background: #bbbbbb;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.underline span {
+  width: 100%;
+  height: 5px;
+  background: white;
+  position: absolute;
+  border-radius: 3px;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+      left: -20px;
+  }
+  100% {
+      left: 100%;
+  }
 }
 
 .footer-text p {
@@ -782,7 +976,6 @@ html {
 
 .footer-iconTop a {
   display: inline-flex;
-  justify-content: center;
   align-items: center;
   padding: 0.8rem;
   background: #e9925c;
