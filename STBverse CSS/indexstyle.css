@@ -139,8 +139,7 @@ html {
 
 
 
-/* Homepage Styles */
-.homepage {
+.homepage{
   margin: 15vh;
   margin-bottom: 200px;
   padding: 15vh;
@@ -150,33 +149,33 @@ html {
   align-items: center;
 }
 
-/* Slider Styles */
-.slider {
+.slider{
   width: 1270px;
   height: 700px;
   border-radius: 30px;
   background: #ffaf7a;
-  box-shadow: 17px -17px 25px #241b00, -17px 17px 25px #241b00;
+  box-shadow:  39px -39px 100px #ffffbd,
+             -39px 39px 100px #ffffbd;
+  
   overflow: hidden;
 }
 
-/* Slide Styles */
-.slide {
+.slide{
   width: 500%;
   height: 500px;
   display: flex;
 }
 
-.slide input{
+.slide input {
   display: none;
 }
 
-.st{
+.st {
   width: 20%;
   transition: 1.5s;
 }
 
-.st img{
+.st img {
   width: auto;
   height: 700px;
 }
@@ -207,8 +206,8 @@ html {
   background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
 }
 
-/* Slider Controls */
-#radio1:checked ~ .first {
+
+#radio1:checked ~ .first{
   margin-left: 0;
 }
 
@@ -243,14 +242,22 @@ html {
   margin-right: 30px;
 }
 
-/* Active Button Styles */
-#radio1:checked ~ .nav-auto .a-b1,
-#radio2:checked ~ .nav-auto .a-b2,
-#radio3:checked ~ .nav-auto .a-b3 {
+/* Your existing code for highlighting the active button */
+
+
+#radio1:checked ~ .nav-auto .a-b1{
   background-color: #191a1c;
 }
 
-/* About Kpop Section Styles */
+#radio2:checked ~ .nav-auto .a-b2{
+  background-color: #191a1c;
+}
+
+#radio3:checked ~ .nav-auto .a-b3{
+  background-color: #191a1c;
+}
+
+/* Style the container within the additional content wrapper */
 #aboutkpop {
   background-color: transparent;
   padding: 30px 0;
@@ -286,12 +293,13 @@ html {
   margin: 0;
 }
 
-/* Styling for the Span within the Heading */
+
+/* Styling for the span within the heading */
 .left-box h2 span {
   color: #ffffff;
 }
 
-/* Container Box Styles */
+
 .container-box {
   display: flex;
 }
@@ -317,16 +325,18 @@ html {
   flex: 1;
   text-align: center;
   border-radius: 39px;
-  background: #d6ba94;
-  box-shadow: 17px -17px 25px #241b00, -17px 17px 25px #241b00;
-  padding: 20px;
+  background: #ffaf7a;
+  box-shadow: 19px 19px 50px #ffffbd,
+              -19px 19px 50px #ffffbd;
+  padding: 20px; /* Increase the padding for more spacing */
   border-radius: 10px;
-  width: 40%;
-  margin-left: auto;
-  margin-right: 60px;
+  width: 40%; /* Adjust the width of the container area as needed */
+  margin-left: auto; /* Move the container to the right */
+  margin-right: 60px; /* Add margin to the right side */
 }
 
-/* Latest Update Section Styles */
+
+
 #latestupdate {
   background-color: transparent;
   padding: 120px 0;
@@ -367,7 +377,7 @@ html {
   background-color: #ffc894;
 }
 
-/* Image and Card Content Styles */
+
 .image-content,
 .card-content {
   display: flex;
@@ -396,7 +406,7 @@ html {
 
 .overlay::before,
 .overlay::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   bottom: -10px;
@@ -424,8 +434,7 @@ html {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #7d5b3b; /* Reduced border width */
-  box-shadow:  -5px 5px 20px #90443f,
-             5px -5px 20px #f5f2f2;
+  box-shadow: -5px 5px 20px #90443f, 5px -5px 20px #f5f2f2;
 }
 
 .name {
@@ -456,6 +465,9 @@ html {
   background: rgba(0, 0, 0, 0.7); 
 }
 
+/* ... (Rest of the CSS remains the same) */
+
+
 .image-container .image {
   width: 100%;
   height: 100%;
@@ -476,9 +488,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px; 
-  height: 50px; 
-  background: #1DB954; 
+  width: 50px; /* Adjust the size of the link container as needed */
+  height: 50px; /* Adjust the size of the link container as needed */
+  background: #1DB954; /* Background color for the link */
   border-radius: 50%;
   text-decoration: none; 
   transition: opacity 0.3s;
@@ -543,32 +555,6 @@ html {
   align-items: center; /* Vertically center the content */
 }
 
-.ytp-impression-link-content {
-  display: flex;
-  align-items: center;
-}
-
-.ytp-impression-link-text {
-  flex: 1;
-  font-weight: bold;
-  font-size: 10px;
-  color: white;
-}
-
-.ytp-impression-link-logo {
-  float: right;
-  height: 16px;
-  margin-left: 9px;
-  margin-right: 12px;
-  width: 68px;
-}
-
-
-svg {
-  width: 100%; /* Make the SVG fill its container */
-  height: auto; /* Maintain aspect ratio */
-  fill: white; /* SVG color */
-}
 
 
 .swiper-navBtn {
@@ -618,8 +604,6 @@ svg {
 }
 
 
-
-
 /*ABOUT US*/
 #about-us {
   background-color: transparent;
@@ -634,7 +618,6 @@ svg {
   font-size: 50px;
   color: white;
   margin-bottom: 20px;
-
 }
 
 .about-us-content p {
@@ -654,8 +637,8 @@ svg {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: -40px;  
-  padding-right: -40px; 
+  padding-left: -40px;  /* Adjust the left padding as needed */
+  padding-right: -40px; /* Adjust the right padding as needed */
   padding-bottom: 20vh;
 }
 
@@ -711,7 +694,6 @@ svg {
 .teamcard:hover:before {
   opacity: 1; 
 }
-
 
 
 .teamcard img {
@@ -786,19 +768,20 @@ svg {
   width: 3.5rem;
   height: 3.5rem;
   background: transparent;
-  border: .2rem solid #e9925c;
+  border: 0.2rem solid #e9925c;
   border-radius: 50%;
   font-size: 2rem;
   color: #e9925c;
   margin: 0rem 1.5rem 3rem 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
-.social-media a:hover {
-  color: wheat;
-  box-shadow: 0 0 1rem #e9925c;
-}
 
+
+
+.teamcard .info a:hover {
+  color: #007BFF;
+}
 
 /*---------CONTACT SECTION---------*/
 
@@ -810,9 +793,9 @@ svg {
   box-shadow: 0 0 1rem #ffffbd;
   font-size: 1.6rem;
   color: #e9925c;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: 600;
-  transition: .5s ease;
+  transition: 0.5s ease;
   transition: background-color 0.3s ease-in-out 0.1s;
 }
 
@@ -823,17 +806,13 @@ svg {
 .title2 {
   text-align: center;
   font-size: 4.5rem;
-  background:#191a1c;
+  background: #191a1c;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   margin-bottom: 2rem;
 }
 
-.contact {
-  margin-bottom: 5vh; /* Increase the margin to create more space */
-  z-index: 999;
-}
 
 
 .contact h2 {
@@ -859,7 +838,6 @@ svg {
   transform: scale(0.95);
 }
 
-
 .contact form .input-box {
   display: flex;
   justify-content: space-between;
@@ -873,11 +851,10 @@ svg {
   font-size: 1.6rem;
   color: #e9925c;
   background: #191a1c;
-  border-radius: .8rem;
-  margin: .7rem 0;
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 .contact form .input-box input {
   width: 49%;
@@ -887,23 +864,26 @@ svg {
   resize: none;
 }
 
-
 .contact form .btn:active {
   transform: scale(0.95);
 }
 
 .contact form .btn:hover {
-  background: linear-gradient(to bottom right, #e9925c, #837a55); /* Replace these colors with your desired gradient */
+  background: linear-gradient(
+    to bottom right,
+    #e9925c,
+    #837a55
+  ); /* Replace these colors with your desired gradient */
   transform: scale(1.1);
   color: linear-gradient(to bottom right, #837a55, #e9925c);
-  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 
 .parent-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; 
+  height: 100%;
 }
 
 #msg {
@@ -915,7 +895,6 @@ svg {
   align-items: center;
   height: 100%;
 }
-
 
 /*---------FOOTER SECTION---------*/
 
@@ -1012,65 +991,18 @@ ul {
   }
 }
 
-.footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
-}
+.footer-text p {
+  font-size: 1.5rem;
 
-.footer-col:nth-child(2), .footer-col:nth-child(3) {
-  flex-basis: 15%;
-}
-
-.footer-col ul li a {
-  font-size: 18px;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 300;
-  color: #bbbbbb;
-  display: block;
-  transition: all 0.3s ease;
-  text-align: left; /* Add this line */
-}
-
-
-.footer-col ul li a:hover {
-  color: #ffffff;
-  padding-left: 8px;
-}
-
-.footer-col .social-links a {
-  display: inline-block;
-  margin-top: 10px; /* Add a value here */
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  transition: all 0.5s ease;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #ffffff;
-  transition: all 0.5s ease;
-}
-
-.footer-col .social-links a:hover {
-  background-color: #ffffff;
-  color: #24262b;
-}
-
-.footer-iconTop {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; 
 }
 
 .footer-iconTop a {
   display: inline-flex;
   align-items: center;
-  margin-right: 20px;
   padding: .8rem;
   background: #e9925c;
-  border-radius: .8rem;
-  transition: .5s ease;
+  border-radius: 0.8rem;
+  transition: 0.5s ease;
 }
 
 .footer-iconTop a:hover {
@@ -1080,13 +1012,4 @@ ul {
 .footer-iconTop a i {
   font-size: 2.4rem;
   color: #333;
-}
-
-
-
-.footer-hr hr {
-  border: 0;
-  border-top: 1px solid #fff;
-  margin: 20px auto;
-  width: 100%; /* Adjust the width as needed */
 }
