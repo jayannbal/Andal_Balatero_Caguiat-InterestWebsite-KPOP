@@ -137,9 +137,7 @@ html {
   overflow-x: hidden;
 }
 
-
-
-.homepage{
+.homepage {
   margin: 15vh;
   margin-bottom: 200px;
   padding: 15vh;
@@ -149,18 +147,17 @@ html {
   align-items: center;
 }
 
-.slider{
+.slider {
   width: 1270px;
   height: 700px;
   border-radius: 30px;
   background: #ffaf7a;
-  box-shadow:  39px -39px 100px #ffffbd,
-             -39px 39px 100px #ffffbd;
-  
+  box-shadow: 39px -39px 100px #ffffbd, -39px 39px 100px #ffffbd;
+
   overflow: hidden;
 }
 
-.slide{
+.slide {
   width: 500%;
   height: 500px;
   display: flex;
@@ -206,8 +203,7 @@ html {
   background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
 }
 
-
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
   margin-left: 0;
 }
 
@@ -244,16 +240,15 @@ html {
 
 /* Your existing code for highlighting the active button */
 
-
-#radio1:checked ~ .nav-auto .a-b1{
+#radio1:checked ~ .nav-auto .a-b1 {
   background-color: #191a1c;
 }
 
-#radio2:checked ~ .nav-auto .a-b2{
+#radio2:checked ~ .nav-auto .a-b2 {
   background-color: #191a1c;
 }
 
-#radio3:checked ~ .nav-auto .a-b3{
+#radio3:checked ~ .nav-auto .a-b3 {
   background-color: #191a1c;
 }
 
@@ -293,12 +288,10 @@ html {
   margin: 0;
 }
 
-
 /* Styling for the span within the heading */
 .left-box h2 span {
   color: #ffffff;
 }
-
 
 .container-box {
   display: flex;
@@ -326,16 +319,13 @@ html {
   text-align: center;
   border-radius: 39px;
   background: #ffaf7a;
-  box-shadow: 19px 19px 50px #ffffbd,
-              -19px 19px 50px #ffffbd;
+  box-shadow: 19px 19px 50px #ffffbd, -19px 19px 50px #ffffbd;
   padding: 20px; /* Increase the padding for more spacing */
   border-radius: 10px;
   width: 40%; /* Adjust the width of the container area as needed */
   margin-left: auto; /* Move the container to the right */
   margin-right: 60px; /* Add margin to the right side */
 }
-
-
 
 #latestupdate {
   background-color: transparent;
@@ -376,7 +366,6 @@ html {
   border-radius: 25px;
   background-color: #ffc894;
 }
-
 
 .image-content,
 .card-content {
@@ -467,7 +456,6 @@ html {
 
 /* ... (Rest of the CSS remains the same) */
 
-
 .image-container .image {
   width: 100%;
   height: 100%;
@@ -490,7 +478,7 @@ html {
   align-items: center;
   width: 50px; /* Adjust the size of the link container as needed */
   height: 50px; /* Adjust the size of the link container as needed */
-  background: #1DB954; /* Background color for the link */
+  background: #1db954; /* Background color for the link */
   border-radius: 50%;
   text-decoration: none; 
   transition: opacity 0.3s;
@@ -555,8 +543,6 @@ html {
   align-items: center; /* Vertically center the content */
 }
 
-
-
 .swiper-navBtn {
   color: #191a1c;
   transition: color 0.3s ease;
@@ -603,7 +589,6 @@ html {
   background-color: #333;
 }
 
-
 /*ABOUT US*/
 #about-us {
   background-color: transparent;
@@ -637,7 +622,7 @@ html {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: -40px;  /* Adjust the left padding as needed */
+  padding-left: -40px; /* Adjust the left padding as needed */
   padding-right: -40px; /* Adjust the right padding as needed */
   padding-bottom: 20vh;
 }
@@ -694,7 +679,6 @@ html {
 .teamcard:hover:before {
   opacity: 1; 
 }
-
 
 .teamcard img {
   display: block;
@@ -776,11 +760,8 @@ html {
   transition: 0.5s ease;
 }
 
-
-
-
 .teamcard .info a:hover {
-  color: #007BFF;
+  color: #007bff;
 }
 
 /*---------CONTACT SECTION---------*/
@@ -812,8 +793,6 @@ html {
   color: transparent;
   margin-bottom: 2rem;
 }
-
-
 
 .contact h2 {
   margin-bottom: 2rem;
@@ -993,13 +972,12 @@ ul {
 
 .footer-text p {
   font-size: 1.5rem;
-
 }
 
 .footer-iconTop a {
   display: inline-flex;
   align-items: center;
-  padding: .8rem;
+  padding: 0.8rem;
   background: #e9925c;
   border-radius: 0.8rem;
   transition: 0.5s ease;
