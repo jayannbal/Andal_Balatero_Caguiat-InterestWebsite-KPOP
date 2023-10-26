@@ -619,7 +619,6 @@
     width: 68px;
   }
   
-
   .teamcard {
     width: 360px;
     height: 460px;
@@ -651,12 +650,12 @@
   }
 
   .contact form {
-    max-width: 95%; /* Adjust the maximum width as needed */
+    max-width: 95%; 
   }
 
   .contact form .btn {
-    padding: 1rem 1.5rem; /* Adjust the button padding as needed */
-    font-size: 1.2rem; /* Adjust the font size as needed */
+    padding: 1rem 1.5rem; 
+    font-size: 1.2rem;
   }
 
   footer {
@@ -664,6 +663,7 @@
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    margin: auto;
   }
 
   .footer-content {
@@ -699,7 +699,7 @@
   }
 
   .footer-col {
-    flex-basis: 100%; /* Adjust this for full-width columns */
+    flex-basis: 100%;
     padding: 0 15px;
   }
 
@@ -708,9 +708,9 @@
     font-size: 15px;
     color: #ffffff;
     margin-bottom: 30px;
-    font-weight: 500;
+    font-weight: 200;
     position: relative;
-    text-align: center; /* Center-align the text */
+    text-align: center; 
   }
 
   .underline {
@@ -767,11 +767,11 @@
 
   .footer-col .social-links a {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5vh;
     width: 40px;
     height: 40px;
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 0 10px 10px 0;
+    margin: 0 5px 5px 0;
     text-align: center;
     transition: all 0.5s ease;
     line-height: 40px;
@@ -794,7 +794,8 @@
   .footer-iconTop a {
     display: inline-flex;
     align-items: center;
-    margin: 10px; /* Add spacing */
+    margin: 10px;
+    margin-bottom: 15px;
     padding: .5rem;
     background: #e9925c;
     border-radius: .8rem;
@@ -820,7 +821,7 @@
   .underline {
     width: 70%;
     height: 5px;
-    margin-top: 5px;
+    margin-top: 2px;
     background: #bbbbbb;
     position: absolute;
     top: 50px; /* Adjust the top position */

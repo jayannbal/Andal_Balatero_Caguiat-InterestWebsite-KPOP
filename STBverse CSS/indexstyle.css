@@ -102,6 +102,18 @@ header .navbar ul li:hover > ul {
   display: initial;
 }
 
+header .logo {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #333;
+}
+
+header .logo img {
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+}
+
 /* Menu Bar Styles */
 #menu-bar {
   display: none;
@@ -877,7 +889,6 @@ html {
 
 /*---------FOOTER SECTION---------*/
 
-
 footer {
   background-color: #333; /* Background color for the footer */
   color: #fff; /* Text color */
@@ -898,10 +909,6 @@ footer {
 .footer-text {
   margin-top: 20px;
 }
-
-
-
-
 
 .row {
   width: 85%;
@@ -970,17 +977,64 @@ ul {
   }
 }
 
-.footer-text p {
-  font-size: 1.5rem;
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col:nth-child(2), .footer-col:nth-child(3) {
+  flex-basis: 15%;
+}
+
+.footer-col ul li a {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+  text-align: left; /* Add this line */
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  margin-top: 1; /* Add a value here */
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  transition: all 0.5s ease;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  background-color: #ffffff;
+  color: #24262b;
+}
+
+.footer-iconTop {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
 }
 
 .footer-iconTop a {
   display: inline-flex;
   align-items: center;
-  padding: 0.8rem;
+  margin-right: 20px;
+  padding: .8rem;
   background: #e9925c;
-  border-radius: 0.8rem;
-  transition: 0.5s ease;
+  border-radius: .8rem;
+  transition: .5s ease;
 }
 
 .footer-iconTop a:hover {
@@ -990,4 +1044,11 @@ ul {
 .footer-iconTop a i {
   font-size: 2.4rem;
   color: #333;
+}
+
+.footer-hr hr {
+  border: 0;
+  border-top: 1px solid #fff;
+  margin: 20px auto;
+  width: 100%; /* Adjust the width as needed */
 }

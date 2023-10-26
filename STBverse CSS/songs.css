@@ -44,9 +44,10 @@ header:hover {
   grid-template-columns: repeat(5, 1fr);
 }
 
+
 .svt-flex-box {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background: linear-gradient(#f7cac9, #b3cee5);
   color: white;
   font-size: 25px;
@@ -144,8 +145,8 @@ header:hover {
 }
 
 .txt-flex-box {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background: linear-gradient(#82dfcd, #cbcbf4);
   color: white;
   font-size: 25px;
@@ -243,8 +244,8 @@ header:hover {
 }
 
 .bp-flex-box {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background: linear-gradient(#fc6c85, #e4aebe);
   color: white;
   font-size: 25px;
