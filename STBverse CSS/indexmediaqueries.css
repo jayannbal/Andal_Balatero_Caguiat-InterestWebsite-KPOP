@@ -45,7 +45,6 @@
 }
 
 @media screen and (max-width: 1230px) {
-  
   .teamwrapper {
     display: flex;
     flex-wrap: nowrap;
@@ -282,13 +281,10 @@
 }
 
 @media screen and (max-width: 767px) {
-
   body {
     background-size: contain;
     background-position: center center;
   }
-
-  
 
   .footer-content {
     flex-direction: column;
@@ -313,11 +309,10 @@
 }
 
 @media screen and (max-width: 600px) {
-
   .teamcard {
     grid-template-columns: repeat(1, 1fr);
   }
-  
+
   body {
     background-size: contain;
     background-position: center center;
@@ -333,18 +328,14 @@
   }
 }
 
-
 @media screen and (max-width: 520px) {
-
   .m-btn {
     width: 0px;
   }
 
-  /* Auto navigation buttons */
   .nav-auto {
     width: 90%;
   }
-
 
   .slider {
     width: 400px;
@@ -450,7 +441,6 @@
 }
 
 @media screen and (max-width: 390px) {
-  
   .header {
     margin-bottom: 0;
   }
@@ -500,7 +490,8 @@
     margin-top: 5vh;
   }
 
-  .right-box, .left-box {
+  .right-box,
+  .left-box {
     width: 95%;
     margin: auto;
     padding: 35px 5px; /* Adjust the padding as needed */
@@ -579,7 +570,7 @@
   .swiper-pagination {
     bottom: 5px; /* Adjust as needed */
   }
-  
+
   /* Style Swiper Pagination Bullets for smaller screens */
   .swiper-pagination-bullet {
     width: 8px;
@@ -603,14 +594,14 @@
     display: flex;
     align-items: center;
   }
-  
+
   .ytp-impression-link-text {
     flex: 1;
     font-weight: bold;
     font-size: 12px;
     color: white;
   }
-  
+
   .ytp-impression-link-logo {
     float: right;
     height: 16px;
@@ -618,7 +609,7 @@
     margin-right: 12px;
     width: 68px;
   }
-  
+
   .teamcard {
     width: 360px;
     height: 460px;
@@ -650,11 +641,11 @@
   }
 
   .contact form {
-    max-width: 95%; 
+    max-width: 95%;
   }
 
   .contact form .btn {
-    padding: 1rem 1.5rem; 
+    padding: 1rem 1.5rem;
     font-size: 1.2rem;
   }
 
@@ -710,7 +701,7 @@
     margin-bottom: 30px;
     font-weight: 200;
     position: relative;
-    text-align: center; 
+    text-align: center;
   }
 
   .underline {
@@ -738,10 +729,10 @@
 
   @keyframes moving {
     0% {
-        left: -20px;
+      left: -20px;
     }
     100% {
-        left: 100%;
+      left: 100%;
     }
   }
 
@@ -796,10 +787,10 @@
     align-items: center;
     margin: 10px;
     margin-bottom: 15px;
-    padding: .5rem;
+    padding: 0.5rem;
     background: #e9925c;
-    border-radius: .8rem;
-    transition: .5s ease;
+    border-radius: 0.8rem;
+    transition: 0.5s ease;
   }
 
   .footer-iconTop a:hover {
@@ -841,5 +832,4 @@
     left: 0; /* Adjust the left position */
     animation: moving 2s linear infinite;
   }
-
 }
