@@ -9,7 +9,6 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
 }
 
 :root {
@@ -44,16 +43,16 @@ header:hover {
 }
 
 header .logo {
-    font-weight: bolder;
-    font-size: 25px;
-    color: #333;
-  }
-  
-  header .logo img {
-    width: 80px;
-    height: 50px;
-    margin: 0 auto;
-  }
+  font-weight: bolder;
+  font-size: 25px;
+  color: #333;
+}
+
+header .logo img {
+  width: 80px;
+  height: 50px;
+  margin: 0 auto;
+}
 
 header .navbar ul {
   list-style: none;
@@ -136,7 +135,7 @@ html {
 
 .banner-area {
   width: 100%;
-  height: 650px;
+  height: 680px;
   position: relative;
   /* margin-top: 80px; */
   background-image: url(/assetskpop/blackpink/profile/blackpink.png);
@@ -147,8 +146,8 @@ html {
 }
 
 .banner-area h2 {
-  padding-top: 25%;
-  font-size: 70px;
+  padding-top: 30%;
+  font-size: 90px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -173,7 +172,7 @@ html {
 .description-area p {
   padding: 3dvh 0;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 
@@ -192,7 +191,7 @@ html {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.2rem;
   background-color: rgba(210, 180, 140, 0.5);
   padding: 2rem;
   border-radius: 10px;
@@ -203,6 +202,7 @@ html {
 .group-img img {
   border-radius: 2.5rem;
   max-width: 500px;
+  margin-left: 25px;
   height: auto;
   transition: transform 0.3s;
 }
@@ -212,16 +212,16 @@ html {
 }
 
 .group-def-text {
-  font-size: 1.8rem;
+  font-size: 2.3rem;
 }
 
 .group-def-text h2 {
   text-transform: uppercase;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 
 .group-def-text p {
-  font-size: 15px;
+  font-size: 20px;
   margin: 0.5rem 0 1.1rem;
   text-align: left;
   padding: 1%;
@@ -238,7 +238,7 @@ html {
 
 .fan-img {
   position: relative;
-  background-image: url(/assetskpop/blackpink/profile/bp_bornpinktour.jpg);
+  background-image: url(/assetskpop/blackpink/pinkstour.jpg);
   background-size: contain;
   background-position: center center;
   background-attachment: fixed;
@@ -849,7 +849,7 @@ ul {
 .members-facts {
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
   align-items: center;
-  background-image: url(/assetskpop/txt/profile/TXT_soobin3.png);
+  background-image: url(/assetskpop/blackpink/profile/BLACPINK_jisoo.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
