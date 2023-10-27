@@ -49,6 +49,18 @@ header .logo {
   color: #333;
 }
 
+header .logo {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #333;
+}
+
+header .logo img {
+  width: 80px;
+  height: 50px;
+  margin: 0 auto;
+}
+
 header .navbar ul {
   list-style: none;
 }
