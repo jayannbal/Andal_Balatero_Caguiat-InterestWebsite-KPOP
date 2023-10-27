@@ -1111,7 +1111,7 @@ ul {
   text-align: left;
 }
 
-/* ---------FOOTER SECTION--------- */
+/*---------FOOTER SECTION---------*/
 
 footer {
   background-color: #333; /* Background color for the footer */
@@ -1128,6 +1128,7 @@ footer {
   margin: 0 auto;
   padding: 20px 0;
 }
+
 
 .footer-text {
   margin-top: 20px;
@@ -1193,10 +1194,10 @@ ul {
 
 @keyframes moving {
   0% {
-    left: -20px;
+      left: -20px;
   }
   100% {
-    left: 100%;
+      left: 100%;
   }
 }
 
@@ -1204,8 +1205,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.footer-col:nth-child(2),
-.footer-col:nth-child(3) {
+.footer-col:nth-child(2), .footer-col:nth-child(3) {
   flex-basis: 15%;
 }
 
@@ -1227,7 +1227,7 @@ ul {
 
 .footer-col .social-links a {
   display: inline-block;
-  margin-top: 10px; /* Add a value here */
+  margin-top: 1; /* Add a value here */
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -1248,17 +1248,17 @@ ul {
 .footer-iconTop {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-end; 
 }
 
 .footer-iconTop a {
   display: inline-flex;
   align-items: center;
   margin-right: 20px;
-  padding: 0.8rem;
+  padding: .8rem;
   background: #e9925c;
-  border-radius: 0.8rem;
-  transition: 0.5s ease;
+  border-radius: .8rem;
+  transition: .5s ease;
 }
 
 .footer-iconTop a:hover {
@@ -1275,4 +1275,4 @@ ul {
   border-top: 1px solid #fff;
   margin: 20px auto;
   width: 100%; /* Adjust the width as needed */
-}
+} 
