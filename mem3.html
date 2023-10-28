@@ -92,7 +92,7 @@
     <div class="members-name" id="jisoo">
       <h2>Jisoo</h2>
     </div>
-    <div class="members-profile" id="group">
+    <div class="members-profile" id="group" data-member="jisoo">
       <div class="members-img">
         <img src="/assetskpop/blackpink/profile/BP-JISOO.png" alt="" />
       </div>
@@ -102,7 +102,6 @@
           <li>Stage Name:</li>
           <li>Full Name:</li>
           <li>Korean Name:</li>
-          <li>English Name:</li>
           <li>Position:</li>
           <li>Years of Training:</li>
           <li>Birth Date:</li>
@@ -118,7 +117,6 @@
           <li>JISOO</li>
           <li>Kim Jisoo</li>
           <li>김지수</li>
-          <li>Turtle Rabbit</li>
           <li>Lead Vocalist, Visual</li>
           <li>5 years</li>
           <li>January 3, 1995</li>
@@ -130,7 +128,7 @@
         </ul>
       </div>
     </div>
-    <div class="members-facts">
+    <div class="members-facts" data-member="jisoo">
       <h2>Facts And Trivia</h2>
       <p>Jisoo was the 3rd member to be revealed on June 15, 2016.</p>
       <p>Her fandom name is “Sooyas”.</p>
@@ -156,7 +154,7 @@
     <div class="members-name" id="jennie">
       <h2>Jennie</h2>
     </div>
-    <div class="members-profile2" id="group">
+    <div class="members-profile2" id="group" data-member="jennie">
       <div class="members-img2">
         <img src="/assetskpop/blackpink/profile/BP-JENNIE.png" alt="" />
       </div>
@@ -166,7 +164,6 @@
           <li>Stage Name:</li>
           <li>Full Name:</li>
           <li>Korean Name:</li>
-          <li>English Name:</li>
           <li>Position:</li>
           <li>Years of Training:</li>
           <li>Birth Date:</li>
@@ -182,7 +179,6 @@
           <li>JENNIE</li>
           <li>Kim Jennie</li>
           <li>김제니</li>
-          <li>Jennie Rubyjane</li>
           <li>Main Rapper, Lead Vocalist</li>
           <li>5 years 11 months</li>
           <li>January 16, 1996</li>
@@ -194,7 +190,7 @@
         </ul>
       </div>
     </div>
-    <div class="members-facts-two">
+    <div class="members-facts-two" data-member="jennie">
       <h2>Facts And Trivia</h2>
       <p>Jennie was the 1st member to be revealed on  June 1, 2016.</p>
       <p>Her fandom name is “Jensetters”.</p>
@@ -218,7 +214,7 @@
     <div class="members-name" id="rosé">
       <h2>Rosé</h2>
     </div>
-    <div class="members-profile" id="group">
+    <div class="members-profile" id="group" data-member="rosé">
       <div class="members-img">
         <img src="/assetskpop/blackpink/profile/BP-ROSÉ.png" alt="" />
       </div>
@@ -228,7 +224,6 @@
           <li>Stage Name:</li>
           <li>Full Name:</li>
           <li>Korean Name:</li>
-          <li>English Name:</li>
           <li>Position:</li>
           <li>Years of Training:</li>
           <li>Birth Date:</li>
@@ -244,7 +239,6 @@
           <li>ROSÉ</li>
           <li>Roseanne Park</li>
           <li>로제</li>
-          <li>Rosie</li>
           <li>Mainn Vocalist, Lead Dancer</li>
           <li>4 years 2 months</li>
           <li>February 11, 1997</li>
@@ -256,7 +250,7 @@
         </ul>
       </div>
     </div>
-    <div class="members-facts-three">
+    <div class="members-facts-three" data-member="rosé">
       <h2>Facts And Trivia</h2>
       <p>
         Rosé was the 4th and last member to be revealed on June 22, 2016.</p>
@@ -285,7 +279,7 @@
     <div class="members-name" id="lisa">
       <h2>Lisa</h2>
     </div>
-    <div class="members-profile2" id="group">
+    <div class="members-profile2" id="group" data-member="lisa">
       <div class="members-img2">
         <img src="/assetskpop/blackpink/profile/BP-LISA.png" alt="" />
       </div>
@@ -295,7 +289,6 @@
           <li>Stage Name:</li>
           <li>Full Name:</li>
           <li>Korean Name:</li>
-          <li>English Name:</li>
           <li>Position:</li>
           <li>Years of Training:</li>
           <li>Birth Date:</li>
@@ -309,9 +302,8 @@
       <div class="members-ans-left">
         <ul>
           <li>LISA</li>
-          <li>Pranpriya Manoban</li>
+          <li>Lalisa Manoban</li>
           <li>리사</li>
-          <li>Lalisa Manoban/li>
           <li>Lead Vocalist, Main Dancer, Lead Rapper</li>
           <li>5 years 3 months</li>
           <li>March 27, 1997</li>
@@ -323,7 +315,7 @@
         </ul>
       </div>
     </div>
-    <div class="members-facts-four">
+    <div class="members-facts-four" data-member="lisa">
       <h2>Facts And Trivia</h2>
       <p>Lisa was the 2nd member to be revealed on June 8, 2016.</p>
       <p>His fandom name is “Lilies”.</p>
@@ -388,6 +380,36 @@
           &copy; 2023 STBverse. All rights reserved.
       </div>
     </footer>
+
+    <script>
+      // Function to handle the animations when elements enter the viewport
+      const handleAnimation = (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const member = entry.target.getAttribute('data-member');
+            const profile = document.querySelector(`[data-member="${member}"]`);
+            
+            if (profile) {
+              profile.classList.add('animate');
+            }
+          }
+        });
+      };
+
+    
+      // Create an IntersectionObserver
+      const options = {
+        threshold: 0.5, // You can adjust this threshold as needed
+      };
+    
+      const observer = new IntersectionObserver(handleAnimation, options);
+    
+      // Observe the profile divs
+      const profileElements = document.querySelectorAll('.members-profile, .members-profile2');
+      profileElements.forEach((element) => {
+        observer.observe(element);
+      });
+    </script>
 
     <script>
       window.addEventListener("scroll", function () {

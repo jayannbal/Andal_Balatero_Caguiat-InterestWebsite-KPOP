@@ -220,7 +220,7 @@ html {
 }
 
 .group-def-text p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: left;
   padding: 1%;
@@ -424,7 +424,7 @@ html {
 }
 
 .card-content h2 {
-  padding: 15px 0;
+  padding: 19px 0;
   padding-top: 8%;
   color: #fff;
   font-size: 35px;
@@ -434,7 +434,7 @@ html {
 .description {
   text-align: center;
   color: #fff;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .video-container iframe {
@@ -598,12 +598,12 @@ ul {
 .footer-col {
   flex-basis: 25%;
   width: 25%;
-  padding: 0 15px;
+  padding: 0 19px;
 }
 
 .footer-col h4 {
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 19px;
   color: #ffffff;
   margin-bottom: 30px;
   font-weight: 500;
@@ -771,7 +771,7 @@ ul {
   border-radius: 5px;
   margin: 0 50px;
   width: calc(33.33% - 20px);
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .button:hover {
@@ -797,6 +797,17 @@ ul {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: #fff;
+  animation: scale 1s ease-in-out infinite alternate;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
 }
 
 .members-profile {
@@ -855,6 +866,7 @@ ul {
   padding-left: -20%;
   padding-top: 12%;
   font-size: 17px;
+  margin-bottom: 20px;
 }
 
 .members-ans ul li {
@@ -892,7 +904,7 @@ ul {
 }
 
 .members-facts p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -904,6 +916,37 @@ ul {
 
 .members-text strong {
   font-size: 18px;
+}
+
+.social-media-links {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.social-media-links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  background: transparent;
+  border: 0.2rem solid #e9925c;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #e9925c;
+  margin: 0rem 3.5rem -5rem 0;
+  transition: 0.5s ease;
+}
+
+.social-media-links a:hover {
+  background-color: #e9925c;
+}
+
+.social-media-links i:hover {
+  color: #ffffe4;
+  background: #e9925c;
 }
 
 .members-facts-two {
@@ -935,7 +978,7 @@ ul {
 }
 
 .members-facts-two p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -974,7 +1017,7 @@ ul {
 }
 
 .members-facts-three p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1013,7 +1056,7 @@ ul {
 }
 
 .members-facts-four p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1052,7 +1095,7 @@ ul {
 }
 
 .members-facts-five p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1091,7 +1134,7 @@ ul {
 }
 
 .members-facts-six p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1130,7 +1173,7 @@ ul {
 }
 
 .members-facts-seven p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1169,7 +1212,7 @@ ul {
 }
 
 .members-facts-eight p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1208,7 +1251,7 @@ ul {
 }
 
 .members-facts-nine p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1247,7 +1290,7 @@ ul {
 }
 
 .members-facts-ten p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1286,7 +1329,7 @@ ul {
 }
 
 .members-facts-eleven p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1325,7 +1368,7 @@ ul {
 }
 
 .members-facts-twelve p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1364,7 +1407,7 @@ ul {
 }
 
 .members-facts-thirteen p {
-  font-size: 15px;
+  font-size: 19px;
   margin: 0.5rem 0 1.1rem;
   text-align: center;
   margin-right: 10%;
@@ -1387,7 +1430,7 @@ ul {
   transition: transform 0.3s;
   margin-top: 10%;
   margin-right: 20px;
-  margin-left: 270%;
+  margin-left: 440%;
   float: left;
 }
 
@@ -1403,6 +1446,7 @@ ul {
   list-style: none;
   font-size: 17px;
   margin-right: 69%;
+  margin-bottom: -30px;
 }
 
 .members-text-left ul li {
@@ -1483,12 +1527,12 @@ ul {
 .footer-col {
   flex-basis: 25%;
   width: 25%;
-  padding: 0 15px;
+  padding: 0 19px;
 }
 
 .footer-col h4 {
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 19px;
   color: #ffffff;
   margin-bottom: 30px;
   font-weight: 500;
@@ -1603,4 +1647,18 @@ ul {
   border-top: 1px solid #fff;
   margin: 20px auto;
   width: 100%; /* Adjust the width as needed */
+}
+
+.animate {
+  animation: fade-in 1s ease-in;
+  /* Add other animations like zoom-in, slide-down, and slide-up as needed */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

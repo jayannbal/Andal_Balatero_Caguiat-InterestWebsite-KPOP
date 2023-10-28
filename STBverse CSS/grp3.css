@@ -720,6 +720,7 @@ ul {
 .banner-area p {
   padding-top: 0.3%;
   font-size: 40px;
+  margin-top: 40px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -1051,43 +1052,6 @@ ul {
   z-index: 1;
 }
 
-.members-facts-five {
-  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
-  align-items: center;
-  background-image: url(/assetskpop/txt/profile/TXT_hyuka.png);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  border-radius: 10px;
-  margin-left: 7%;
-  margin-right: 7%;
-  margin-top: 2%;
-  margin-bottom: 4%;
-  padding-bottom: 4%;
-  text-align: center;
-}
-
-.members-facts-five h2 {
-  text-transform: uppercase;
-  padding-bottom: 2%;
-  padding-top: 5%;
-  padding-right: 3%;
-  font-size: 25px;
-  color: #fff;
-  position: relative;
-  z-index: 1;
-}
-
-.members-facts-five p {
-  font-size: 16px;
-  margin: 0.5rem 0 1.1rem;
-  text-align: center;
-  margin-right: 10%;
-  margin-left: 7%;
-  color: #fff;
-  position: relative;
-  z-index: 1;
-}
 
 .members-profile2 {
   display: flex;
@@ -1319,4 +1283,19 @@ ul {
   border-top: 1px solid #fff;
   margin: 20px auto;
   width: 100%; /* Adjust the width as needed */
+}
+
+
+.animate {
+  animation: fade-in 1s ease-in;
+  /* Add other animations like zoom-in, slide-down, and slide-up as needed */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
