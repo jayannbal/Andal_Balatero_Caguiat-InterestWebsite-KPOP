@@ -192,30 +192,85 @@
       </div>
     </section>
 
-    
+    <!-- "Back" link to songs.html -->
+    <div class="back-container">
+      <br />
+      <br />
+      <a href="shops.html" class="back-link">&laquo;Back</a>
+    </div>
 
-    <footer class="footer">
-      <div class="footer-text">
-        <p>Copyright @ 2023 by Eloissa | All Rights Reserved.</p>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+          <div class="row">
+                <div class="footer-col">
+                      <img src="assetskpop/STBverse logo.png" class="logopic" alt="Logopic">
+                </div>
+                <div class="footer-col">
+                  <h4>QUICK LINKS <div class="underline"><span></span></div></h4>
+                    <ul>
+                        <li><a href="grp1.html">SEVENTEEN</a></li>
+                        <li><a href="grp2.html">TOMORROW X TOGETHER</a></li>
+                        <li><a href="grp3.html">BLACKPINK</a></li>
+                        <li><a href="songs.html">DISCOGRAPHY</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>CONTACT US <div class="underline"><span></span></div></h4>
+                  <ul>
+                    <li><a href="#">Contact Form</a></li>
+                    <li>
+                      <a href="mailto:stbverse@gmail.com">stbverse@gmail.com</a>
+                    </li>
+                    <li>
+                      <a href="tel:09562817944">09562817944</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>FOLLOW US <div class="underline"><span></span></div></h4>
+                    <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class='bx bxl-gmail'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-iconTop">
+              <a href="#shops"><i class='bx bx-chevrons-up'></i></a>
+            </div>
       </div>
-    
-      <div class="footer-iconTop">
-        <a href="#shops"><i class='bx bx-chevrons-up'></i></a>
+      <div class="footer-hr">
+        <hr>
+      </div>
+      <div class="footer-text">
+          &copy; 2023 STBverse. All rights reserved.
       </div>
     </footer>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var footer = document.querySelector(".footer");
+        var scrollHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+        var scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
+        var clientHeight = document.documentElement.clientHeight;
+  
+        // Adjust this value based on when you want the footer to appear
+        var scrollTrigger = 100; 
+  
+        if (scrollHeight - scrollTop - scrollTrigger <= clientHeight) {
+          footer.style.visibility = "visible";
+          footer.style.opacity = 1;
+        } else {
+          footer.style.visibility = "hidden";
+          footer.style.opacity = 0;
+        }
+      });
+    </script>
     
-    
-
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  
-
-  <!-- Initialize Swiper -->
-
-  
-  
-
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>   
-  <script src="STBverse JS/kpopshops.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>   
+    <script src="STBverse JS/kpopshops.js"></script>
 </body>
 </html>
