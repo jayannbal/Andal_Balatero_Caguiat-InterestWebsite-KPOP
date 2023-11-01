@@ -170,29 +170,53 @@
   .contact {
     min-height: auto;
   }
+
+  #aboutkpop {
+    padding: 10px 0;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0; /* Add this line to reduce the top margin */
+  }
+
+  .aboutkpop-content h2 {
+    font-size: 5rem;
+    margin-top: 5vh;
+  }
+
+  .right-box,
+  .left-box {
+    width: 95%;
+    margin: auto;
+    padding: 35px 5px;
+    text-align: justify;
+  }
+
+  .container-box {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 890px) {
   header {
-    padding: 10px 5%; /* Adjust the padding as per your design requirements */
-    justify-content: space-between; /* Place content at both end corners with space in between */
+    padding: 10px 5%; 
+    justify-content: space-between; 
   }
 
   header .navbar ul li {
-    float: none; /* Reset float for menu items */
-    display: inline-block; /* Display menu items horizontally */
+    float: none; 
+    display: inline-block; 
   }
 
   header .navbar ul li a {
-    padding: 20px 15px; /* Adjust padding for smaller screens */
+    padding: 20px 15px; 
   }
 
   #menu-bar {
-    display: none; /* Hide the menu bar on smaller screens or adjust as needed */
+    display: none; 
   }
 
   header label {
-    display: inline; /* Display the label inline for smaller screens */
+    display: inline; 
   }
 
   .slider {

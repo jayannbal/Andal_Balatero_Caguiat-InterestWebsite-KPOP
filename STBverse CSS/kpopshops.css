@@ -146,6 +146,10 @@ html {
 .banner-area h3 {
   font-size: 4.2rem;
   font-weight: 700;
+  background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
 }
 
 

@@ -147,7 +147,7 @@ html {
   height: 700px;
   border-radius: 30px;
   background: #ffaf7a;
-  box-shadow: 39px -39px 100px #ffffbd, -39px 39px 100px #ffffbd;
+  box-shadow: 22px -22px 30px #ffffbd, -22px 22px 30px #ffffbd;
 
   overflow: hidden;
 }
@@ -268,10 +268,21 @@ html {
 }
 
 /* Left Box (Image) Styles */
+.left-box h1 {
+  font-size: 5rem;
+  line-height: 1.5;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  background-clip: text;
+  text-align: center;
+  margin: 0;
+}
+
 .left-box h2 {
   font-size: 4rem;
   line-height: 1.5;
-  color: #191a1c;
+  color: white;
   text-align: center;
   margin: 0;
 }
@@ -307,7 +318,7 @@ html {
   text-align: center;
   border-radius: 39px;
   background: #ffaf7a;
-  box-shadow: 19px 19px 50px #ffffbd, -19px 19px 50px #ffffbd;
+  box-shadow: 9px -9px 30px #ffffbd, -9px 9px 30px #ffffbd;
   padding: 20px; /* Increase the padding for more spacing */
   border-radius: 10px;
   width: 40%; /* Adjust the width of the container area as needed */
@@ -315,6 +326,7 @@ html {
   margin-right: 60px; /* Add margin to the right side */
 }
 
+/* LATEST NEWS */
 #latestupdate {
   background-color: transparent;
   padding: 120px 0;
@@ -344,6 +356,16 @@ html {
   justify-content: center;
   max-width: 960px;
   width: 100%;
+}
+
+#latestupdate h1 {
+  font-size: 50px;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 20vh;
+  margin-bottom: -180px;
 }
 
 /* Card Styles */
@@ -417,7 +439,7 @@ html {
 .name {
   margin-top: 10px;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 700;
   color: #191a1c;
 }
 
@@ -587,32 +609,148 @@ html {
   text-align: center;
 }
 
-.about-us-content h2 {
+.about-us-content h3 {
   font-size: 50px;
-  color: white;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
   margin-bottom: 20px;
 }
 
 .about-us-content p {
-  font-size: 16px;
+  font-size: 22px;
+  font-weight: 800;
   line-height: 1.5;
-  color: white;
+  color: transparent; 
   margin: 0 auto;
   max-width: 1000px;
+  background-image: linear-gradient(45deg,#ff6b08, #ff7c9d, #ffba8d, #cf23cf, #eedd44, #ff6b08);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
+
+.about-us-content p span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container-box-us {
+  margin-top: 20px;
+}
+
+/* Left Box (Image) Styles */
+.left-box-us h4 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin: 0;
+}
+
+.left-box-us p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: white;
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  max-width: 1000px;
+}
+
+.right-box-us h4 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin: 0;
+}
+
+.right-box-us h5 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin: 0;
+}
+
+.right-box-us p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: white;
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  max-width: 1000px;
+}
+
+/* Styling for the span within the heading */
+.left-box-us h2 span {
+  color: #ffffff;
+}
+
+.container-box-us {
+  display: flex;
+}
+
+/* Left Box Styles */
+.left-box {
+  flex: 1;
+  text-align: center;
+  border-radius: 39px;
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  margin-right: auto;
+  margin-left: 60px;
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin-top: 15vh;
+}
+
+/* Right Box Styles */
+.right-box {
+  flex: 1;
+  text-align: center;
+  border-radius: 39px;
+  background: #ffaf7a;
+  box-shadow: 9px -9px 30px #ffffbd, -9px 9px 30px #ffffbd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: 60px; 
+}
+
 
 /*TEAM*/
 
 .container + div {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 200px auto;
   padding-left: -40px; /* Adjust the left padding as needed */
   padding-right: -40px; /* Adjust the right padding as needed */
   padding-bottom: 20vh;
+  margin-bottom: 5vh;
 }
 
 .teamwrapper {
@@ -623,7 +761,11 @@ html {
 
 #team h2 {
   font-size: 50px;
-  color: white;
+  font-weight: 800;
+  color: transparent;
+  background-image: linear-gradient(45deg,#ff6b08, #ff7c9d, #ffba8d, #ff7c9d);
+  -webkit-background-clip: text;
+  background-clip: text;
   text-align: center;
   padding-bottom: 3vh;
   letter-spacing: 100px;
@@ -748,7 +890,11 @@ html {
 }
 
 .teamcard .info a:hover {
-  color: #ffffe4;
+  background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 /*---------CONTACT SECTION---------*/
@@ -784,6 +930,11 @@ html {
 .contact h2 {
   margin-bottom: 2rem;
 }
+
+.contact h2 span {
+  color: white;
+}
+
 
 .contact form {
   max-width: 70rem;
@@ -834,14 +985,12 @@ html {
   transform: scale(0.95);
 }
 
+
+
 .contact form .btn:hover {
-  background: linear-gradient(
-    to bottom right,
-    #e9925c,
-    #837a55
-  ); /* Replace these colors with your desired gradient */
+  background: linear-gradient(45deg, #ff6b08, #ff7c9d, #ffba8d, #ff7c9d, #ff6b08);
   transform: scale(1.1);
-  color: linear-gradient(to bottom right, #837a55, #e9925c);
+  color: black;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 
@@ -850,6 +999,7 @@ html {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-bottom: 22vh;
 }
 
 #msg {
