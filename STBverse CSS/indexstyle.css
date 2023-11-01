@@ -148,7 +148,6 @@ html {
   border-radius: 30px;
   background: #ffaf7a;
   box-shadow: 22px -22px 30px #ffffbd, -22px 22px 30px #ffffbd;
-
   overflow: hidden;
 }
 
@@ -543,14 +542,32 @@ html {
 
 .ytp-impression-link {
   background: rgba(23, 23, 23, 0.8);
+  color: white;
+  font-size: 10px;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   bottom: 22px;
   right: 131.5px;
+  width: 140px;
   height: 22px;
   position: absolute;
-  display: flex; /* Add flex display to center content vertically */
-  align-items: center; /* Vertically center the content */
+  display: flex; 
+  align-items: center;
+}
+
+.ytp-impression-link-text {
+  margin-left: 90px;
+}
+
+.ytp-impression-link-logo path.ytp-svg-fill {
+  fill: white;
+}
+
+
+.ytp-impression-link:hover {
+  margin-top: 0;
+  background-color: red;
+  color: #fff;
 }
 
 .swiper-navBtn {
@@ -1177,5 +1194,5 @@ ul {
   border: 0;
   border-top: 1px solid #fff;
   margin: 20px auto;
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
 }
