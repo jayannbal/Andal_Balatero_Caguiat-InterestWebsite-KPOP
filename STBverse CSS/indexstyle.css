@@ -540,14 +540,14 @@ html {
   fill: #fff;
 }
 
+
 .card-content .ytp-impression-link-wrapper {
   position: absolute;
-  bottom: 10px;
   right: 10px;
   background: rgba(23, 23, 23, 0.8);
-  width: 123  px;
+  width: 123px;
   bottom: 23px;
-  right: 178.5px;
+  right: 140.5px;
   height: 22px;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
