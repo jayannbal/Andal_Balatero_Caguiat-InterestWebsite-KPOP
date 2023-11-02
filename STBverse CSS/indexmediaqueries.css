@@ -42,6 +42,8 @@
   .nav-auto {
     width: 100%;
   }
+
+  
 }
 
 @media screen and (max-width: 1230px) {
@@ -234,6 +236,24 @@
     font-size: 5rem;
   }
 
+  .ytp-cued-thumbnail-overlay-image {
+    width: 70%;
+    height: 60px;
+    padding-top: 35.25%;
+  }
+
+  .ytp-large-play-button {
+    width: 70px;
+    height: 50px;
+  }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 14px;
+    right: 228.5px;
+    height: 22px;
+  }
+
   .about-us-content h3 {
     font-size: 5rem;
   }
@@ -307,6 +327,13 @@
     font-size: 3.5rem;
   }
 
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 30px;
+    right: 194px;
+    height: 22px;
+  }
+
   .about-us-content h3 {
     font-size: 36px; 
   }
@@ -368,6 +395,13 @@
   .nav-auto {
     width: 90%;
   }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 32px;
+    right: 192px;
+    height: 22px;
+  }
 }
 
 
@@ -380,6 +414,13 @@
 
   #latestupdate h1 {
     font-size: 5rem;
+  }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 36px;
+    right: 183px;
+    height: 22px;
   }
 
   .about-us-content h3 {
@@ -405,6 +446,19 @@
     width: 500px;
     margin-top: 5px;
     height: 400px;
+  }
+
+  .ytp-large-play-button {
+    width: 70px;
+    height: 50px;
+    top: 75%;
+  }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 47px;
+    right: 154px;
+    height: 22px;
   }
 
   #team h2 {
@@ -530,7 +584,7 @@
     height: 100px;
   }
 
-  .ytp-cued-thumbnail-overlay-image {
+  /* .ytp-cued-thumbnail-overlay-image {
     margin-top: 5px;
     background-size: cover;
     background-position: center;
@@ -567,7 +621,7 @@
     position: absolute;
     display: flex; /* Add flex display to center content vertically */
     align-items: center; /* Vertically center the content */
-  }
+  } */
 
   #latestupdate h1 {
     font-size: 4.5rem;

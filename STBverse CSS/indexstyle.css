@@ -540,35 +540,40 @@ html {
   fill: #fff;
 }
 
-.ytp-impression-link {
+.card-content .ytp-impression-link-wrapper {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
   background: rgba(23, 23, 23, 0.8);
-  color: white;
-  font-size: 10px;
+  width: 123  px;
+  bottom: 23px;
+  right: 178.5px;
+  height: 22px;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
-  bottom: 22px;
-  right: 131.5px;
-  width: 140px;
-  height: 22px;
-  position: absolute;
-  display: flex; 
+}
+
+.card-content .ytp-impression-link {
+  text-decoration: none;
+  color: #fff; /* Link color */
+  font-size: 12px;
+}
+
+.card-content .ytp-impression-link-content {
+  display: flex;
   align-items: center;
 }
 
-.ytp-impression-link-text {
-  margin-left: 90px;
+.card-content .ytp-impression-link-logo {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
 }
 
-.ytp-impression-link-logo path.ytp-svg-fill {
+.card-content .ytp-impression-link-logo path.ytp-svg-fill {
   fill: white;
 }
 
-
-.ytp-impression-link:hover {
-  margin-top: 0;
-  background-color: red;
-  color: #fff;
-}
 
 .swiper-navBtn {
   color: #191a1c;
