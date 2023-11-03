@@ -1,5 +1,3 @@
-/* Media queries for different screen sizes */
-
 @media screen and (max-width: 1680px) {
   body,
   input,
@@ -38,12 +36,9 @@
     width: 10px;
   }
 
-  /* Auto navigation buttons */
   .nav-auto {
     width: 100%;
   }
-
-  
 }
 
 @media screen and (max-width: 1230px) {
@@ -55,7 +50,7 @@
 
   .teamcard {
     width: 30%;
-    margin: 0 auto; /* This will center the team cards horizontally */
+    margin: 0 auto; 
   }
 
   .teamcard img {
@@ -81,7 +76,6 @@
     margin: 0 5px;
   }
 
-  /* Display the team cards in a single column */
   #team h2 {
     font-size: 50px;
     letter-spacing: 50px;
@@ -185,7 +179,7 @@
     padding: 10px 0;
     flex-direction: column;
     text-align: center;
-    margin-top: 0; /* Add this line to reduce the top margin */
+    margin-top: 0; 
   }
 
   .aboutkpop-content h2 {
@@ -289,6 +283,7 @@
 }
 
 @media screen and (max-width: 800px) {
+
   header {
     padding: 10px 5%; 
     justify-content: space-between; 
@@ -381,7 +376,7 @@
 }
 
 @media screen and (max-width: 790px) {
-  /* Slider images */
+  
   .slider {
     width: 550px;
     height: 400px;
@@ -411,8 +406,6 @@
     height: 22px;
   }
 }
-
-
 
 @media screen and (max-width: 767px) {
   body {
@@ -686,19 +679,6 @@
     margin-left: -10px;
   }
 
-  .underline {
-    width: 50%;
-    height: 3px;
-    margin-top: 3px;
-    top: 20px;
-  }
-
-  .underline span {
-    width: 100%;
-    position: absolute;
-    border-radius: 3px;   
-  }
-
   .footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
   }
@@ -936,12 +916,32 @@
 
   #aboutkpop {
     flex-direction: column;
-    padding: 10px 0;
+    padding: 20px;
   }
 
   .aboutkpop-content h2 {
     font-size: 3.5rem;
     margin-top: 10vh;
+  }
+
+  #aboutkpop .container-box {
+    flex-direction: column; 
+  }
+
+  #aboutkpop .left-box, #aboutkpop .right-box {
+    width: 100%;
+  }
+
+  #aboutkpop p {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+
+  .right-box {
+    margin: auto;
+    padding: 15px 5px;
   }
 
   .left-box h1 {
@@ -973,6 +973,52 @@
     font-size: 4rem;
   }
 
+  .about-us-content h3 {
+    font-size: 4rem;
+  }
+
+  .about-us-content p {
+    font-size: 18px;
+    margin-left: 6%;
+    margin-right: 6%;
+    line-height: 1.3; 
+  }
+
+  .about-us-content p span {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .left-box-us h4{
+    font-size: 17px; 
+    line-height: 1.3; 
+  }
+
+  .right-box-us h5 {
+    font-size: 17px; 
+    line-height: 1.3; 
+  }
+
+  .right-box-us h5 {
+    font-size: 17px; 
+    line-height: 1.3; 
+  }
+
+  .left-box-us p {
+    font-size: 14px; 
+  }
+
+  .right-box-us p {
+    font-size: 14px; 
+  }
+
+  #team h2 {
+    font-size: 40px;
+    letter-spacing: 20px;
+    margin-left: -25px;
+  }
+
   .card-content .ytp-impression-link-wrapper {
     right: 10px;
     width: 123px;
@@ -992,6 +1038,53 @@
   .contact form .btn {
     padding: 1rem 1.5rem; 
     font-size: 1.2rem; 
+  }
+
+  .footer-content {
+    padding: 5px 0; 
+  }
+
+  .row {
+    width: 60%;
+  }
+
+  .logopic {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .footer-col h4 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+  }
+
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .footer-col ul li a {
+    font-size: 12px;
+    margin-left: -15px;
+  }
+
+  .footer-col .social-links a {
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px 5px 0;
+    line-height: 40px;
+  }
+
+  .footer-iconTop {
+    flex-direction: column;
+  }
+
+  .footer-hr hr {
+    margin: 10px auto;
+  }
+
+  .underline {
+    width: 90%;
   }
 }
 
@@ -1163,7 +1256,6 @@
   .about-us-content h3 {
     font-size: 36px; 
   }
-
   
   .about-us-content p {
     font-size: 20px; 
@@ -1176,13 +1268,20 @@
     line-height: 1.3; 
   }
 
+  .container-box {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .left-box h1 {
+    margin-bottom: -35px;
+  }
   
   .left-box-us h4 {
-    font-size: 20 px; 
+    font-size: 20px; 
     line-height: 1.3; 
   }
 
-  
   .left-box-us p {
     font-size: 14px; 
     line-height: 1.6; 
@@ -1190,7 +1289,6 @@
     margin-right: 20px;
   }
 
-  
   .right-box-us h4,
   .right-box-us h5 {
     font-size: 20px; 
@@ -1210,6 +1308,11 @@
   .right-box-us {
     width: 100%; 
     margin: 0; 
+  }
+
+  #latestupdate h1 {
+    font-size: 4rem;
+    margin-bottom: -220px;
   }
 
   .teamcard {
@@ -1251,136 +1354,13 @@
     font-size: 1.2rem;
   }
 
-  footer {
-    text-align: center;
-    margin: auto;
-  }
-
-  .footer-content {
-    display: block;
-    max-width: 100%;
-    padding: 10px 0;
-  }
-
-  .footer-text {
-    margin-top: 10px;
-    font-size: 12px;
-  }
-
   .row {
     width: 65%;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  .logopic {
-    width: 80px;
-    margin-bottom: 30px;
-  }
-
-  .footer-col {
-    flex-basis: 100%;
-    padding: 0;
-  }
-
-  .footer-col h4 {
-    text-transform: capitalize;
-    font-size: 11px;
-    margin-bottom: 30px;
-    font-weight: 200;
-    position: relative;
-    text-align: center;
-    margin-left: -10px;
-  }
-
-  .underline {
-    width: 50%;
-    height: 3px;
-    margin-top: 3px;
-    top: 20px;
-  }
-
-  .underline span {
-    width: 100%;
-    position: absolute;
-    border-radius: 3px;   
-  }
-
-  .footer-col ul li:not(:last-child) {
-    margin-bottom: 10px;
-  }
-
-  .footer-col ul li a {
-    font-size: 11.5px;
-    text-decoration: none;
-    font-weight: 300;
-    display: block;
-    text-align: center;
-  }
-
-  .footer-col ul li a:hover {
-    color: #ffffff;
-  }
-
-  .footer-col .social-links a {
-    display: inline-block;
-    margin-top: 5vh;
-    width: 40px;
-    height: 40px;
-    margin: 0 5px 5px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-  }
-
-  .footer-iconTop {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-  }
-
-  .footer-iconTop a {
-    margin: 10px;
-    margin-bottom: 15px;
-    padding: 0.5rem;
-    border-radius: 0.8rem;
-  }
-
-
-  .footer-iconTop a i {
-    font-size: 2.4rem;
-  }
-
-  .footer-hr hr {
-    border: 0;
-    margin: 20px auto;
-    width: 100%; 
-  }
-
-  .underline {
-    width: 70%;
-    height: 5px;
-    margin-top: 2px;
-    position: absolute;
-    top: 25px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 3px;
-    overflow: hidden;
-  }
-
-  .underline span {
-    width: 100%;
-    height: 5px;
-    position: absolute;
-    border-radius: 3px;
-    animation: moving 2s linear infinite;
   }
 }
 
 @media screen and (max-width: 375px) {
+
   .header {
     margin-bottom: 0;
   }
@@ -1394,7 +1374,7 @@
     height: 250px;
     margin: 0 auto;
     margin-left: 12.5%;
-    transform: translateX(-15%);
+    transform: translateX(-33%);
     margin-bottom: 0;
   }
 
@@ -1415,22 +1395,8 @@
   .nav-auto {
     width: 90%;
   }
-  
-  .row {
-    width: 75%;
-  }
-  
-  .footer-col h4 {
-    margin-left: px;
-  }
 
-  .footer-col ul li a {
-    font-size: 11.5px;
-    text-decoration: none;
-    font-weight: 300;
-    display: block;
-    transition: all 0.3s ease;
-    text-align: center;
-    margin-left: -15px;
+  .left-box h1 {
+    margin-bottom: -25px;
   }
 }
