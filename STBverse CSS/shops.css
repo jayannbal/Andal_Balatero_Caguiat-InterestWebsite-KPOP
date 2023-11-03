@@ -9,7 +9,6 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
 }
 
 :root {
@@ -28,7 +27,6 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  /* background: #ffffff; */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   padding: 10px 7%;
   display: flex;
@@ -180,10 +178,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: auto; /* Add this to enable horizontal scrolling if the containers don't fit in the viewport */
+  overflow-x: auto; 
 }
 
-#kpopshops .container {
+#kpopshops .kpopcontainer {
   width: 550px;
   height: 550px;
   margin: 5px;
@@ -192,23 +190,23 @@ section {
   margin-right: 30px;
   margin-bottom: 10vh;
   border-radius: 18px;
-  transition: transform 0.2s; /* Add a smooth transition for the hover effect */
+  transition: transform 0.2s; 
 }
 
-#kpopshops .container a {
+#kpopshops .kpopcontainer a {
   display: block;
 }
 
-#kpopshops .container img {
+#kpopshops .kpopcontainer img {
   width: 100%;
   height: 100%;
 }
 
-#kpopshops .container:hover {
+#kpopshops .kpopcontainer:hover {
   transform: scale(
     1.05
-  ); /* Add a scale transformation on hover to create a zoom effect */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow for a lifted appearance */
+  ); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 

@@ -1,4 +1,5 @@
 @media screen and (max-width: 1680px) {
+  
   body,
   input,
   textarea,
@@ -8,6 +9,7 @@
 }
 
 @media screen and (max-width: 1300px) {
+
   html {
     font-size: 55%;
   }
@@ -42,6 +44,7 @@
 }
 
 @media screen and (max-width: 1230px) {
+
   .teamwrapper {
     display: flex;
     flex-wrap: nowrap;
@@ -84,6 +87,7 @@
 }
 
 @media screen and (max-width: 1150px) {
+
   .slider {
     width: 1000px;
     height: 700px;
@@ -105,6 +109,7 @@
 }
 
 @media screen and (max-width: 995px) {
+
   body {
     background-size: cover;
     background-position: center center;
