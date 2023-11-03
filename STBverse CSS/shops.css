@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-section {
-  margin-top: 45px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -125,6 +121,11 @@ html {
   overflow-x: hidden;
 }
 
+section {
+  margin-top: 45px;
+}
+
+/*---------BANNER AREA---------*/
 .banner-area {
   background-color: transparent;
   padding: 20px;
@@ -134,11 +135,23 @@ html {
 .banner-area h2 {
   font-size: 4.2rem;
   font-weight: 700;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .banner-area h3 {
   font-size: 4.2rem;
   font-weight: 700;
+}
+
+.multiple-text {
+  color: transparent; 
+  margin: 0 auto;
+  background-image: linear-gradient(45deg,#ff6b08, #ff7c9d, #ffba8d, #cf23cf, #eedd44, #ff6b08);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .swiper {
@@ -364,5 +377,6 @@ ul {
   border: 0;
   border-top: 1px solid #fff;
   margin: 20px auto;
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
 }
+

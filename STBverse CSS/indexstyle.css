@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-/* Reset and Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -23,14 +22,12 @@
   --text-color: #191a1c;
 }
 
-/* Header Styles */
-/* Header Styles */
+
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  /* background: #ffffff; */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   padding: 10px 7%;
   display: flex;
