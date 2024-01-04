@@ -95,6 +95,8 @@ label {
   transition: color 0.5s;
 }
 
+
+
 label:hover {
   color: black;
   font-weight: bold;
