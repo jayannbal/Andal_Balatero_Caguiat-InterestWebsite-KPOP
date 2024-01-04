@@ -29,11 +29,14 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
-
   const typed = new Typed('.multiple-text', {
     strings: ['SEVENTEEN', 'TOMORROW X TOGETHER', 'BLACKPINK'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
+});
+
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1
 });

@@ -38,6 +38,10 @@ header {
   opacity: 0.6;
 }
 
+
+
+
+
 header:hover {
   position: fixed;
   background: #ffffff;
@@ -107,7 +111,7 @@ header label {
 }
 
 body {
-  min-height: 200vh;
+  min-height: 120vh;
   background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
   background-size: cover;
   background-position: center;
@@ -145,9 +149,17 @@ html {
   background-color: transparent;
 }
 
-.header-upper {
+.header-upper1 {
   font-size: 20px;
   color: white;
+  margin-left: 100px;
+}
+
+.header-upper2 {
+  font-size: 20px;
+  color: white;
+  padding: 140px;
+  margin-left: -210px;
 }
 
 .header-upper h2 {
@@ -174,7 +186,6 @@ html {
 .container3 {
   height: 200px;
   width: 60rem;
-
   background-color: transparent;
 }
 
@@ -216,6 +227,13 @@ html {
   font-size: 20px;
   color: white;
   background-color: transparent;
+}
+
+.responsive-break {
+  display: block; /* Display as a block (like a line break) on larger screens */
+  content: "";
+  height: 0;
+  padding: 50px;
 }
 
 .container5 a {
