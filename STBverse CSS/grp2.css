@@ -881,7 +881,7 @@ ul {
   text-align: left;
 }
 
-.members-img2-right img {
+.members-img-right img {
   border-radius: 2.5rem;
   max-width: 300px;
   height: auto;
@@ -931,7 +931,7 @@ ul {
 .members-answer-left ul {
   list-style: none;
   padding-right: 10%;
-  padding-left: 10%;
+  padding-left: 20%;
   padding-top: 10%;
   font-size: 17px;
   margin-left: -45rem;
