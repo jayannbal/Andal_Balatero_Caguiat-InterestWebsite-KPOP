@@ -1193,11 +1193,12 @@ footer {
 }
 
 .footer-text {
+  font-size: 16px;
   margin-top: 20px;
 }
 
 .row {
-  width: 85%;
+  width: 95%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -1211,19 +1212,19 @@ ul {
 }
 
 .logopic {
-  width: 80px;
+  width: 100px;
   margin-bottom: 30px;
 }
 
 .footer-col {
   flex-basis: 25%;
   width: 25%;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .footer-col h4 {
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 15px;
   color: #ffffff;
   margin-bottom: 30px;
   font-weight: 500;
@@ -1291,13 +1292,14 @@ ul {
 .footer-col .social-links a {
   display: inline-block;
   margin-top: 1; /* Add a value here */
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 10px 10px 0;
   text-align: center;
   transition: all 0.5s ease;
-  line-height: 40px;
+  line-height: 50px;
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease;
@@ -1337,19 +1339,5 @@ ul {
   border: 0;
   border-top: 1px solid #fff;
   margin: 20px auto;
-  width: 100%; /* Adjust the width as needed */
-}
-
-.animate {
-  animation: fade-in 1s ease-in;
-  /* Add other animations like zoom-in, slide-down, and slide-up as needed */
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  width: 100%;
 }
