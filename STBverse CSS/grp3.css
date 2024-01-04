@@ -145,7 +145,7 @@ html {
   background-attachment: fixed;
 }
 
-.banner-area h2 {
+.banner-area h3 {
   padding-top: 30%;
   font-size: 90px;
   font-family: "Poppins", sans-serif;
@@ -161,7 +161,7 @@ html {
   height: 440px;
 }
 
-.description-area h2 {
+.description-area h3 {
   font-family: "Poppins", sans-serif;
   letter-spacing: 4px;
   padding-top: 30px;
@@ -215,7 +215,7 @@ html {
   font-size: 2.3rem;
 }
 
-.group-def-text h2 {
+.group-def-text h3 {
   text-transform: uppercase;
   padding-bottom: 1%;
 }
@@ -238,7 +238,7 @@ html {
 
 .fan-img {
   position: relative;
-  background-image: url(/assetskpop/blackpink/bp_concert.jpg);
+  background-image: url(/assetskpop/blackpink/pinkstour.jpg);
   background-size: contain;
   background-position: center center;
   background-attachment: fixed;
@@ -262,7 +262,7 @@ html {
   z-index: 1;
 }
 
-.fan-text h2 {
+.fan-text h3 {
   font-size: 35px;
   text-transform: uppercase;
 }
@@ -287,7 +287,7 @@ html {
   justify-content: center;
 }
 
-.award-title h2 {
+.award-title h3 {
   text-align: center;
   padding-top: 10%;
   font-size: 45px;
@@ -316,7 +316,7 @@ html {
   margin-left: -3px;
 }
 
-.content h2 {
+.content h3 {
   font-size: 23px;
 }
 
@@ -416,7 +416,7 @@ html {
   /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
 }
 
-.card-content h2 {
+.card-content h3 {
   padding: 16px 0;
   padding-top: 8%;
   color: #fff;
@@ -437,7 +437,7 @@ html {
 }
 
 /* FAMILY SITE SECTION */
-.family-site-title h2 {
+.family-site-title h3 {
   padding-top: 7%;
   padding-bottom: 5%;
   font-size: 40px;
@@ -765,7 +765,7 @@ ul {
   justify-content: center;
 }
 
-.members-name h2 {
+.members-name h3 {
   text-align: center;
   padding-top: 10%;
   font-size: 45px;
@@ -829,7 +829,7 @@ ul {
   text-align: right;
 }
 
-.members-text h2 {
+.members-text h3 {
   text-align: center;
   padding-top: -10%;
   padding-bottom: 4%;
@@ -878,7 +878,7 @@ ul {
   text-align: center;
 }
 
-.members-facts h2 {
+.members-facts h3 {
   text-transform: uppercase;
   padding-bottom: 2%;
   padding-top: 5%;
@@ -952,7 +952,7 @@ ul {
   text-align: center;
 }
 
-.members-facts-two h2 {
+.members-facts-two h3 {
   text-transform: uppercase;
   padding-bottom: 2%;
   padding-top: 5%;
@@ -991,7 +991,7 @@ ul {
   text-align: center;
 }
 
-.members-facts-three h2 {
+.members-facts-three h3 {
   text-transform: uppercase;
   padding-bottom: 2%;
   padding-top: 5%;
@@ -1030,7 +1030,7 @@ ul {
   text-align: center;
 }
 
-.members-facts-four h2 {
+.members-facts-four h3 {
   text-transform: uppercase;
   padding-bottom: 2%;
   padding-top: 5%;
@@ -1089,7 +1089,7 @@ ul {
   text-align: right;
 }
 
-.members-text-left h2 {
+.members-text-left h3 {
   text-align: center;
   padding-top: -10%;
   padding-bottom: 4%;
@@ -1285,4 +1285,19 @@ ul {
   border-top: 1px solid #fff;
   margin: 20px auto;
   width: 100%;
+}
+
+
+.animate {
+  animation: fade-in 1s ease-in;
+  /* Add other animations like zoom-in, slide-down, and slide-up as needed */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
