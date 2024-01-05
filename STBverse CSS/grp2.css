@@ -131,7 +131,7 @@ html {
 }
 
 /*===============================
-    Grp3.html
+    Grp2.html
 =================================*/
 
 /* BANNER SECTION */
@@ -838,6 +838,7 @@ ul {
   color: #2a0800;
   font-family: "Poppins", sans-serif;
   flex: 1;
+  margin-left: 10%;
 }
 
 .members-text ul {
@@ -866,6 +867,7 @@ ul {
   color: #fff;
   font-family: "Poppins", sans-serif;
   flex: 1;
+  margin-top: 1%;
 }
 
 .members-ans ul {
@@ -888,7 +890,7 @@ ul {
   transition: transform 0.3s;
   margin-top: 10%;
   margin-right: -85px;
-  margin-left: 400%;
+  margin-left: 350%;
   float: left;
 }
 
@@ -926,6 +928,8 @@ ul {
   color: #fff;
   font-family: "Poppins", sans-serif;
   flex: 1;
+  margin-left: 6%;
+  margin-top: 1%;
 }
 
 .members-answer-left ul {

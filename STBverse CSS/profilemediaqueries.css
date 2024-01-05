@@ -561,23 +561,45 @@ body {
     transition: transform 0.3s;
     margin-top: 10%;
     margin-right: 50%;
-    margin-left: 85%;
+    margin-left: 120%;
   }
 
   .members-text ul {
     list-style: none;
-    padding-right: 15%;
+    padding-right: 10%;
+    padding-left: 15%;
     font-size: 17px;
     font-weight: 500;
+  }
+
+  .members-text h2 {
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-left: 63%;
+    font-size: 25px;
   }
 
   .members-ans ul {
     list-style: none;
     padding-right: 10%;
     padding-left: -20%;
-    padding-top: 14%;
+    padding-top: 12%;
     font-size: 17px;
     margin-bottom: 20px;
+    margin-right: 10%;
+  }
+
+  .members-text-left h2 {
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-right: 40%;
+    font-size: 25px;
+  }
+
+  .members-text-left ul {
+    list-style: none;
+    font-size: 17px;
+    margin-right: 60%;
   }
 
   .members-answer-left {
@@ -590,9 +612,9 @@ body {
     list-style: none;
     padding-right: 50%;
     padding-left: 10%;
-    padding-top: 9%;
+    padding-top: 6%;
     font-size: 17px;
-    margin-left: -50rem;
+    margin-left: -55rem;
   }
 
   .members-answer-left ul li {
@@ -676,9 +698,9 @@ body {
     list-style: none;
     padding-right: 50%;
     padding-left: 10%;
-    padding-top: 10%;
+    padding-top: 8%;
     font-size: 17px;
-    margin-left: -40rem;
+    margin-left: -45rem;
   }
 }
 
@@ -704,7 +726,7 @@ body {
     list-style: none;
     padding-right: 10%;
     padding-left: -20%;
-    padding-top: 15%;
+    padding-top: 13%;
     font-size: 15px;
     margin-bottom: 1%;
   }
@@ -718,6 +740,14 @@ body {
     margin-right: 50%;
     margin-left: 230%;
     float: left;
+  }
+
+  .members-answer-left ul {
+    font-size: 15px;
+  }
+
+  .members-text-left ul {
+    font-size: 15px;
   }
 }
 
@@ -739,6 +769,14 @@ body {
     font-size: 35px;
   }
 
+  .members-text h2 {
+    text-align: center;
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-left: 40%;
+    font-size: 20px;
+  }
+
   .members-text ul {
     list-style: none;
     padding-right: 15%;
@@ -750,7 +788,7 @@ body {
     list-style: none;
     padding-right: 10%;
     padding-left: -20%;
-    padding-top: 15%;
+    padding-top: 11%;
     font-size: 15px;
     margin-bottom: 0;
   }
@@ -786,10 +824,10 @@ body {
   .members-answer-left ul {
     list-style: none;
     padding-right: 50%;
-    padding-left: 10%;
+    padding-left: -1%;
     padding-top: 11%;
     font-size: 14px;
-    margin-left: -30rem;
+    margin-left: -35rem;
   }
 
   .members-facts h2 {
@@ -867,15 +905,22 @@ body {
 
   .members-text-left ul {
     list-style: none;
-    font-size: 15px;
-    margin-right: 60%;
+    font-size: 14px;
+    margin-right: 50%;
   }
+
+  .members-text-left h2 {
+    list-style: none;
+    font-size: 20px;
+    margin-right: -18%;
+  }
+
   .members-answer-left ul {
     list-style: none;
     padding-right: 50%;
     padding-left: 10%;
-    padding-top: 13%;
-    font-size: 15px;
+    padding-top: 9%;
+    font-size: 14px;
     margin-left: -30rem;
   }
 
@@ -990,13 +1035,13 @@ body {
   .members-text ul {
     list-style: none;
     padding-right: -10%;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
   }
 
   .members-ans ul {
     list-style: none;
-    padding-right: 30%;
+    padding-right: 10%;
     padding-left: -25%;
     padding-top: 17%;
     font-size: 14px;
@@ -1015,8 +1060,8 @@ body {
 
   .members-text-left ul {
     list-style: none;
-    font-size: 15px;
-    margin-right: 60%;
+    font-size: 14px;
+    margin-right: 50%;
   }
 
   .container-mem {
@@ -1094,17 +1139,24 @@ body {
     font-size: 12px;
   }
 
+  .members-text-left h2 {
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-right: 40%;
+    margin-right: 3%;
+  }
+
   .members-text-left ul {
     list-style: none;
     font-size: 12px;
-    margin-right: 60%;
+    margin-right: 55%;
   }
 
   .members-answer-left ul {
     list-style: none;
     padding-right: 20%;
     padding-left: 20%;
-    padding-top: 16%;
+    padding-top: 13%;
     font-size: 12px;
     margin-left: -30rem;
   }
@@ -1204,10 +1256,14 @@ body {
     float: left;
   }
 
+  .members-text-left h2 {
+    padding-left: 30%;
+  }
+
   .members-text-left ul {
     list-style: none;
     font-size: 10px;
-    margin-right: 55%;
+    margin-right: 40%;
     padding-left: 5%;
   }
 
@@ -1215,9 +1271,9 @@ body {
     list-style: none;
     padding-right: 20%;
     padding-left: 35%;
-    padding-top: 16%;
+    padding-top: 13%;
     font-size: 10px;
-    margin-left: -30rem;
+    margin-left: -28rem;
   }
 
   .members-facts h2 {
@@ -1297,6 +1353,10 @@ body {
     margin-left: 25%;
   }
 
+  .members-text h2 {
+    margin-left: -20%;
+  }
+
   .members-text ul {
     list-style: none;
     padding-right: -10%;
@@ -1308,7 +1368,7 @@ body {
     list-style: none;
     padding-right: 1%;
     padding-left: -25%;
-    padding-top: 22%;
+    padding-top: 25%;
     font-size: 9px;
   }
 
@@ -1326,7 +1386,7 @@ body {
   .members-text-left ul {
     list-style: none;
     font-size: 9px;
-    margin-right: 45%;
+    margin-right: 35%;
     padding-left: 5%;
   }
 
@@ -1334,9 +1394,9 @@ body {
     list-style: none;
     padding-right: 20%;
     padding-left: 50%;
-    padding-top: 18%;
+    padding-top: 14%;
     font-size: 9px;
-    margin-left: -30rem;
+    margin-left: -27rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1355,19 +1415,25 @@ body {
     font-size: 25px;
   }
 
+  .members-text h2 {
+    padding-left: 10%;
+    margin-top: -5%;
+  }
+
   .members-text ul {
-    list-style: none;
     padding-right: -10%;
     font-size: 8px;
     font-weight: 500;
+    margin-right: 10%;
+    margin-top: 5%;
   }
 
   .members-ans ul {
     list-style: none;
     padding-right: -3%;
-    padding-left: -10%;
-    padding-top: 28%;
     font-size: 8px;
+    margin-left: -10%;
+    margin-top: 5%;
   }
 
   .members-img2-right img {
@@ -1376,9 +1442,15 @@ body {
     height: auto;
     transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: 20px;
+    margin-right: 50px;
     margin-left: 125%;
     float: left;
+  }
+
+  .members-text-left h2 {
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-left: 15%;
   }
 
   .members-text-left ul {
@@ -1392,9 +1464,9 @@ body {
     list-style: none;
     padding-right: 20%;
     padding-left: 60%;
-    padding-top: 20%;
+    padding-top: 17%;
     font-size: 8px;
-    margin-left: -30rem;
+    margin-left: -29rem;
   }
 }
 @media screen and (max-width: 415px) {
@@ -1428,23 +1500,85 @@ body {
 
   .container-mem a {
     font-size: 9px;
+    padding: 10px 2px;
   }
 
-  .members-name h2 {
-    font-size: 25px;
+  .members-img img {
+    max-width: 150px;
+    transition: transform 0.3s;
+    margin-right: 10%;
+    margin-left: 30%;
   }
 
-  .members-profile {
-    flex-direction: column;
+  .members-text ul {
+    padding-right: 10%;
+    margin-top: 5%;
   }
 
-  .members-img {
-    order: 1;
+  .members-img2-right img {
+    max-width: 150px;
+    transition: transform 0.3s;
+    margin-top: 10%;
+    margin-right: -10%;
+    margin-left: 150%;
   }
 
-  .members-text {
-    order: 2;
+  .members-text-left h2 {
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-left: 55%;
+  }
+
+  .members-text-left ul {
+    list-style: none;
+    font-size: 8px;
+    margin-right: 20%;
+    padding-left: 5%;
+  }
+
+  .members-answer-left ul {
+    padding-right: 10%;
+    padding-left: 20%;
+    padding-top: 16%;
+    margin-left: -16rem;
   }
 }
-@media screen and (max-width: 380px) {
+
+@media screen and (max-width: 390px) {
+  .members-img img {
+    max-width: 120px;
+    transition: transform 0.3s;
+  }
+
+  .members-text ul {
+    margin-left: -10%;
+  }
+
+  .members-img2-right img {
+    max-width: 120px;
+    transition: transform 0.3s;
+    margin-top: 10%;
+    margin-right: -10%;
+    margin-left: 190%;
+  }
+
+  .members-text-left h2 {
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-left: 60%;
+  }
+
+  .members-text-left ul {
+    list-style: none;
+    font-size: 8px;
+    margin-right: 10%;
+    padding-left: 30%;
+  }
+
+  .members-answer-left ul {
+    padding-right: 10%;
+    padding-left: 20%;
+    padding-top: 16%;
+    margin-left: -12rem;
+  }
 }
