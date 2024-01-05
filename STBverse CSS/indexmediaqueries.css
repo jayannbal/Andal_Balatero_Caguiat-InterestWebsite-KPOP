@@ -1,6 +1,5 @@
-/* Media queries for different screen sizes */
-
 @media screen and (max-width: 1680px) {
+  
   body,
   input,
   textarea,
@@ -10,6 +9,7 @@
 }
 
 @media screen and (max-width: 1300px) {
+
   html {
     font-size: 55%;
   }
@@ -38,13 +38,13 @@
     width: 10px;
   }
 
-  /* Auto navigation buttons */
   .nav-auto {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 1230px) {
+
   .teamwrapper {
     display: flex;
     flex-wrap: nowrap;
@@ -53,7 +53,7 @@
 
   .teamcard {
     width: 30%;
-    margin: 0 auto; /* This will center the team cards horizontally */
+    margin: 0 auto; 
   }
 
   .teamcard img {
@@ -79,7 +79,6 @@
     margin: 0 5px;
   }
 
-  /* Display the team cards in a single column */
   #team h2 {
     font-size: 50px;
     letter-spacing: 50px;
@@ -88,6 +87,7 @@
 }
 
 @media screen and (max-width: 1150px) {
+
   .slider {
     width: 1000px;
     height: 700px;
@@ -98,9 +98,18 @@
     width: 100%;
     height: 700px;
   }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  } 
 }
 
 @media screen and (max-width: 995px) {
+
   body {
     background-size: cover;
     background-position: center center;
@@ -170,29 +179,53 @@
   .contact {
     min-height: auto;
   }
+
+  #aboutkpop {
+    padding: 10px 0;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0; 
+  }
+
+  .aboutkpop-content h2 {
+    font-size: 5rem;
+    margin-top: 5vh;
+  }
+
+  .right-box,
+  .left-box {
+    width: 95%;
+    margin: auto;
+    padding: 35px 5px;
+    text-align: justify;
+  }
+
+  .container-box {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 890px) {
   header {
-    padding: 10px 5%; /* Adjust the padding as per your design requirements */
-    justify-content: space-between; /* Place content at both end corners with space in between */
+    padding: 10px 5%; 
+    justify-content: space-between; 
   }
 
   header .navbar ul li {
-    float: none; /* Reset float for menu items */
-    display: inline-block; /* Display menu items horizontally */
+    float: none; 
+    display: inline-block; 
   }
 
   header .navbar ul li a {
-    padding: 20px 15px; /* Adjust padding for smaller screens */
+    padding: 20px 15px; 
   }
 
   #menu-bar {
-    display: none; /* Hide the menu bar on smaller screens or adjust as needed */
+    display: none; 
   }
 
   header label {
-    display: inline; /* Display the label inline for smaller screens */
+    display: inline; 
   }
 
   .slider {
@@ -205,29 +238,77 @@
     width: 100%;
     height: 500px;
   }
+
+  #latestupdate h1 {
+    font-size: 5rem;
+  }
+
+  .ytp-cued-thumbnail-overlay-image {
+    width: 70%;
+    height: 60px;
+    padding-top: 35.25%;
+  }
+
+  .ytp-large-play-button {
+    width: 70px;
+    height: 50px;
+  }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 14px;
+    right: 228.5px;
+    height: 22px;
+  }
+
+  .about-us-content h3 {
+    font-size: 5rem;
+  }
+
+  .left-box h1 {
+    font-size: 5rem;
+    margin-bottom: -25px;
+  }
+
+  .left-box h2 {
+    font-size: 5rem;
+  }
+
+  #team h2 {
+    font-size: 6rem;
+  }
+
+  .footer-col h4 {
+    margin-left: 20px;
+  }
+
+  .footer-col ul li a {
+    margin-left: 15px;
+  }
 }
 
 @media screen and (max-width: 800px) {
+
   header {
-    padding: 10px 5%; /* Adjust the padding as per your design requirements */
-    justify-content: space-between; /* Place content at both end corners with space in between */
+    padding: 10px 5%; 
+    justify-content: space-between; 
   }
 
   header .navbar ul li {
-    float: none; /* Reset float for menu items */
-    display: inline-block; /* Display menu items horizontally */
+    float: none;
+    display: inline-block;
   }
 
   header .navbar ul li a {
-    padding: 20px 15px; /* Adjust padding for smaller screens */
+    padding: 20px 15px;
   }
 
   #menu-bar {
-    display: none; /* Hide the menu bar on smaller screens or adjust as needed */
+    display: none;
   }
 
   header label {
-    display: inline; /* Display the label inline for smaller screens */
+    display: inline; 
   }
 
   .slider {
@@ -246,6 +327,38 @@
     background-position: center center;
   }
 
+  .left-box h1 {
+    font-size: 5rem;
+  }
+
+  .left-box h2 {
+    font-size: 3.5rem;
+  }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 30px;
+    right: 194px;
+    height: 22px;
+  }
+
+  .about-us-content h3 {
+    font-size: 36px; 
+  }
+
+  
+  .about-us-content p {
+    margin-left: 6%;
+    margin-right: 6%;
+    line-height: 1.3; 
+  }
+
+  .about-us-content p span {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.3;
+  }
+
   .footer-content {
     flex-direction: column;
   }
@@ -253,10 +366,22 @@
   .footer-social {
     margin-top: 20px;
   }
+
+  .footer-iconTop {
+    margin-top: 50px;
+  }
+
+  .footer-hr hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 20px auto;
+    width: 100%;
+  }
+  
 }
 
 @media screen and (max-width: 790px) {
-  /* Slider images */
+  
   .slider {
     width: 550px;
     height: 400px;
@@ -278,12 +403,35 @@
   .nav-auto {
     width: 90%;
   }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 32px;
+    right: 192px;
+    height: 22px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+
   body {
     background-size: contain;
     background-position: center center;
+  }
+
+  #latestupdate h1 {
+    font-size: 5rem;
+  }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 36px;
+    right: 183px;
+    height: 22px;
+  }
+
+  .about-us-content h3 {
+    font-size: 5rem; 
   }
 
   .footer-content {
@@ -296,6 +444,7 @@
 }
 
 @media screen and (max-width: 700px) {
+
   body {
     background-size: contain;
     background-position: center center;
@@ -306,9 +455,61 @@
     margin-top: 5px;
     height: 400px;
   }
+
+  .ytp-cued-thumbnail-overlay-image {
+    margin-top: 5px;
+    width: 70%;
+    height: 130px;
+    padding-top: 43.25%;
+  }
+
+  .ytp-large-play-button {
+    width: 70px;
+    height: 50px;
+    top: 75%;
+  }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 24px;
+    right: 154px;
+    height: 22px;
+  }
+
+  #team h2 {
+    letter-spacing: 40px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+  }
+
+  .footer-col h4 {
+    margin-left: 18px;
+  }
+
+  .footer-col ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-col .social-links a {
+    display: inline-block;
+    margin-top: 5vh;
+    width: 45px;
+    height: 45px;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+  }
 }
 
 @media screen and (max-width: 600px) {
+
   .teamcard {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -326,6 +527,72 @@
   .latestwrapper .caroussel {
     grid-auto-columns: 100%;
   }
+
+  .ytp-cued-thumbnail-overlay-image {
+    margin-top: 5px;
+    width: 80%;
+    height: 130px;
+  }
+
+  .ytp-large-play-button {
+    width: 70px;
+    height: 50px;
+    top: 75%;
+  }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 34px;
+    right: 124px;
+    height: 22px;
+  }
+
+  #team h2 {
+    letter-spacing: 30px;
+  }
+
+  .contact {
+    flex-basis: 100%;
+  }
+
+  .contact form {
+    max-width: 95%; 
+  }
+
+  .contact form .btn {
+    padding: 1rem 1.5rem; 
+    font-size: 1.2rem; 
+  }
+
+  .logopic {
+    width: 80px;
+  }
+
+  .footer-col h4 {
+    margin-left: 12px;
+  }
+
+  .footer-col ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .footer-col .social-links a {
+    display: inline-block;
+    margin-top: 5vh;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px -20px 0;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -339,28 +606,162 @@
 
   .slider {
     width: 400px;
-    height: 300px;
+    height: 500px;
+  }
+
+  .image-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .video-container {
+    width: 200px;
+    height: 100px;
+  }
+
+  #latestupdate h1 {
+    font-size: 4.5rem;
   }
 
   .latestwrapper .caroussel {
     grid-auto-columns: 100%;
   }
+
+  .card-content .ytp-impression-link-wrapper {
+    width: 130px;
+    bottom: 34px;
+    right: 86px;
+    height: 22px;
+  }
+
+  #team h2 {
+    font-size: 5rem;
+    letter-spacing: 30px;
+  }
+
+  .about-us-content h3 {
+    font-size: 4.5rem;
+  }
+  
+  footer {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-content {
+    display: block;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+
+  .footer-text {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .row {
+    width: 65%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .logopic {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .footer-col {
+    flex-basis: 100%;
+    padding: 0;
+  }
+
+  .footer-col h4 {
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    margin-left: -10px;
+  }
+
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .footer-col ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-col .social-links a {
+    display: inline-block;
+    margin-top: 5vh;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+  }
+
+  .footer-iconTop {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .footer-iconTop a {
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+  }
+
+  .footer-iconTop a i {
+    font-size: 2.4rem;
+  }
+
+  .footer-hr hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  .underline {
+    width: 70%;
+    height: 5px;
+    margin-top: 2px;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .underline span {
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    border-radius: 3px;
+    animation: moving 2s linear infinite;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  /* Slider images */
+
   .slider {
     width: 350px;
     height: 350px;
     margin: 0 auto;
-    left: 10%;
-    transform: translateX(-10%);
-  }
-
-  .st img {
-    margin: 0 auto;
-    width: 100%;
-    height: 350px;
+    transform: translateX(-5%);
   }
 
   /* Navigation buttons */
@@ -372,6 +773,127 @@
   .nav-auto {
     width: 90%;
   }
+
+  .left-box h2 {
+    font-size: 2.5rem;
+  }
+
+  #latestupdate {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  #latestupdate h1 {
+    font-size: 36px;
+  }
+
+  /* Center the content within .slide-container */
+  .slide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* Adjust card styles for smaller screens */
+  .card {
+    width: calc(33.33% - 5px);
+    height: 400px;
+    margin: 2.5px;
+    margin-left: auto;
+    border-radius: 25px;
+    background-color: #ffc894;
+  }
+
+  .image-container {
+    margin: 0 auto;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .image-container {
+    width: 130px;
+    height: 130px;
+  }
+
+  .video-container {
+    width: 300px;
+    height: 150px;
+    margin-top: 5px;
+  }
+
+  .image-container,
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .ytp-cued-thumbnail-overlay-image {
+    margin-top: 5px;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 130px;
+    padding-top: 30.25%;
+  }
+
+  .ytp-large-play-button {
+    width: 80px;
+    height: 60px;
+    top: 80%;
+    left: 50%;
+  }
+  
+  .ytp-large-play-button svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-content .ytp-impression-link-wrapper {
+    right: 10px;
+    width: 123px;
+    bottom: 17px;
+    right: 258.5px;
+    height: 22px;
+  }
+  
+  .card-content .ytp-impression-link {
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .card-content .ytp-impression-link-logo {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+
+  .swiper-pagination {
+    bottom: 5px; 
+  }
+  
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    margin: 0 3px; 
+  }
+
+  #team h2 {
+    letter-spacing: 25px;
+  }
 }
 
 @media screen and (max-width: 415px) {
@@ -381,7 +903,7 @@
     height: 350px;
     margin: 0 auto;
     left: 30%;
-    transform: translateX(-19%);
+    transform: translateX(-15%);
   }
 
   .st img {
@@ -402,12 +924,41 @@
 
   #aboutkpop {
     flex-direction: column;
-    padding: 10px 0;
+    padding: 20px;
   }
 
   .aboutkpop-content h2 {
     font-size: 3.5rem;
     margin-top: 10vh;
+  }
+
+  #aboutkpop .container-box {
+    flex-direction: column; 
+  }
+
+  #aboutkpop .left-box, #aboutkpop .right-box {
+    width: 100%;
+  }
+
+  #aboutkpop p {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+
+  .right-box {
+    margin: auto;
+    padding: 15px 5px;
+  }
+
+  .left-box h1 {
+    font-size: 4rem;
+    margin-bottom: -75px;
+  }
+
+  .left-box h2 {
+    font-size: 3rem;
   }
 
   .right-box p {
@@ -426,21 +977,127 @@
     width: 100%;
   }
 
+  #latestupdate h1 {
+    font-size: 4rem;
+  }
+
+  .about-us-content h3 {
+    font-size: 4rem;
+  }
+
+  .about-us-content p {
+    font-size: 18px;
+    margin-left: 6%;
+    margin-right: 6%;
+    line-height: 1.3; 
+  }
+
+  .about-us-content p span {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .left-box-us h4{
+    font-size: 17px; 
+    line-height: 1.3; 
+  }
+
+  .right-box-us h5 {
+    font-size: 17px; 
+    line-height: 1.3; 
+  }
+
+  .right-box-us h5 {
+    font-size: 17px; 
+    line-height: 1.3; 
+  }
+
+  .left-box-us p {
+    font-size: 14px; 
+  }
+
+  .right-box-us p {
+    font-size: 14px; 
+  }
+
+  #team h2 {
+    font-size: 40px;
+    letter-spacing: 20px;
+    margin-left: -25px;
+  }
+
+  .card-content .ytp-impression-link-wrapper {
+    right: 10px;
+    width: 123px;
+    bottom: 30px;
+    right: 207px;
+    height: 22px;
+  }
+
   .contact {
     flex-basis: 100%;
   }
 
   .contact form {
-    max-width: 95%; /* Adjust the maximum width as needed */
+    max-width: 95%; 
   }
 
   .contact form .btn {
-    padding: 1rem 1.5rem; /* Adjust the button padding as needed */
-    font-size: 1.2rem; /* Adjust the font size as needed */
+    padding: 1rem 1.5rem; 
+    font-size: 1.2rem; 
+  }
+
+  .footer-content {
+    padding: 5px 0; 
+  }
+
+  .row {
+    width: 60%;
+  }
+
+  .logopic {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .footer-col h4 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+  }
+
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .footer-col ul li a {
+    font-size: 12px;
+    margin-left: -15px;
+  }
+
+  .footer-col .social-links a {
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px 5px 0;
+    line-height: 40px;
+  }
+
+  .footer-iconTop {
+    flex-direction: column;
+  }
+
+  .footer-hr hr {
+    margin: 10px auto;
+  }
+
+  .underline {
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 390px) {
+
   .header {
     margin-bottom: 0;
   }
@@ -468,12 +1125,10 @@
     height: 250px;
   }
 
-  /* Navigation buttons */
   .m-btn {
     width: 0px;
   }
 
-  /* Auto navigation buttons */
   .nav-auto {
     width: 90%;
   }
@@ -482,7 +1137,7 @@
     padding: 10px 0;
     flex-direction: column;
     text-align: center;
-    margin-top: 0; /* Add this line to reduce the top margin */
+    margin-top: 0;
   }
 
   .aboutkpop-content h2 {
@@ -494,7 +1149,11 @@
   .left-box {
     width: 95%;
     margin: auto;
-    padding: 35px 5px; /* Adjust the padding as needed */
+    padding: 35px 5px;
+  }
+
+  .right-box p {
+    text-align: center;
   }
 
   .container-box {
@@ -503,9 +1162,13 @@
 
   #latestupdate {
     padding: 60px 0;
+    text-align: center;
   }
 
-  /* Center the content within .slide-container */
+  #latestupdate h1 {
+    font-size: 36px;
+  }
+  
   .slide-container {
     display: flex;
     justify-content: center;
@@ -513,7 +1176,6 @@
     flex-wrap: wrap;
   }
 
-  /* Adjust card styles for smaller screens */
   .card {
     width: calc(33.33% - 5px);
     height: 400px;
@@ -527,12 +1189,10 @@
     margin: 0 auto;
   }
 
-  /* Fit the image to the screen width */
   .image {
     width: 100%;
   }
 
-  /* Further adjustments for smaller screens */
   .name {
     font-size: 18px;
   }
@@ -542,7 +1202,6 @@
     margin-bottom: 10px;
   }
 
-  /* Center image and video containers for smaller screens */
   .image-container,
   .video-container {
     display: flex;
@@ -551,7 +1210,6 @@
     margin: 0 auto;
   }
 
-  /* Adjust the size of the video thumbnail for smaller screens */
   .ytp-cued-thumbnail-overlay-image {
     height: 100px;
     padding-top: 40%;
@@ -568,26 +1226,19 @@
   }
 
   .swiper-pagination {
-    bottom: 5px; /* Adjust as needed */
+    bottom: 5px; 
   }
 
-  /* Style Swiper Pagination Bullets for smaller screens */
   .swiper-pagination-bullet {
     width: 8px;
     height: 8px;
-    margin: 0 3px; /* Adjust the margin to your preference */
+    margin: 0 3px; 
   }
 
   .ytp-impression-link {
-    background: rgba(23, 23, 23, 0.8);
-    border-bottom-right-radius: 2px;
-    border-top-right-radius: 2px;
     bottom: 6px;
     right: 200px;
     height: 22px;
-    position: absolute;
-    display: flex; /* Add flex display to center content vertically */
-    align-items: center; /* Vertically center the content */
   }
 
   .ytp-impression-link-content {
@@ -608,6 +1259,66 @@
     margin-left: 9px;
     margin-right: 12px;
     width: 68px;
+  }
+
+  .about-us-content h3 {
+    font-size: 36px; 
+  }
+  
+  .about-us-content p {
+    font-size: 20px; 
+    line-height: 1.3; 
+  }
+
+  .about-us-content p span {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.3; 
+  }
+
+  .container-box {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .left-box h1 {
+    margin-bottom: -35px;
+  }
+  
+  .left-box-us h4 {
+    font-size: 20px; 
+    line-height: 1.3; 
+  }
+
+  .left-box-us p {
+    font-size: 14px; 
+    line-height: 1.6; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .right-box-us h4,
+  .right-box-us h5 {
+    font-size: 20px; 
+    line-height: 1.3;
+  }
+  
+  .right-box-us p {
+    font-size: 14px; 
+    line-height: 1.6; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .left-box-us,
+  .right-box-us {
+    width: 100%; 
+    margin: 0; 
+  }
+
+  #latestupdate h1 {
+    font-size: 4rem;
+    margin-bottom: -220px;
   }
 
   .teamcard {
@@ -635,9 +1346,9 @@
   }
 
   #team h2 {
-    font-size: 50px;
-    letter-spacing: 50px;
-    text-indent: 50px;
+    font-size: 36px;
+    letter-spacing: 20px;
+    margin-left: -25px;
   }
 
   .contact form {
@@ -645,191 +1356,53 @@
   }
 
   .contact form .btn {
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     font-size: 1.2rem;
   }
 
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    margin: auto;
-  }
-
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0;
-  }
-
-  .footer-text {
-    margin-top: 20px;
-  }
-
   .row {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    align-items: flex-start;
-    justify-content: space-between;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .header {
+    margin-bottom: 0;
   }
 
-  ul {
-    list-style: none;
-  }
-
-  .logopic {
-    width: 80px;
-    margin-bottom: 30px;
-  }
-
-  .footer-col {
-    flex-basis: 100%;
-    padding: 0 15px;
-  }
-
-  .footer-col h4 {
-    text-transform: capitalize;
-    font-size: 15px;
-    color: #ffffff;
-    margin-bottom: 30px;
-    font-weight: 200;
-    position: relative;
-    text-align: center;
-  }
-
-  .underline {
-    width: 70%;
-    height: 5px;
-    margin-top: 5px;
-    background: #bbbbbb;
-    position: absolute;
-    top: 25px;
-    left: 0;
-    border-radius: 3px;
-    overflow: hidden;
-  }
-
-  .underline span {
-    width: 100%;
-    height: 5px;
-    background: white;
-    position: absolute;
-    border-radius: 3px;
-    top: 0;
-    left: 10px;
-    animation: moving 2s linear infinite;
-  }
-
-  @keyframes moving {
-    0% {
-      left: -20px;
-    }
-    100% {
-      left: 100%;
-    }
-  }
-
-  .footer-col ul li:not(:last-child) {
+  .homepage {
     margin-bottom: 10px;
   }
 
-  .footer-col ul li a {
-    font-size: 18px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
-    transition: all 0.3s ease;
-    text-align: center; /* Center-align the text */
+  .slider {
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    margin-left: 12.5%;
+    transform: translateX(-33%);
+    margin-bottom: 0;
   }
 
-  .footer-col ul li a:hover {
-    color: #ffffff;
-    padding-left: 8px;
+  .slider {
+    margin-top: 30px;
   }
 
-  .footer-col .social-links a {
-    display: inline-block;
-    margin-top: 5vh;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
-    margin: 0 5px 5px 0;
-    text-align: center;
-    transition: all 0.5s ease;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;
-  }
-
-  .footer-col .social-links a:hover {
-    background-color: #ffffff;
-    color: #24262b;
-  }
-
-  .footer-iconTop {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center the content */
-  }
-
-  .footer-iconTop a {
-    display: inline-flex;
-    align-items: center;
-    margin: 10px;
-    margin-bottom: 15px;
-    padding: 0.5rem;
-    background: #e9925c;
-    border-radius: 0.8rem;
-    transition: 0.5s ease;
-  }
-
-  .footer-iconTop a:hover {
-    box-shadow: 0 0 1rem #b3cee5;
-  }
-
-  .footer-iconTop a i {
-    font-size: 2.4rem;
-    color: #333;
-  }
-
-  .footer-hr hr {
-    border: 0;
-    border-top: 1px solid #fff;
-    margin: 20px auto;
-    width: 100%; /* Adjust the width as needed */
-  }
-
-  .underline {
-    width: 70%;
-    height: 5px;
-    margin-top: 2px;
-    background: #bbbbbb;
-    position: absolute;
-    top: 50px; /* Adjust the top position */
-    left: 50%; /* Center the underline */
-    transform: translateX(-50%); /* Center the underline */
-    border-radius: 3px;
-    overflow: hidden;
-  }
-
-  .underline span {
+  .st img {
+    margin: 0 auto;
     width: 100%;
-    height: 5px;
-    background: white;
-    position: absolute;
-    border-radius: 3px;
-    top: 0;
-    left: 0; /* Adjust the left position */
-    animation: moving 2s linear infinite;
+    height: 250px;
+  }
+
+  .m-btn {
+    width: 0px;
+  }
+
+  .nav-auto {
+    width: 90%;
+  }
+
+  .left-box h1 {
+    margin-bottom: -25px;
   }
 }

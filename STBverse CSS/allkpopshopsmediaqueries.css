@@ -1,11 +1,10 @@
-/* Media Query for Screen Width: 1200px to 991px */
 @media screen and (max-width: 1200px) {
   html {
     font-size: 55%;
   }
 
   .swiper-slide {
-    width: 33.33%; /* Set the width to fit three slides */
+    width: 33.33%;
   }
 
   .swiper-button-next, .swiper-button-prev {
@@ -13,18 +12,25 @@
     height: 30px;
   }
 
-  #globalshops .globalcontainer {
-    width: 30%; /* Adjust the width as needed */
+  #globalshops .globalcontainer,
+  #localphysicalstores .localphysicalstorescontainer,
+  #twittershops .twittercontainer,
+  #localphysicalstores .localphysicalstorescontainer,
+  #twittershops .twittercontainer {
+    width: 30%;
     margin: 10px;
   }
 
-  .globalcontainer-link:hover .hover-content {
+  .globalcontainer-link:hover .hover-content,
+  .localphysicalstorescontainer-link:hover .hover-content,
+  .twittercontainer-link:hover .hover-content,
+  .localphysicalstorescontainer-link:hover .hover-content,
+  .twittercontainer-link:hover .hover-content {
     opacity: 1;
   }
 }
 
-/* Media Query for Screen Width: 990px to 768px */
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 995px) {
 
   header {
     padding: 20px;
@@ -63,44 +69,265 @@
     display: initial;
   }
 
-  
-
-
-  #globalshops .globalcontainer {
-    width: 45%; /* Adjust the width as needed */
-    margin: 10px;
+  #globalshops .globalcontainer,
+  #localphysicalstores .localphysicalstorescontainer,
+  #twittershops .twittercontainer {
+    width: 45%;
+    margin: 20px;
+    margin-top: 10vh;
   }
 
-  .globalcontainer-link:hover .hover-content {
+  .globalcontainer-link:hover .hover-content,
+  .localphysicalstorescontainer-link:hover .hover-content,
+  .twittercontainer-link:hover .hover-content {
     opacity: 1;
   }
+
+  .back-container {
+    margin-left: 250px;
+  }
+  
 }
 
-/* Media Query for Screen Width: 767px to 576px */
-@media screen and (max-width: 767px) {
-  #globalshops .globalcontainer {
-    width: 70%; /* Adjust the width as needed */
-    margin: 10px;
+@media screen and (max-width: 890px) {
+
+
+
+  #globalshops .globalcontainer:hover,
+  #localphysicalstores .localphysicalstorescontainer:hover,
+  #twittershops .twittercontainer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
   }
 
-  .globalcontainer-link:hover .hover-content {
-    opacity: 1;
+  .hover-content {
+    position: absolute;
+    color: #191a1c;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 20px;
+    animation: grow 0.5s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
+    justify-content: center;
   }
 
   .hover-content h2 {
-    font-size: 3rem; /* Adjust the font size as needed */
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    font-size: 5rem;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .back-container {
+    margin-top: -80px;
+    margin-left: 220px;
+  }
+
+  .footer-col h4 {
+    margin-left: 20px;
+  }
+
+  .footer-col ul li a {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .hover-content {
+    width: 100%;
+    height: 80%;
+  }
+
+  .hover-content h2 {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+
+  .back-container {
+    margin-top: -80px;
+    margin-left: 175px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+
+  .footer-iconTop {
+    margin-top: 50px;
+  }
+
+  .footer-hr hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 20px auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  #globalshops .globalcontainer,
+  #localphysicalstores .localphysicalstorescontainer,
+  #twittershops .twittercontainer {
+    width: 45%; 
+    margin: -10px;
+    margin-top: 50px;
+    margin-left: 12px; 
+    margin-right: 12px; 
+  }
+
+  .globalcontainer-link:hover .hover-content,
+  .localphysicalstorescontainer-link:hover .hover-content,
+  .twittercontainer-link:hover .hover-content {
+    opacity: 1;
+  }
+
+  .hover-content {
+    width: 100%;
+    height: 75%;
+  }
+
+  .hover-content h2 {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
   }
 
   .swiper-slide {
     margin: 0 10px;
   }
 
-  
+  .back-container {
+    margin-top: -120px;
+    margin-left: 155px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
 }
 
-/* Media Query for Screen Width: 575px to 300px */
+@media screen and (max-width: 700px) {
+
+  #globalshops .globalcontainer,
+  #localphysicalstores .localphysicalstorescontainer,
+  #twittershops .twittercontainer {
+    width: 45%; 
+    margin: -100px;
+    margin-top: 50px;
+    margin-left: 12px; 
+    margin-right: 12px; 
+  }
+
+  .hover-content {
+    width: 100%;
+    height: 70%;
+  }
+
+  .hover-content h2 {
+    font-size: 4.5rem;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+
+  .back-container {
+    margin-top: -140px;
+    margin-left: 120px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+  }
+
+  .footer-col h4 {
+    margin-left: 18px;
+  }
+
+  .footer-col ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-col .social-links a {
+    display: inline-block;
+    margin-top: 5vh;
+    width: 45px;
+    height: 45px;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .hover-content {
+    width: 100%;
+    height: 63%;
+  }
+
+  .hover-content h2 {
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
+  }
+
+  .back-container {
+    margin-top: -200px;
+    margin-left: 70px;
+  }
+
+  .logopic {
+    width: 80px;
+  }
+
+  .footer-col h4 {
+    margin-left: 12px;
+  }
+
+  .footer-col ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .footer-col .social-links a {
+    display: inline-block;
+    margin-top: 5vh;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px -20px 0;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+  }
+}
+
 @media screen and (max-width: 575px) {
 
   .swiper-wrapper {
@@ -108,55 +335,486 @@
   }
 
   .swiper-slide {
-    width: 100%; /* Set the width to 100% to center the slider */
-    margin: 0 auto; /* Center the slider horizontally */
+    width: 100%;
+    margin: 0 auto;
   }
 
   .swiper-button-next, .swiper-button-prev {
-    display: none; /* Hide the next and previous buttons for better centering */
+    display: none;
   }
 
   .swiper-button-next,
   .swiper-button-prev,
   .swiper-pagination {
     top: auto;
-    bottom: 10px; /* Adjust the value to your preference for vertical positioning */
+    bottom: 10px;
   }
     
-  #globalshops .globalcontainer {
-    width: 100%; /* Adjust the width as needed */
+  #globalshops .globalcontainer,
+  #localphysicalstores .localphysicalstorescontainer,
+  #twittershops .twittercontainer {
+    width: 75%;
+    height: 100%;
     margin: 10px;
-  }
-
-  .globalcontainer-link:hover .hover-content {
-    opacity: 1;
-  }
-
-  .hover-content h2 {
-    font-size: 2rem; /* Adjust the font size as needed */
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
-  
+
+  .globalcontainer-link:hover .hover-content,
+  .localphysicalstorescontainer-link:hover .hover-content,
+  .twittercontainer-link:hover .hover-content {
+    opacity: 1;
+  }
+
+  .hover-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hover-content h2 {
+    font-size: 5rem;
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
+  }
+
+  .back-container {
+    margin-top: -70px;
+    margin-left: 60px;
+  }
+
+  footer {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-content {
+    display: block;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+
+  .footer-text {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .row {
+    width: 65%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .logopic {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .footer-col {
+    flex-basis: 100%;
+    padding: 0;
+  }
+
+  .footer-col h4 {
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    margin-left: -10px;
+  }
+
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .footer-col ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-col .social-links a {
+    display: inline-block;
+    margin-top: 5vh;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+  }
+
+  .footer-iconTop {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .footer-iconTop a {
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+  }
+
+  .footer-iconTop a i {
+    font-size: 2.4rem;
+  }
+
+  .footer-hr hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  .underline {
+    width: 70%;
+    height: 5px;
+    margin-top: 2px;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .underline span {
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    border-radius: 3px;
+    animation: moving 2s linear infinite;
+  }
 }
 
-/* Apply styles for screens narrower than 300px */
-/* Media Query for Screen Width: 390px and below */
+@media screen and (max-width: 520px) {
+
+  #globalshops .globalcontainer,
+  #localphysicalstores .localphysicalstorescontainer,
+  #twittershops .twittercontainer {
+    width: 75%;
+    height: 100%;
+    margin: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .globalcontainer-link:hover .hover-content,
+  .localphysicalstorescontainer-link:hover .hover-content,
+  .twittercontainer-link:hover .hover-content {
+    opacity: 1;
+  }
+
+  .hover-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hover-content h2 {
+    font-size: 5rem;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+  }
+
+  .back-container {
+    margin-top: -70px;
+    margin-left: 40px;
+  }
+
+  footer {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-content {
+    display: block;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+
+  .footer-text {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .row {
+    width: 65%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .logopic {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .footer-col {
+    flex-basis: 100%;
+    padding: 0;
+  }
+
+  .footer-col h4 {
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    margin-left: -10px;
+  }
+
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .footer-col ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-col .social-links a {
+    display: inline-block;
+    margin-top: 5vh;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+  }
+
+  .footer-iconTop {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .footer-iconTop a {
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+  }
+
+  .footer-iconTop a i {
+    font-size: 2.4rem;
+  }
+
+  .footer-hr hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  .underline {
+    width: 70%;
+    height: 5px;
+    margin-top: 2px;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .underline span {
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    border-radius: 3px;
+    animation: moving 2s linear infinite;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  #globalshops .globalcontainer,
+  #localphysicalstores .localphysicalstorescontainer,
+  #twittershops .twittercontainer {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .hover-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hover-content h2 {
+    font-size: 5rem;
+    margin-top: 17vh;
+    margin-bottom: 17vh;
+  }
+
+  .banner-area h2 {
+    font-size: 4.5rem;
+  }
+
+  .back-container {
+    margin-top: -50px;
+    margin-left: 12.5px;
+  }
+
+  .footer-content {
+    padding: 5px 0; 
+  }
+
+  .row {
+    width: 60%;
+  }
+
+  .logopic {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .footer-col h4 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+  }
+
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .footer-col ul li a {
+    font-size: 12px;
+    margin-left: -15px;
+  }
+
+  .footer-col .social-links a {
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px 5px 0;
+    line-height: 40px;
+  }
+
+  .footer-iconTop {
+    flex-direction: column;
+  }
+
+  .footer-hr hr {
+    margin: 10px auto;
+  }
+
+  .underline {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+
+  .back-container {
+    margin-top: -80px;
+    margin-left: -20px;
+  }
+
+  .footer-content {
+    padding: 5px 0; 
+  }
+
+  .row {
+    width: 60%;
+  }
+
+  .logopic {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .footer-col h4 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+  }
+
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .footer-col ul li a {
+    font-size: 12px;
+    margin-left: -15px;
+  }
+
+  .footer-col .social-links a {
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px 5px 0;
+    line-height: 40px;
+  }
+
+  .footer-iconTop {
+    flex-direction: column;
+  }
+
+  .footer-hr hr {
+    margin: 10px auto;
+  }
+
+  .underline {
+    width: 90%;
+  }
+}
+
 @media screen and  (max-width: 390px) {
+
   .swiper-slide {
-    width: 100%; /* Set the width to 100% to center the slider */
-    margin: 0 auto; /* Center the slider horizontally */
+    width: 100%; 
+    margin: 0 auto;
   }
 
   .swiper-button-next, .swiper-button-prev {
-    display: none; /* Hide the next and previous buttons for better centering */
+    display: none;
   }
 
   .swiper-button-next,
   .swiper-button-prev,
   .swiper-pagination {
     top: auto;
-    bottom: 10px; /* Adjust the value to your preference for vertical positioning */
+    bottom: 10px;
+  }
+
+  .back-container {
+    margin-top: -70px;
+    margin-left: -30px;
+  }
+
+  .row {
+    width: 65%;
+  }
+  
+  #globalshops .globalcontainer,
+  #localphysicalstores .localphysicalstorescontainer,
+  #twittershops .twittercontainer {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .hover-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hover-content h2 {
+    font-size: 4rem;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
   }
 }
 

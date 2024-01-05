@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-/* Reset and Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -23,14 +22,12 @@
   --text-color: #191a1c;
 }
 
-/* Header Styles */
-/* Header Styles */
+
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  /* background: #ffffff; */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   padding: 10px 7%;
   display: flex;
@@ -147,8 +144,7 @@ html {
   height: 700px;
   border-radius: 30px;
   background: #ffaf7a;
-  box-shadow: 39px -39px 100px #ffffbd, -39px 39px 100px #ffffbd;
-
+  box-shadow: 22px -22px 30px #ffffbd, -22px 22px 30px #ffffbd;
   overflow: hidden;
 }
 
@@ -248,6 +244,7 @@ html {
 }
 
 /* Style the container within the additional content wrapper */
+/* Define the initial state of #aboutkpop */
 #aboutkpop {
   background-color: transparent;
   padding: 30px 0;
@@ -255,14 +252,15 @@ html {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-/* About Kpop Heading Styles */
-.aboutkpop-content h2 {
-  font-size: 4.5rem;
-  text-align: left;
-  line-height: 1.2;
-  margin-top: 20vh;
+#aboutkpop.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 /* Right Box (Text) Styles */
@@ -275,10 +273,21 @@ html {
 }
 
 /* Left Box (Image) Styles */
-.left-box h2 {
-  font-size: 4.5rem;
+.left-box h1 {
+  font-size: 5rem;
   line-height: 1.5;
-  color: #191a1c;
+  background: linear-gradient(to right, #ff6b08, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin: 0;
+}
+
+.left-box h2 {
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
   text-align: center;
   margin: 0;
 }
@@ -314,18 +323,28 @@ html {
   text-align: center;
   border-radius: 39px;
   background: #ffaf7a;
-  box-shadow: 19px 19px 50px #ffffbd, -19px 19px 50px #ffffbd;
-  padding: 20px; /* Increase the padding for more spacing */
+  box-shadow: 9px -9px 30px #ffffbd, -9px 9px 30px #ffffbd;
+  padding: 20px;
   border-radius: 10px;
-  width: 40%; /* Adjust the width of the container area as needed */
-  margin-left: auto; /* Move the container to the right */
-  margin-right: 60px; /* Add margin to the right side */
+  width: 40%;
+  margin-left: auto;
+  margin-right: 60px;
 }
 
+/* LATEST NEWS */
 #latestupdate {
   background-color: transparent;
   padding: 120px 0;
   text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#latestupdate.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 /* Slide Container Styles */
@@ -351,6 +370,16 @@ html {
   justify-content: center;
   max-width: 960px;
   width: 100%;
+}
+
+#latestupdate h1 {
+  font-size: 50px;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 20vh;
+  margin-bottom: -180px;
 }
 
 /* Card Styles */
@@ -424,7 +453,7 @@ html {
 .name {
   margin-top: 10px;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 700;
   color: #191a1c;
 }
 
@@ -489,6 +518,59 @@ html {
   opacity: 1;
 }
 
+.image-container1 {
+  position: relative;
+  margin-top: 15px;
+  width: 230px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: all 0.3s;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.image-container1 .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s;
+}
+
+.image-container1:hover .image {
+  opacity: 0; /* Hide the default image on hover */
+  transform: scale(1.1);
+}
+
+.image-container1 a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; /* Adjust the size of the link container as needed */
+  height: 50px; /* Adjust the size of the link container as needed */
+  background: #1db954; /* Background color for the link */
+  border-radius: 50%;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.image-container1 a i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.image-container1:hover a {
+  opacity: 1;
+}
+
 .video-container {
   position: relative;
   margin-top: 15px;
@@ -526,17 +608,40 @@ html {
   fill: #fff;
 }
 
-.ytp-impression-link {
+
+.card-content .ytp-impression-link-wrapper {
+  position: absolute;
+  right: 10px;
   background: rgba(23, 23, 23, 0.8);
+  width: 123px;
+  bottom: 23px;
+  right: 140.5px;
+  height: 22px;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
-  bottom: 22px;
-  right: 131.5px;
-  height: 22px;
-  position: absolute;
-  display: flex; /* Add flex display to center content vertically */
-  align-items: center; /* Vertically center the content */
 }
+
+.card-content .ytp-impression-link {
+  text-decoration: none;
+  color: #fff; /* Link color */
+  font-size: 12px;
+}
+
+.card-content .ytp-impression-link-content {
+  display: flex;
+  align-items: center;
+}
+
+.card-content .ytp-impression-link-logo {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.card-content .ytp-impression-link-logo path.ytp-svg-fill {
+  fill: white;
+}
+
 
 .swiper-navBtn {
   color: #191a1c;
@@ -588,38 +693,163 @@ html {
 #about-us {
   background-color: transparent;
   padding: 20px 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#about-us.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .about-us-content {
   text-align: center;
 }
 
-.about-us-content h2 {
+.about-us-content h3 {
   font-size: 50px;
-  color: white;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
   margin-bottom: 20px;
 }
 
 .about-us-content p {
-  font-size: 16px;
+  font-size: 22px;
+  font-weight: 800;
   line-height: 1.5;
-  color: white;
+  color: transparent; 
   margin: 0 auto;
+  max-width: 1000px;
+  background-image: linear-gradient(45deg,#ff6b08, #ff7c9d, #ffba8d, #cf23cf, #eedd44, #ff6b08);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.about-us-content p span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container-box-us {
+  margin-top: 20px;
+}
+
+/* Left Box (Image) Styles */
+.left-box-us h4 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin: 0;
+}
+
+.left-box-us p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: white;
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
   max-width: 1000px;
 }
 
-/*TEAM*/
-
-.container + div {
-  margin-top: 40px;
+.right-box-us h4 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin: 0;
 }
 
-.container {
+.right-box-us h5 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  background: linear-gradient(to right, #ff6b08, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin: 0;
+}
+
+.right-box-us p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: white;
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  max-width: 1000px;
+}
+
+/* Styling for the span within the heading */
+.left-box-us h2 span {
+  color: #ffffff;
+}
+
+.container-box-us {
+  display: flex;
+}
+
+/* Left Box Styles */
+.left-box {
+  flex: 1;
+  text-align: center;
+  border-radius: 39px;
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  margin-right: auto;
+  margin-left: 60px;
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin-top: 15vh;
+}
+
+/* Right Box Styles */
+.right-box {
+  flex: 1;
+  text-align: center;
+  border-radius: 39px;
+  background: #ffaf7a;
+  box-shadow: 9px -9px 30px #ffffbd, -9px 9px 30px #ffffbd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: 60px; 
+}
+
+
+/*TEAM*/
+
+.teamcontainer + div {
+  margin-top: 60px;
+}
+
+.teamcontainer {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 200px auto;
   padding-left: -40px; /* Adjust the left padding as needed */
   padding-right: -40px; /* Adjust the right padding as needed */
   padding-bottom: 20vh;
+  margin-bottom: 5vh;
 }
 
 .teamwrapper {
@@ -630,11 +860,24 @@ html {
 
 #team h2 {
   font-size: 50px;
-  color: white;
+  font-weight: 800;
+  color: transparent;
+  background-image: linear-gradient(45deg,#ff6b08, #ff7c9d, #ffba8d, #ff7c9d);
+  -webkit-background-clip: text;
+  background-clip: text;
   text-align: center;
   padding-bottom: 3vh;
   letter-spacing: 100px;
   text-indent: 100px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#team h2.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .teamcard {
@@ -650,6 +893,15 @@ html {
   box-shadow: 0px 8px 11px rgba(0, 0, 0, 1);
   transition: 0.5s ease-in-out;
   overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.teamcard.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .teamcard:hover {
@@ -755,10 +1007,26 @@ html {
 }
 
 .teamcard .info a:hover {
-  color: #ffffe4;
+  background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 /*---------CONTACT SECTION---------*/
+
+.contact {
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.contact.show {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
 
 .btn {
   display: inline-block;
@@ -791,6 +1059,11 @@ html {
 .contact h2 {
   margin-bottom: 2rem;
 }
+
+.contact h2 span {
+  color: white;
+}
+
 
 .contact form {
   max-width: 70rem;
@@ -841,14 +1114,12 @@ html {
   transform: scale(0.95);
 }
 
+
+
 .contact form .btn:hover {
-  background: linear-gradient(
-    to bottom right,
-    #e9925c,
-    #837a55
-  ); /* Replace these colors with your desired gradient */
+  background: linear-gradient(45deg, #ff6b08, #ff7c9d, #ffba8d, #ff7c9d, #ff6b08);
   transform: scale(1.1);
-  color: linear-gradient(to bottom right, #837a55, #e9925c);
+  color: black;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 
@@ -857,6 +1128,7 @@ html {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-bottom: 22vh;
 }
 
 #msg {
@@ -888,11 +1160,12 @@ footer {
 }
 
 .footer-text {
+  font-size: 16px;
   margin-top: 20px;
 }
 
 .row {
-  width: 85%;
+  width: 95%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -906,7 +1179,7 @@ ul {
 }
 
 .logopic {
-  width: 80px;
+  width: 100px;
   margin-bottom: 30px;
 }
 
@@ -986,13 +1259,14 @@ ul {
 .footer-col .social-links a {
   display: inline-block;
   margin-top: 1; /* Add a value here */
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 10px 10px 0;
   text-align: center;
   transition: all 0.5s ease;
-  line-height: 40px;
+  line-height: 50px;
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease;
@@ -1032,5 +1306,5 @@ ul {
   border: 0;
   border-top: 1px solid #fff;
   margin: 20px auto;
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
 }

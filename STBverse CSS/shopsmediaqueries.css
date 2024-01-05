@@ -1,0 +1,129 @@
+@media screen and (max-width: 1300px) {
+
+    html {
+      font-size: 55%;
+    }
+  
+    body {
+      background-size: cover;
+      background-position: center center;
+    }
+  
+    .slider {
+      width: 1150px;
+      height: 700px;
+    }
+  
+    .st img {
+      margin: 0 auto;
+      width: 100%;
+      height: 700px;
+    }
+  
+    .latestwrapper .caroussel {
+      grid-auto-columns: calc((100% / 3) - 12px);
+    }
+  
+    .m-btn {
+      width: 10px;
+    }
+  
+    .nav-auto {
+      width: 100%;
+    }
+
+    #kpopshops {
+        justify-content: flex-start; 
+        overflow-x: hidden;
+      }
+    
+      #kpopshops .kpopcontainer{
+        width: 410px; 
+        height: 410px; 
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+      #kpopshops .kpopcontainer{
+        width: 375px; 
+        height: 375px; 
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+}
+  
+@media screen and (max-width: 1150px) {
+
+  #kpopshops .kpopcontainer{
+    width: 360px; 
+    height: 360px; 
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+    
+    #kpopshops .kpopcontainer{
+    width: 315px; 
+    height: 315px; 
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+    
+    #kpopshops .kpopcontainer{
+    width: 280px; 
+    height: 280px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    #kpopshops .kpopcontainer{
+    width: 250px; 
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    
+    #kpopshops .kpopcontainer{
+    width: 240px; 
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+    
+    #kpopshops .kpopcontainer{
+    width: 220px; 
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    
+    #kpopshops .kpopcontainer{
+    width: 185px; 
+    height: 185px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+
+    #kpopshops .kpopcontainer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+

@@ -51,7 +51,9 @@ body {
   }
 }
 
+
 /* ICONS SECTION */
+
 @media screen and (max-width: 1070px) {
   .icons {
     width: 80px;
@@ -93,6 +95,20 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+  }
+  .icons {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: #fff;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 100px;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, 0.3);
+    transition: all 0.3s ease-out;
   }
 }
 
@@ -318,19 +334,6 @@ body {
     /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
   }
 
-  /* FAMILY SITE SECTION
-  @media screen and (max-width: 600px) and (max-width: 991px) {
-    .family-site {
- 
-      height: 17vh;
-    }
-
-
-    .icons {
-      width: 100%; 
-      margin: 10px 0; 
-    }
-  } */
 
   @media screen and (max-width: 600px) {
     .icons {
@@ -522,6 +525,7 @@ body {
     z-index: 1;
   }
 }
+
 
 @media screen and (max-width: 380px) {
   .group-img img {
@@ -1582,3 +1586,4 @@ body {
     margin-left: -12rem;
   }
 }
+
