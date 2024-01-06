@@ -38,10 +38,6 @@ header {
   opacity: 0.6;
 }
 
-
-
-
-
 header:hover {
   position: fixed;
   background: #ffffff;
@@ -111,7 +107,7 @@ header label {
 }
 
 body {
-  min-height: 120vh;
+  min-height: 150vh;
   background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
   background-size: cover;
   background-position: center;
@@ -137,6 +133,7 @@ html {
 
 .container1 img {
   width: 100%;
+  margin-left: -35px;
 }
 
 .container1 img:hover {
@@ -186,6 +183,7 @@ html {
 .container3 {
   height: 200px;
   width: 60rem;
+  margin-left: -35px;
   background-color: transparent;
 }
 
@@ -243,6 +241,7 @@ html {
   color: black;
   background-color: #ddd;
   opacity: 75%;
+  margin-top: 180px;
   margin-left: 20rem;
   margin-right: 1rem;
 }
