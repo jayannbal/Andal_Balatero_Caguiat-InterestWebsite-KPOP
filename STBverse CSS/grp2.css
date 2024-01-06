@@ -830,7 +830,7 @@ ul {
   height: auto;
   transition: transform 0.3s;
   margin-top: 10%;
-  margin-right: 50%;
+  margin-right: 70%;
   margin-left: 60%;
 }
 
@@ -883,7 +883,7 @@ ul {
   text-align: left;
 }
 
-.members-img-right img {
+.members-img2-right img {
   border-radius: 2.5rem;
   max-width: 300px;
   height: auto;
@@ -898,7 +898,7 @@ ul {
   color: #2a0800;
   font-family: "Poppins", sans-serif;
   flex: 1;
-  margin-left: -5rem;
+  margin-left: -10rem;
   font-weight: 500;
 }
 
@@ -928,17 +928,17 @@ ul {
   color: #fff;
   font-family: "Poppins", sans-serif;
   flex: 1;
-  margin-left: 6%;
-  margin-top: 1%;
+  margin-left: 15%;
+  margin-top: 2%;
 }
 
 .members-answer-left ul {
   list-style: none;
   padding-right: 10%;
-  padding-left: 20%;
+  padding-left: 50%;
   padding-top: 10%;
   font-size: 17px;
-  margin-left: -45rem;
+  margin-left: -30rem;
 }
 
 .members-answer-left ul li {
