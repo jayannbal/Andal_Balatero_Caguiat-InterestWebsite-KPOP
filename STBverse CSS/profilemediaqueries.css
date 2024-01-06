@@ -344,6 +344,15 @@ body {
       font-size: 14px;
       line-height: 55px;
     }
+<<<<<<< Updated upstream
+=======
+
+    /* Adjust the width and margin for icons 
+    .icons {
+       width: 100%; Make icons take full width of the container 
+       margin: 10px 0; Add margin for spacing between icons 
+    } */
+>>>>>>> Stashed changes
   }
 
   @media screen and (max-width: 520px) {
@@ -1240,6 +1249,7 @@ body {
     font-size: 10px;
     font-weight: 500;
   }
+<<<<<<< Updated upstream
 
   .members-ans ul {
     list-style: none;
@@ -1587,3 +1597,6 @@ body {
   }
 }
 
+=======
+}
+>>>>>>> Stashed changes
