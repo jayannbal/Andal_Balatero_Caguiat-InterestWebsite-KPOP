@@ -36,16 +36,17 @@ h1 {
   font-size: 45px;
   position: relative;
   margin: 100px 0px 30px 0;
+  color: transparent;
+  background-image: linear-gradient(45deg, #ff6b08, #ff7c9d, #ffba8d, #ff7c9d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
 }
 
 h1::before {
   content: "";
   position: absolute;
   width: 150px;
-  height: 2px;
-  background-color: rgb(144, 12, 38);
-  bottom: 5px;
-  left: 50%;
   transform: translateX(-50%);
   animation: animate 4s linear infinite;
 }
@@ -58,7 +59,7 @@ h1::before {
     width: 200px;
   }
   100% {
-    width: 100px;
+    width: 250px;
   }
 }
 
@@ -75,7 +76,7 @@ h1::before {
 
 h3 {
   height: 100%;
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(119, 118, 118);
   line-height: 60px;
   padding: 0 50px;
   color: white;
@@ -98,6 +99,7 @@ label {
 
 label:hover {
   color: black;
+  font-weight: bold;
 }
 
 .photo-gallery {
@@ -198,6 +200,22 @@ label:hover {
   transform: scale(0);
   position: absolute;
   transition: 0s;
+}
+
+#check1:checked ~ .gallery-container .photo-gallery .pic:hover,
+#check2:checked ~ .gallery-container .photo-gallery .svt:hover,
+#check2:checked ~ .gallery-container .photo-gallery .bp:hover,
+#check2:checked ~ .gallery-container .photo-gallery .txt:hover,
+#check3:checked ~ .gallery-container .photo-gallery .txt:hover,
+#check3:checked ~ .gallery-container .photo-gallery .bp:hover,
+#check3:checked ~ .gallery-container .photo-gallery .svt:hover,
+#check4:checked ~ .gallery-container .photo-gallery .bp:hover,
+#check4:checked ~ .gallery-container .photo-gallery .txt:hover,
+#check4:checked ~ .gallery-container .photo-gallery .svt:hover {
+  transform: scale(0.9);
+  transition: 0.5 ease;
+  background: linear-gradient(rgba(102, 232, 255, 0.5), #ffdbd9);
+  box-shadow: 0 0 5rem #ffdbd9;
 }
 
 /*---------FOOTER SECTION---------*/

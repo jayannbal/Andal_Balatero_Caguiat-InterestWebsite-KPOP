@@ -1,0 +1,929 @@
+@media screen and (max-width: 2000px) {
+  label {
+    font-size: 18px;
+    margin: 0 80px;
+    padding: 0 50px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 70px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 400px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 1830px) {
+  label {
+    font-size: 18px;
+    margin: 0 70px;
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  label {
+    font-size: 18px;
+    margin: 0 80px;
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  label {
+    font-size: 18px;
+    margin: 0 75px;
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 1660px) {
+  label {
+    font-size: 18px;
+    margin: 0 70px;
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 1615px) {
+  label {
+    font-size: 18px;
+    margin: 0 65px;
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 1560px) {
+  label {
+    font-size: 18px;
+    margin: 0 60px;
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  label {
+    font-size: 18px;
+    margin: 0 55px;
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 1475px) {
+  label {
+    font-size: 18px;
+    margin: 0 50px;
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  label {
+    font-size: 18px;
+    margin: 0 50px;
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  label {
+    font-size: 18px;
+    margin: 0 40px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  label {
+    font-size: 18px;
+    margin: 0 35px;
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 70px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 400px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  label {
+    font-size: 18px;
+    margin: 0 25px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  label {
+    font-size: 18px;
+    margin: 0 30px;
+    padding: 0 15px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  label {
+    font-size: 18px;
+    margin: 0 25px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  label {
+    font-size: 16px;
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  label {
+    font-size: 16px;
+    margin: 0 25px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 70px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 400px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 938px) {
+  label {
+    font-size: 16px;
+    margin: 0 20px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 65px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 350px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 905px) {
+  label {
+    font-size: 15px;
+    margin: 0 15px;
+  }
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 30px;
+    color: white;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  label {
+    font-size: 15px;
+    margin: 0 11px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 28px;
+    color: white;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  label {
+    font-size: 15px;
+    margin: 0 8px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  label {
+    font-size: 14px;
+    margin: 0 12px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 55px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 300px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 30px;
+    color: white;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  label {
+    font-size: 13px;
+    margin: 0 5px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 300px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  label {
+    font-size: 13px;
+    margin: 0 8px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 300px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 25px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  label {
+    font-size: 12px;
+    margin: 0 8px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 300px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 25px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  label {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 200px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 25px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  label {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 20px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  label {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 15px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  label {
+    font-size: 11px;
+    margin: 0 5px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 12px;
+    color: white;
+    font-size: 11px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  label {
+    font-size: 11px;
+    margin: 0 3px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 12px;
+    color: white;
+    font-size: 11px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  label {
+    font-size: 10px;
+    margin: 0 3px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 12px;
+    color: white;
+    font-size: 10px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  label {
+    font-size: 10px;
+    margin: 0 1px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 3px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 150px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 60px;
+    padding: 0 5px;
+    color: white;
+    font-size: 10px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  label {
+    font-size: 10px;
+    margin: 0 3px;
+    line-height: 30px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 3px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 150px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 30px;
+    padding: 0 8px;
+    color: white;
+    font-size: 10px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    font-size: 9px;
+    margin: 0 3px;
+    line-height: 30px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 3px;
+    background-color: rgb(144, 12, 38);
+    bottom: 5px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 150px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 30px;
+    padding: 0 8px;
+    color: white;
+    font-size: 8px;
+  }
+
+  .photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  label {
+    font-size: 9px;
+    margin: 0 1px;
+    line-height: 30px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 30px;
+    padding: 0 8px;
+    color: white;
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  label {
+    font-size: 8px;
+    margin: 0 1px;
+    line-height: 30px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 30px;
+    padding: 0 6px;
+    color: white;
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  label {
+    font-size: 8px;
+    margin: 0 2px;
+    line-height: 30px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 30px;
+    padding: 0 6px;
+    color: white;
+    font-size: 8px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 3px;
+    background-color: rgb(144, 12, 38);
+    bottom: 3px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 120px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 260px) {
+  label {
+    font-size: 8px;
+    margin: 0 2px;
+    line-height: 30px;
+  }
+
+  h3 {
+    height: 100%;
+    background-color: rgb(119, 118, 118);
+    line-height: 30px;
+    padding: 0 5px;
+    color: white;
+    font-size: 8px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    margin: 100px 0px 30px 0;
+  }
+
+  h1::before {
+    width: 120px;
+    height: 2px;
+    background-color: rgb(144, 12, 38);
+    bottom: 2px;
+    left: 50%;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 100px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
