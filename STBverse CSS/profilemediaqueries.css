@@ -51,7 +51,6 @@ body {
   }
 }
 
-
 /* ICONS SECTION */
 
 @media screen and (max-width: 1070px) {
@@ -334,7 +333,6 @@ body {
     /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
   }
 
-
   @media screen and (max-width: 600px) {
     .icons {
       width: 50px;
@@ -344,15 +342,6 @@ body {
       font-size: 14px;
       line-height: 55px;
     }
-<<<<<<< Updated upstream
-=======
-
-    /* Adjust the width and margin for icons 
-    .icons {
-       width: 100%; Make icons take full width of the container 
-       margin: 10px 0; Add margin for spacing between icons 
-    } */
->>>>>>> Stashed changes
   }
 
   @media screen and (max-width: 520px) {
@@ -535,7 +524,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 380px) {
   .group-img img {
     border-radius: 2.5rem;
@@ -567,15 +555,15 @@ body {
     color: #fff;
   }
 
-  .members-img img {
+  /* .members-img img {
     border-radius: 2.5rem;
     max-width: 300px;
     height: auto;
     transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: 50%;
+    margin-right: 10%;
     margin-left: 120%;
-  }
+  } */
 
   .members-text ul {
     list-style: none;
@@ -633,17 +621,6 @@ body {
   .members-answer-left ul li {
     text-align: left;
   }
-
-  .members-img2-right img {
-    border-radius: 2.5rem;
-    max-width: 300px;
-    height: auto;
-    transition: transform 0.3s;
-    margin-top: 10%;
-    margin-right: 20%;
-    margin-left: 350%;
-    float: left;
-  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -673,16 +650,6 @@ body {
     margin-bottom: 15px;
   }
 
-  .members-img2-right img {
-    border-radius: 2.5rem;
-    max-width: 300px;
-    height: auto;
-    transition: transform 0.3s;
-    margin-top: 10%;
-    margin-right: 20px;
-    margin-left: 240%;
-    float: left;
-  }
   .members-text-left h2 {
     text-align: center;
     padding-top: -10%;
@@ -1249,7 +1216,6 @@ body {
     font-size: 10px;
     font-weight: 500;
   }
-<<<<<<< Updated upstream
 
   .members-ans ul {
     list-style: none;
@@ -1596,7 +1562,3 @@ body {
     margin-left: -12rem;
   }
 }
-
-=======
-}
->>>>>>> Stashed changes
