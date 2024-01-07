@@ -1,0 +1,650 @@
+@media screen and (max-width: 1700px) {
+
+    html {
+        font-size: 62.5%;
+        overflow-x: hidden;
+    }
+
+    body {
+        min-height: 110vh; /* Adjusted to 100% of the viewport height */
+        background-image: linear-gradient(to bottom right, #837a55, #90443f, #e9925c);
+        background-size: cover;
+        background-position: center;
+    }
+      
+
+    .main-container {
+        margin-top: 120px;
+    }
+
+    .header-upper1 {
+        margin-left: 50px;
+    }
+      
+    .header-upper2 {
+        padding: 120px;
+        margin-left: -135px;
+    }
+
+    .responsive-break {
+        padding: 50px;
+    }
+
+    .container5 a {
+        margin-top: 250px;
+    }
+}  
+
+@media screen and (max-width: 1645px) {
+
+    .header-upper2 {
+        margin-left: -115px;
+    }
+
+    .container5 a {
+        margin-top: 480px;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+
+    body {
+        min-height: 110vh;
+    }
+
+    .header-upper1 {
+        margin-left: 10px;
+        margin-right: -120px;
+    }
+
+    .header-upper2 {
+        margin-left: -110px;
+        margin-right: -150px;
+    }
+
+    .container5 a {
+        margin-top: 400px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+
+
+    body {
+        min-height: 140vh;
+    }
+
+    .main-container {
+        margin-left: 130px;
+    }
+
+    .container3 {
+        margin-left: -55px;
+    }
+
+    .header-upper1 {
+        margin-left: -35px;
+        margin-right: 50px;
+    }
+
+    .header-upper2 {
+        margin-right: -160px;
+    }
+
+    .container5 a {
+        margin-top: 570px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+
+
+    body {
+        min-height: 145vh;
+    }
+
+    .main-container {
+        margin-left: 130px;
+    }
+
+    .container3 {
+        margin-left: -55px;
+    }
+
+    .header-upper1 {
+        margin-right: 120px;
+        margin-left: -35px;
+    }
+
+    .header-upper2 {
+        margin-top: 30px;
+        margin-right: -280px;
+        margin-left: -70px;
+    }
+
+    .container5 a {
+        margin-top: 530px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    body {
+        min-height: 145vh;
+    }
+
+    .header-upper1 {
+        margin-right: 80px;
+    }
+
+    .container3 {
+        margin-top: -45px;
+    }
+
+    .header-upper2 {
+        margin-top: 40px;
+        margin-right: -300px;
+    }
+
+    .container5 a {
+        margin-top: 550px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+
+    body {
+        min-height: 150vh;
+    }
+
+    .main-container {
+        margin-left: 80px;
+    }
+
+    .container3 {
+        margin-top: -75px;
+        margin-left: -100px;
+    }
+
+    .container3 button {
+        padding: 15px 125px;
+    }
+
+    .header-upper1 {
+        margin-right: 80px;
+    }
+
+    .header-upper2 {
+        margin-top: 80px;
+        margin-right: -250px;
+    }
+
+    .container5 a {
+        margin-top: 610px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    body {
+        min-height: 160vh;
+    }
+
+    .container3 button {
+        font-size: 17px;
+        padding: 15px 125px;
+    }
+
+    .header-upper1 {
+        margin-right: 50px;
+    }
+
+    .header-upper2 {
+        margin-top: 120px;
+        margin-left: -50px;
+        margin-right: -320px;
+    }
+
+    .container5 a {
+        margin-top: 680px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    body {
+        min-height: 180vh;
+    }
+
+    .container3 {
+        margin-top: -120px;
+    }
+
+    .container3 h3 {
+        font-size: 22px;
+    }
+      
+    .container3 p3 {
+        font-size: 17px;
+    }
+
+    .container3 button {
+        font-size: 17px;
+        padding: 15px 115px;
+    }
+
+    .header-upper1 {
+    }
+
+    .header-upper2 {
+        margin-top: 150px;
+    }
+
+    .container5 a {
+        margin-top: 720px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    body {
+        min-height: 100vh;
+    }
+    
+    .main-container {
+        margin-top: 80px;
+    }
+
+    .container3 {
+        margin-top: -150px;
+        margin-left: -105px;
+    }
+
+    .container3 h3 {
+        font-size: 18px;
+    }
+      
+    .container3 p3 {
+        font-size: 14px;
+    }
+
+    .container3 button {
+        font-size: 14px;
+        padding: 15px 95px;
+    }
+
+    .header-upper1 {
+        font-size: 14px;
+        margin-right: 10px;
+        margin-left: -35px;
+    }
+
+    .header-upper2 {
+        font-size: 14px;
+        margin-top: -130px;
+        margin-left: -45px;
+        margin-right: -450px;
+    }
+
+    .responsive-break {
+        padding: 45px;
+    }
+
+    .container5 a {
+        margin-top: 180px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+
+    .container3 h3 {
+        font-size: 19px;
+    }
+      
+    .container3 p3 {
+        font-size: 16px;
+    }
+
+    .container3 button {
+        font-size: 16px;
+        padding: 15px 85px;
+    }
+
+    .header-upper1 {
+        font-size: 16px;
+    }
+
+    .header-upper2 {
+        margin-top: 40px;
+        margin-left: -30px;
+    }
+
+    .responsive-break {
+        padding: 45px;
+    }
+
+    .container5 a {
+        margin-top: 350px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+
+
+    .container3 h3 {
+        margin: -30px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        font-size: 19px;
+    }
+      
+    .container3 p3 {
+        margin-top: 40px;
+        font-size: 15px;
+    }
+ 
+    .container3 button {
+        font-size: 16px;
+        padding: 10px 75px;
+    }
+
+    .header-upper2 {
+        margin-top: 40px;
+        margin-left: -30px;
+    }
+
+    .container5 a {
+        margin-top: 450px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .container3 h3 {
+        margin-top: -55px;
+        font-size: 17px;
+    }
+      
+    .container3 p3 {
+        margin-top: -10px;
+        font-size: 15px;
+    }
+
+    .container3 button {
+        font-size: 15px;
+        padding: 10px 65px;
+    }
+
+    .header-upper1 {
+        font-size: 15px;
+    }
+
+    .header-upper2 {
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+
+    .responsive-break {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .container3 h3 {
+        margin-top: -85px;
+    }
+
+    .header-upper2 {
+        margin-top: 105px;
+        margin-left: -40px;
+    }
+
+    .container5 a {
+        font-size: 18px;
+        padding: 5px 20px;
+        margin-top: 550px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    
+
+    .container3 h3 {
+        margin-top: -105px;
+        font-size: 17px;
+    }
+      
+    .container3 p3 {
+        margin-top: -10px;
+        font-size: 14px;
+    }
+
+    .container3 button {
+        font-size: 14px;
+        padding: 10px 45px;
+    }
+
+    .header-upper1 {
+        font-size: 14px;
+    }
+
+    .header-upper2 {
+        font-size: 14px;
+        margin-left: -60px;
+    }
+
+    .responsive-break {
+        padding: 45px;
+    }
+
+    .container5 a {
+        font-size: 17px;
+        padding: 5px 20px;
+        margin-top: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .container3 h3 {
+        margin-top: -125px;
+    }
+
+    .header-upper1 {
+        font-size: 13px;
+    }
+
+    .header-upper2 {
+        font-size: 13px;
+        margin-top: 55px;
+        margin-left: -150px;
+        margin-right: -150px;
+    }
+
+    .responsive-break {
+        padding: 45px;
+    }
+
+    .container5 a {
+        font-size: 17px;
+        padding: 5px 20px;
+        margin-top: 450px;
+        margin-left: -115px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .header-upper1 {
+        margin-left: -5px;
+    }
+
+    .header-upper2 {
+        font-size: 13px;
+        margin-top: -145px;
+        margin-left: -340px;
+        margin-right: 70px;
+    }
+
+    .container5 a {
+        margin-top: 280px;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    
+    body {
+        min-height: 180vh;
+    }
+
+    .container1 img {
+        width: 250%;
+        margin-left: 15px;
+    }
+
+    .main-container {
+        margin-top: 80px;
+    }
+
+    .container3 {
+        align-items: center;
+        margin-top: -180px;
+        margin-left: -50px;
+    }
+
+    .container3 h3 {
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        font-size: 19px;
+    }
+      
+    .container3 p3 {
+        margin-top: 40px;
+        font-size: 15px;
+    }
+ 
+    .container3 button {
+        font-size: 16px;
+        padding: 15px 95px;
+    }
+
+    .header-upper1 {
+        margin-top: 670px;
+        margin-left: -200px;
+        font-size: 14px;
+    }
+
+    .header-upper2 {
+        margin-top: 640px;
+        margin-left: -340px;
+        margin-right: -200px;
+        font-size: 14px;
+    }
+
+    .responsive-break {
+        padding: 40px; 
+    }
+
+    .container5 a {
+        margin-top: 950px;
+        margin-left: -253px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+
+    .container3 button {
+        font-size: 16px;
+        padding: 15px 75px;
+    }
+
+    .header-upper2 {
+        margin-right: -150px;
+    }
+
+    .container5 a {
+        margin-top: 1000px;
+        margin-left: -243px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .header-upper2 {
+        margin-top: 690px;
+        margin-right: -150px;
+    }
+
+    .container5 a {
+        margin-top: 1080px;
+        margin-left: -223px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    
+    body {
+        min-height: 190vh;
+    }
+
+    .main-container {
+        margin-top: 80px; 
+        margin-left: 50px;
+    }
+
+    .container3 {
+        align-items: center;
+        margin-top: -150px;
+        margin-left: -80px;
+    }
+
+    .container3 h3 {
+        margin-top: -110px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+      
+    .container3 p3 {
+        margin-top: 40px;
+        font-size: 13px;
+    }
+ 
+    .container3 button {
+        font-size: 13px;
+        padding: 10px 50px;
+    }
+
+    .header-upper1 {
+        margin-top: 510px;
+        margin-left: -150px;
+        font-size: 13px;
+    }
+
+    .header-upper2 {
+        margin-top: 620px;
+        margin-left: -295px;
+        margin-right: -145px;
+        font-size: 13px;
+    }
+
+    .responsive-break {
+        padding: 40px; 
+    }
+
+    .container5 a {
+        margin-top: 1050px;
+        margin-left: -185px;
+        margin-bottom: 15px;
+    }
+}
