@@ -736,7 +736,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 85%;
   margin: 90px;
   margin-bottom: -5%;
   margin-top: 2%;
@@ -749,7 +749,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 85%;
   margin: 90px;
   margin-bottom: -5%;
   margin-top: 5%;
@@ -830,6 +830,7 @@ ul {
   color: #2a0800;
   font-family: "Poppins", sans-serif;
   flex: 1;
+  margin-left: 15%;
 }
 
 .members-text ul {
@@ -847,7 +848,7 @@ ul {
   text-align: center;
   padding-top: -10%;
   padding-bottom: 4%;
-  padding-left: 50%;
+  padding-left: 25%;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -858,6 +859,8 @@ ul {
   color: #fff;
   font-family: "Poppins", sans-serif;
   flex: 1;
+  margin-top: 2%;
+  margin-right: 8%;
 }
 
 .members-ans ul {
@@ -1429,8 +1432,8 @@ ul {
   height: auto;
   transition: transform 0.3s;
   margin-top: 10%;
-  margin-right: 20px;
-  margin-left: 440%;
+  margin-right: -70px;
+  margin-left: 350%;
   float: left;
 }
 
@@ -1438,15 +1441,15 @@ ul {
   color: #2a0800;
   font-family: "Poppins", sans-serif;
   flex: 1;
-  margin-left: -27rem;
+  margin-left: -10rem;
   font-weight: 500;
 }
 
 .members-text-left ul {
   list-style: none;
   font-size: 17px;
-  margin-right: 69%;
-  margin-bottom: -30px;
+  margin-right: 65%;
+  margin-bottom: 2px;
 }
 
 .members-text-left ul li {
@@ -1457,11 +1460,12 @@ ul {
   text-align: center;
   padding-top: -10%;
   padding-bottom: 4%;
-  padding-right: 60%;
+  padding-right: 55%;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: #2a0800;
+  margin-left: 8%;
 }
 
 .members-ans-left {
