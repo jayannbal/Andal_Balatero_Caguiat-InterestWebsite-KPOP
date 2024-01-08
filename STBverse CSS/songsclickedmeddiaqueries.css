@@ -1,4 +1,4 @@
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1800px) {
   html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -765,8 +765,8 @@
   }
 
   .header-upper2 {
-    margin-top: 710px;
-    margin-left: -210px;
+    margin-top: 670px;
+    margin-left: -230px;
   }
 
   .responsive-break {
@@ -947,7 +947,7 @@
   }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 285px) {
   body {
     min-height: 190vh;
   }
@@ -980,7 +980,7 @@
   }
 
   .header-upper1 {
-    margin-top: 510px;
+    margin-top: 540px;
     margin-left: -120px;
     font-size: 13px;
   }
