@@ -852,7 +852,6 @@
   }
 }
 
-
 @media screen and (max-width: 540px) {
 
   .svt-title-songs {
@@ -919,190 +918,105 @@
   }
 }
 
-@media screen and (max-width: 525px) {
-
-  .svt-title-songs {
-    font-size: 30px;
-    margin-left: -10px;
-  }
-
-  .svt-flex-container {
-    padding-top: 30px;
-    display: relative;
-    margin-left: 30px;
-    width: 80%;
-    justify-content: center;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .svt-flex-box {
-    width: 100px;
-    height: 100px;
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-
-  .svt-flex-box:hover {
-    box-shadow: none;
-    transform: scale(1);
-  }
-
-  .svt-flex-box:hover .svt-flex-box-details {
-    transform: translateX(100%);
-  }
-
-  .txt-title-songs {
-    font-size: 30px;
-    margin-left: -50px;
-  }
-
-  .txt-flex-container {
-    padding-top: 30px;
-    display: relative;
-    margin-left: 40px;
-    width: 80%;
-    justify-content: center;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .txt-flex-box {
-    width: 100px;
-    height: 100px;
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-
-  .txt-flex-box:hover {
-    box-shadow: none;
-    transform: scale(1);
-  }
-
-  .txt-flex-box:hover .txt-flex-box-details {
-    transform: translateX(100%);
-  }
-
-  .bp-title-songs {
-    font-size: 30px;
-    margin-left: 20px;
-  }
-
-  .bp-flex-container {
-    padding-top: 30px;
-    display: relative;
-    margin-left: 40px;
-    width: 80%;
-    justify-content: center;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .bp-flex-box {
-    width: 100px;
-    height: 100px;
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-
-  .bp-flex-box:hover {
-    box-shadow: none;
-    transform: scale(1);
-  }
-
-  .bp-flex-box:hover .bp-flex-box-details {
-    transform: translateX(100%);
-  }
-
-}
-
 @media screen and (max-width: 500px) {
 
   .svt-title-songs {
     font-size: 30px;
-    margin-left: -15px;
+    margin-left: 5px;
   }
 
   .svt-flex-container {
     padding-top: 30px;
+    padding-left: 10px;
     display: relative;
-    margin-left: 30px;
-    width: 80%;
+    margin-left: 120px;
+    width: 50%;
     justify-content: center;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .svt-flex-box {
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     font-size: 20px;
     margin-bottom: 15px;
   }
-  
-  .svt-flex-box:hover {
-    box-shadow: none;
-    transform: scale(1);
-  }
 
-  .svt-flex-box:hover .svt-flex-box-details {
-    transform: translateX(100%);
+  .svt-flex-box-details h1 {
+    font-size: 0px;
+    color: black;
+  }
+  
+  .svt-flex-box-details p2 {
+    font-size: 0px;
+    margin: 0.3rem 0 1rem;
+    color: black;
   }
 
   .txt-title-songs {
     font-size: 30px;
-    margin-left: -35px;
+    margin-left: -45px;
   }
 
   .txt-flex-container {
     padding-top: 30px;
+    padding-left: 10px;
     display: relative;
-    margin-left: 40px;
-    width: 80%;
+    margin-left: 120px;
+    width: 50%;
     justify-content: center;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .txt-flex-box {
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     font-size: 20px;
     margin-bottom: 15px;
   }
 
-  .txt-flex-box:hover {
-    box-shadow: none;
-    transform: scale(1);
+  .txt-flex-box-details h1 {
+    font-size: 0px;
+    color: black;
   }
-
-  .txt-flex-box:hover .txt-flex-box-details {
-    transform: translateX(100%);
+  
+  .txt-flex-box-details p2 {
+    font-size: 0px;
+    margin: 0.3rem 0 1rem;
+    color: black;
   }
 
   .bp-title-songs {
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 25px;
   }
 
   .bp-flex-container {
     padding-top: 30px;
+    padding-left: 10px;
     display: relative;
-    margin-left: 40px;
-    width: 80%;
+    margin-left: 120px;
+    width: 50%;
     justify-content: center;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .bp-flex-box {
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     font-size: 20px;
     margin-bottom: 15px;
   }
 
-  .bp-flex-box:hover {
-    box-shadow: none;
-    transform: scale(1);
+  .bp-flex-box-details h1 {
+    font-size: 0px;
+    color: black;
   }
-
-  .bp-flex-box:hover .bp-flex-box-details {
-    transform: translateX(100%);
+  
+  .bp-flex-box-details p2 {
+    font-size: 0px;
+    margin: 0.3rem 0 1rem;
+    color: black;
   }
 }
 
@@ -1116,7 +1030,7 @@
   .svt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 25px;
+    margin-left: 40px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(4, 1fr);
@@ -1137,7 +1051,7 @@
   .txt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 35px;
+    margin-left: 40px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(4, 1fr);
@@ -1158,7 +1072,7 @@
   .bp-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 35px;
+    margin-left: 40px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(4, 1fr);
@@ -1170,9 +1084,6 @@
     font-size: 20px;
     margin-bottom: 15px;
   }
-
-  
-
 }
 
 @media screen and (max-width: 430px) {
@@ -1185,7 +1096,6 @@
   .svt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 20px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1206,7 +1116,6 @@
   .txt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 30px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1227,7 +1136,6 @@
   .bp-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 30px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1254,7 +1162,7 @@
   .svt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 20px;
+    margin-left: 35px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1275,7 +1183,7 @@
   .txt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 30px;
+    margin-left: 35px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1296,7 +1204,7 @@
   .bp-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 30px;
+    margin-left: 35px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1321,7 +1229,6 @@
   .svt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 15px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1342,7 +1249,6 @@
   .txt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 25px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1363,7 +1269,6 @@
   .bp-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 25px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1406,7 +1311,6 @@
   .svt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 15px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1427,7 +1331,6 @@
   .txt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 25px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1448,7 +1351,6 @@
   .bp-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 25px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -1473,7 +1375,7 @@
   .svt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 5px;
+    margin-left: 22.5px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
@@ -1494,7 +1396,7 @@
   .txt-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 15px;
+    margin-left: 22.5px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
@@ -1515,7 +1417,7 @@
   .bp-flex-container {
     padding-top: 30px;
     display: relative;
-    margin-left: 15px;
+    margin-left: 22.5px;
     width: 80%;
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
