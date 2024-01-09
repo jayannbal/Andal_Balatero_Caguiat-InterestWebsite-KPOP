@@ -736,7 +736,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 85%;
+  width: 100%;
   margin: 90px;
   margin-bottom: -5%;
   margin-top: 2%;
@@ -749,7 +749,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 85%;
+  width: 100%;
   margin: 90px;
   margin-bottom: -5%;
   margin-top: 5%;
@@ -830,7 +830,6 @@ ul {
   color: #2a0800;
   font-family: "Poppins", sans-serif;
   flex: 1;
-  margin-left: 5%;
 }
 
 .members-text ul {
@@ -848,7 +847,7 @@ ul {
   text-align: center;
   padding-top: -10%;
   padding-bottom: 4%;
-  padding-left: 25%;
+  padding-left: 50%;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -859,14 +858,13 @@ ul {
   color: #fff;
   font-family: "Poppins", sans-serif;
   flex: 1;
-  margin-top: 2%;
 }
 
 .members-ans ul {
   list-style: none;
   padding-right: 10%;
   padding-left: -20%;
-  padding-top: 15%;
+  padding-top: 12%;
   font-size: 17px;
   margin-bottom: 20px;
 }
@@ -1425,14 +1423,14 @@ ul {
   gap: 5rem;
 }
 
-.members-img2-right img {
+.members-img2 img {
   border-radius: 2.5rem;
   max-width: 300px;
   height: auto;
   transition: transform 0.3s;
   margin-top: 10%;
-  margin-right: -70px;
-  margin-left: 350%;
+  margin-right: 20px;
+  margin-left: 440%;
   float: left;
 }
 
@@ -1440,15 +1438,15 @@ ul {
   color: #2a0800;
   font-family: "Poppins", sans-serif;
   flex: 1;
-  margin-left: -10rem;
+  margin-left: -27rem;
   font-weight: 500;
 }
 
 .members-text-left ul {
   list-style: none;
   font-size: 17px;
-  margin-right: 65%;
-  margin-bottom: 2px;
+  margin-right: 69%;
+  margin-bottom: -30px;
 }
 
 .members-text-left ul li {
@@ -1466,28 +1464,26 @@ ul {
   color: #2a0800;
 }
 
-.members-answer-left {
+.members-ans-left {
   color: #fff;
   font-family: "Poppins", sans-serif;
   flex: 1;
-  margin-left: 15%;
-  margin-top: 2%;
 }
 
-.members-answer-left ul {
+.members-ans-left ul {
   list-style: none;
   padding-right: 50%;
   padding-left: 10%;
   padding-top: 12%;
   font-size: 17px;
-  margin-left: -30rem;
+  margin-left: -37rem;
 }
 
-.members-answer-left ul li {
+.members-ans-left ul li {
   text-align: left;
 }
 
-/*---------FOOTER SECTION---------*/
+/* ---------FOOTER SECTION--------- */
 
 footer {
   background-color: #333; /* Background color for the footer */
@@ -1506,12 +1502,11 @@ footer {
 }
 
 .footer-text {
-  font-size: 16px;
   margin-top: 20px;
 }
 
 .row {
-  width: 95%;
+  width: 85%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -1525,19 +1520,19 @@ ul {
 }
 
 .logopic {
-  width: 100px;
+  width: 80px;
   margin-bottom: 30px;
 }
 
 .footer-col {
   flex-basis: 25%;
   width: 25%;
-  padding: 0 15px;
+  padding: 0 19px;
 }
 
 .footer-col h4 {
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 19px;
   color: #ffffff;
   margin-bottom: 30px;
   font-weight: 500;
@@ -1604,15 +1599,14 @@ ul {
 
 .footer-col .social-links a {
   display: inline-block;
-  margin-top: 1; /* Add a value here */
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
+  margin-top: 10px; /* Add a value here */
+  width: 40px;
+  height: 40px;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 10px 10px 0;
   text-align: center;
   transition: all 0.5s ease;
-  line-height: 50px;
+  line-height: 40px;
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease;
@@ -1652,7 +1646,7 @@ ul {
   border: 0;
   border-top: 1px solid #fff;
   margin: 20px auto;
-  width: 100%;
+  width: 100%; /* Adjust the width as needed */
 }
 
 .animate {
