@@ -849,7 +849,7 @@ body {
   }
 }
 
-@media screen and (max-width: 12200px) {
+@media screen and (max-width: 1200px) {
   .banner-area-mem h2 {
     padding-top: 30%;
     font-size: 60px;
