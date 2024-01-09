@@ -554,7 +554,7 @@ body {
     text-transform: uppercase;
     color: #fff;
   }
-  
+
   .members-img2-right img {
     border-radius: 2.5rem;
     max-width: 300px;
@@ -703,7 +703,6 @@ body {
     margin-left: 440%;
     float: left;
   }
-
 }
 
 @media screen and (max-width: 1452px) {
@@ -776,7 +775,6 @@ body {
     margin-left: 440%;
     float: left;
   }
-
 }
 
 @media screen and (max-width: 1350px) {
