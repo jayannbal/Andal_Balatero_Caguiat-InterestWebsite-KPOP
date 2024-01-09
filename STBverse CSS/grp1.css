@@ -826,7 +826,7 @@ ul {
   transition: transform 0.3s;
   margin-top: 10%;
   margin-right: 50%;
-  margin-left: 60%;
+  margin-left: 110%;
 }
 
 .members-text {
@@ -1437,7 +1437,7 @@ ul {
   transition: transform 0.3s;
   margin-top: 10%;
   margin-right: 20px;
-  margin-left: 440%;
+  margin-left: 400%;
   float: left;
 }
 
