@@ -554,14 +554,15 @@ body {
     text-transform: uppercase;
     color: #fff;
   }
+  
   .members-img2-right img {
     border-radius: 2.5rem;
     max-width: 300px;
     height: auto;
     transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: 50%;
-    margin-left: 350%;
+    margin-right: 20px;
+    margin-left: 440%;
     float: left;
   }
 
@@ -698,10 +699,11 @@ body {
     height: auto;
     transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: 50%;
-    margin-left: 350%;
+    margin-right: 20px;
+    margin-left: 440%;
     float: left;
   }
+
 }
 
 @media screen and (max-width: 1452px) {
@@ -770,10 +772,11 @@ body {
     height: auto;
     transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: 50%;
-    margin-left: 300%;
+    margin-right: 20px;
+    margin-left: 440%;
     float: left;
   }
+
 }
 
 @media screen and (max-width: 1350px) {
