@@ -3,13 +3,37 @@
 =================================*/
 
 @media screen and (max-width: 1750px) {
-  .banner-area-mem h2 {
+
+    
+
+   #header h2 {
+        font-size: 90px;
+   }
+      
+    #header p {
+        font-size: 40px;
+        margin-top: -10px;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+  }
+
+  
+#profile h2 {
+    font-size: 90px;
+    padding-top: 30%;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  /* .banner-area-mem h2 {
     padding-top: 24%;
     font-size: 80px;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     color: #fff;
-  }
+  } */
   
   .members-img2-right img {
     border-radius: 2.5rem;
