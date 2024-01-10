@@ -3,23 +3,19 @@
 =================================*/
 
 @media screen and (max-width: 1750px) {
-
-    
-
-   #header h2 {
-        font-size: 90px;
-   }
-      
-    #header p {
-        font-size: 40px;
-        margin-top: -10px;
-        font-family: "Poppins", sans-serif;
-        text-transform: uppercase;
-        color: #fff;
+  #header h2 {
+    font-size: 90px;
   }
 
-  
-#profile h2 {
+  #header p {
+    font-size: 40px;
+    margin-top: -10px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  #profile h2 {
     font-size: 90px;
     padding-top: 30%;
     font-family: "Poppins", sans-serif;
@@ -34,7 +30,7 @@
     text-transform: uppercase;
     color: #fff;
   } */
-  
+
   .members-img2-right img {
     border-radius: 2.5rem;
     max-width: 300px;
@@ -183,7 +179,6 @@
     margin-left: 440%;
     float: left;
   }
-
 }
 
 @media screen and (max-width: 1452px) {
@@ -256,7 +251,6 @@
     margin-left: 440%;
     float: left;
   }
-
 }
 
 @media screen and (max-width: 1350px) {
@@ -402,8 +396,6 @@
     float: left;
   }
 }
-
-
 
 @media screen and (max-width: 800px) {
   .banner-area-mem h2 {
