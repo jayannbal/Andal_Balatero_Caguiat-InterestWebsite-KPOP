@@ -3,7 +3,6 @@
 =================================*/
 
 @media screen and (max-width: 1730px) {
-  
   #header h2 {
     font-size: 90px;
     font-size: 90px;
@@ -112,11 +111,10 @@
 }
 
 @media screen and (max-width: 1680px) {
-
   #header h2 {
     padding-top: 33%;
   }
-  
+
   .members-img2-right img {
     border-radius: 2.5rem;
     max-width: 300px;
@@ -133,13 +131,11 @@
   }
 }
 
-
 @media screen and (max-width: 1600px) {
-
   #header h2 {
     padding-top: 34.5%;
   }
-  
+
   .members-img2-right img {
     border-radius: 2.5rem;
     max-width: 300px;
@@ -153,7 +149,6 @@
 }
 
 @media screen and (max-width: 1550px) {
-
   #header h2 {
     padding-top: 35.5%;
   }
@@ -166,7 +161,7 @@
   .members-text h2 {
     margin-left: 2%;
   }
-  
+
   .members-img2-right img {
     border-radius: 2.5rem;
     max-width: 300px;
@@ -177,7 +172,7 @@
     margin-left: 320%;
     float: left;
   }
-  
+
   .members-ans-left ul {
     list-style: none;
     padding-right: 10%;
@@ -207,7 +202,6 @@
 }
 
 @media screen and (max-width: 1440px) {
-
   #header h2 {
     padding-top: 38.5%;
   }
@@ -215,7 +209,7 @@
   .members-img img {
     margin-left: 60%;
   }
-  
+
   .members-img2-right img {
     border-radius: 2.5rem;
     max-width: 300px;
@@ -226,7 +220,7 @@
     margin-left: 300%;
     float: left;
   }
-  
+
   .members-ans-left ul {
     list-style: none;
     padding-right: 10%;
@@ -256,7 +250,6 @@
 }
 
 @media screen and (max-width: 1350px) {
-
   #header h2 {
     padding-top: 40.5%;
   }
@@ -268,11 +261,11 @@
   .members-img img {
     margin-left: 60%;
   }
-  
+
   .members-img2-right img {
     margin-left: 270%;
   }
-  
+
   .members-ans-left ul {
     padding-top: 22.5%;
     margin-right: 80%;
@@ -291,7 +284,6 @@
 }
 
 @media screen and (max-width: 1280px) {
-
   #header h2 {
     padding-top: 43%;
   }
@@ -302,7 +294,6 @@
 }
 
 @media screen and (max-width: 1200px) {
- 
   #header h2 {
     padding-top: 46%;
   }
@@ -314,11 +305,11 @@
   .members-img img {
     margin-left: 50%;
   }
-  
+
   .members-img2-right img {
     margin-left: 240%;
   }
-  
+
   .members-ans-left ul {
     padding-top: 24.5%;
     margin-right: 80%;
@@ -337,7 +328,6 @@
 }
 
 @media screen and (max-width: 1152px) {
-
   #header h2 {
     padding-top: 48%;
   }
@@ -352,7 +342,6 @@
 }
 
 @media screen and (max-width: 1060px) {
-
   #header h2 {
     padding-top: 52%;
   }
@@ -365,12 +354,12 @@
   .members-text h2 {
     margin-left: -30%;
   }
-  
+
   .members-text ul {
     margin-right: 15%;
     margin-left: -80%;
   }
-  
+
   .members-img img {
     max-width: 260px;
     margin-left: 30%;
@@ -396,7 +385,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-
   #header h2 {
     padding-top: 54%;
   }
@@ -422,112 +410,70 @@
   }
 }
 
-@media screen and (max-width: 800px) {
-  .banner-area-mem h2 {
-    padding-top: 40%;
-    font-size: 40px;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    color: #fff;
+@media screen and (max-width: 990px) {
+  #header h2 {
+    font-size: 70px;
+    padding-top: 30%;
   }
 
-  .banner-area-mem p {
-    font-size: 33px;
+  .banner-area {
+    height: 520px;
   }
-
-  .banner-area-mem {
-    width: 100%;
-    height: 450px;
-  }
-
-  .members-name h2 {
-    font-size: 35px;
-  }
-
-  .members-img img {
-    border-radius: 2.5rem;
-    max-width: 250px;
-    height: auto;
-    transition: transform 0.3s;
-    margin-top: 10%;
-    margin-right: 20%;
-    margin-left: 30%;
-  }
-
   .members-img2-right img {
-    border-radius: 2.5rem;
     max-width: 250px;
-    height: auto;
-    transition: transform 0.3s;
-    margin-top: 10%;
-    margin-right: 20px;
-    margin-left: 170%;
-    float: left;
+    margin-left: 200%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #header h2 {
+    font-size: 60px;
+  }
+
+  .banner-area {
+    height: 520px;
+  }
+  .members-text h2 {
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-left: 70%;
   }
 
   .members-text ul {
-    list-style: none;
     padding-right: -10%;
     font-size: 14px;
-    font-weight: 500;
+    margin-right: 5%;
   }
 
   .members-ans ul {
-    list-style: none;
-    padding-right: 10%;
-    padding-left: -25%;
-    padding-top: 17%;
+    padding-top: 26%;
+    font-size: 14px;
+    margin-left: -10%;
+  }
+
+  .members-ans-left ul {
+    padding-top: 40%;
+    margin-left: -130%;
     font-size: 14px;
   }
 
-  .members-text h2 {
-    text-align: center;
-    padding-top: -10%;
-    padding-bottom: 4%;
-    padding-left: 50%;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    color: #2a0800;
+  .members-text-left h2 {
+    margin-right: 77%;
+    margin-left: -62%;
   }
 
   .members-text-left ul {
-    list-style: none;
     font-size: 14px;
-    margin-right: 50%;
+    margin-right: 120%;
   }
 
-  .container-mem {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 90%;
-    margin: 20px;
-    margin-bottom: -5%;
-    margin-top: 2%;
-    text-align: center;
-    align-items: center;
-    max-width: 100%;
-  }
-
-  .container-mem2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 90%;
-    margin: 20px;
-    margin-bottom: -5%;
-    margin-top: 2%;
-    text-align: center;
-    align-items: center;
-    max-width: 100%;
+  .members-img2-right img {
+    margin-top: 10%;
+    margin-left: 183%;
   }
 
   .button {
-    display: inline-block;
     padding: 10px;
-    color: #fff;
-    text-decoration: none;
     border-radius: 5px;
     margin: 0 5px;
     margin-left: 6%;
@@ -537,12 +483,12 @@
 }
 
 @media screen and (max-width: 700px) {
-  .banner-area-mem h2 {
-    padding-top: 40%;
-    font-size: 40px;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    color: #fff;
+  #header h2 {
+    font-size: 55px;
+  }
+
+  .banner-area {
+    height: 430px;
   }
 
   .members-name h2 {
@@ -550,61 +496,44 @@
   }
 
   .members-img img {
-    border-radius: 2.5rem;
-    max-width: 250px;
-    height: auto;
-    transition: transform 0.3s;
+    max-width: 230px;
     margin-top: 10%;
     margin-right: 20%;
     margin-left: 25%;
   }
 
   .members-img2-right img {
-    border-radius: 2.5rem;
-    max-width: 250px;
-    height: auto;
-    transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: 20px;
-    margin-left: 145%;
-    float: left;
-  }
-
-  .members-text ul {
-    list-style: none;
-    padding-right: -10%;
-    font-size: 12px;
-    font-weight: 500;
+    margin-left: 170%;
+    max-width: 230px;
   }
 
   .members-ans ul {
-    list-style: none;
-    padding-right: 5%;
-    padding-left: -25%;
-    padding-top: 17%;
+    padding-top: 31%;
     font-size: 12px;
+    margin-left: -10%;
+  }
+
+  .members-text ul {
+    padding-right: -10%;
+    font-size: 12px;
+    margin-right: 5%;
   }
 
   .members-text-left h2 {
-    padding-top: -10%;
-    padding-bottom: 4%;
-    padding-right: 40%;
-    margin-right: 3%;
+    margin-right: 77%;
+    margin-left: -70%;
   }
 
   .members-text-left ul {
-    list-style: none;
     font-size: 12px;
-    margin-right: 55%;
+    margin-right: 120%;
   }
 
-  .members-answer-left ul {
-    list-style: none;
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 13%;
+  .members-ans-left ul {
+    padding-top: 47%;
+    margin-left: -130%;
     font-size: 12px;
-    margin-left: -30rem;
   }
 
   .members-facts h2 {
@@ -614,43 +543,46 @@
   .members-facts p {
     font-size: 12px;
   }
-
-  /* .members-profile {
-    flex-direction: column-reverse;
+  .members-facts-two h2 {
+    font-size: 18px;
   }
 
-  .members-img img {
-    border-radius: 2.5rem;
-    max-width: 250px;
-    height: auto;
-    transition: transform 0.3s;
-    margin-top: 10%;
-    margin-right: 20%;
-    margin-left: 20%;
+  .members-facts-two p {
+    font-size: 12px;
+  }
+  .members-facts-three h2 {
+    font-size: 18px;
   }
 
-  .members-text {
-    margin-top: 10px;
-  } */
+  .members-facts-three p {
+    font-size: 12px;
+  }
+  .members-facts-four h2 {
+    font-size: 18px;
+  }
+
+  .members-facts-four p {
+    font-size: 12px;
+  }
+  .members-facts-five h2 {
+    font-size: 18px;
+  }
+
+  .members-facts-five p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .banner-area-mem h2 {
-    padding-top: 50%;
-    font-size: 40px;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    color: #fff;
+  #header h2 {
+    font-size: 50px;
   }
 
-  .banner-area-mem p {
-    font-size: 33px;
+  .banner-area {
+    height: 380px;
   }
 
   .container-mem {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 85%;
     margin: 90px;
     margin-bottom: -5%;
@@ -659,9 +591,6 @@
   }
 
   .container-mem2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 85%;
     margin: 90px;
     margin-bottom: -5%;
@@ -682,59 +611,50 @@
   }
 
   .members-img img {
-    border-radius: 2.5rem;
     max-width: 200px;
-    height: auto;
-    transition: transform 0.3s;
     margin-top: 10%;
     margin-right: 20%;
     margin-left: 25%;
   }
 
+  .members-text h2 {
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-left: 66%;
+    font-size: 20px;
+  }
   .members-text ul {
-    list-style: none;
     padding-right: -10%;
     font-size: 10px;
-    font-weight: 500;
+    margin-right: 5%;
   }
 
   .members-ans ul {
-    list-style: none;
-    padding-right: 1%;
-    padding-left: -25%;
-    padding-top: 22%;
+    padding-top: 37%;
     font-size: 10px;
+    margin-left: -10%;
   }
 
   .members-img2-right img {
-    border-radius: 2.5rem;
-    max-width: 200px;
-    height: auto;
-    transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: 20px;
-    margin-left: 155%;
-    float: left;
+    margin-left: 160%;
+    max-width: 200px;
   }
 
   .members-text-left h2 {
-    padding-left: 30%;
+    margin-right: 77%;
+    margin-left: -70%;
+    font-size: 20px;
   }
-
   .members-text-left ul {
-    list-style: none;
     font-size: 10px;
-    margin-right: 40%;
-    padding-left: 5%;
+    margin-right: 120%;
   }
 
-  .members-answer-left ul {
-    list-style: none;
-    padding-right: 20%;
-    padding-left: 35%;
-    padding-top: 13%;
+  .members-ans-left ul {
+    padding-top: 52%;
+    margin-left: -140%;
     font-size: 10px;
-    margin-left: -28rem;
   }
 
   .members-facts h2 {
@@ -779,12 +699,12 @@
 }
 
 @media screen and (max-width: 520px) {
-  .banner-area-mem h2 {
-    padding-top: 53%;
-    font-size: 33px;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    color: #fff;
+  #header h2 {
+    font-size: 35px;
+    padding-top: 40%;
+  }
+  #header p {
+    font-size: 25px;
   }
 
   .container-mem a {
@@ -798,77 +718,53 @@
   .members-name h2 {
     font-size: 30px;
   }
-
-  .banner-area-mem p {
-    font-size: 28px;
-  }
-
-  .banner-area-mem {
-    width: 100%;
-    height: 400px;
-  }
-
   .members-img img {
-    border-radius: 2.5rem;
     max-width: 180px;
-    height: auto;
-    transition: transform 0.3s;
-    margin-top: 10%;
-    margin-right: 20%;
-    margin-left: 25%;
   }
 
   .members-text h2 {
-    margin-left: -20%;
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-left: 60%;
+    font-size: 20px;
   }
 
   .members-text ul {
-    list-style: none;
     padding-right: -10%;
     font-size: 9px;
     font-weight: 500;
   }
 
   .members-ans ul {
-    list-style: none;
-    padding-right: 1%;
-    padding-left: -25%;
-    padding-top: 25%;
+    padding-top: 37%;
     font-size: 9px;
+    margin-left: -10%;
   }
 
   .members-img2-right img {
-    border-radius: 2.5rem;
-    max-width: 180px;
-    height: auto;
-    transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: 20px;
-    margin-left: 145%;
-    float: left;
+    margin-left: 160%;
+    max-width: 180px;
+  }
+  .members-text-left h2 {
+    margin-right: 35%;
+    margin-left: -120%;
+    font-size: 20px;
   }
 
   .members-text-left ul {
-    list-style: none;
     font-size: 9px;
-    margin-right: 35%;
-    padding-left: 5%;
+    margin-right: 120%;
   }
 
-  .members-answer-left ul {
-    list-style: none;
-    padding-right: 20%;
-    padding-left: 50%;
-    padding-top: 14%;
+  .members-ans-left ul {
+    padding-top: 61%;
+    margin-left: -150%;
     font-size: 9px;
-    margin-left: -27rem;
   }
 }
 @media screen and (max-width: 480px) {
   .container-mem {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 85%;
     margin: 90px;
     margin-bottom: -5%;
@@ -877,9 +773,6 @@
   }
 
   .container-mem2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 85%;
     margin: 90px;
     margin-bottom: -5%;
@@ -892,81 +785,61 @@
   }
 
   .members-text h2 {
-    padding-left: 10%;
-    margin-top: -5%;
+    padding-top: -10%;
+    padding-bottom: 4%;
+    padding-left: 60%;
   }
 
   .members-text ul {
     padding-right: -10%;
     font-size: 8px;
     font-weight: 500;
-    margin-right: 10%;
-    margin-top: 5%;
   }
 
   .members-ans ul {
-    list-style: none;
-    padding-right: -3%;
+    padding-top: 41%;
     font-size: 8px;
     margin-left: -10%;
-    margin-top: 5%;
   }
 
   .members-img2-right img {
-    border-radius: 2.5rem;
-    max-width: 180px;
-    height: auto;
-    transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: 50px;
-    margin-left: 125%;
-    float: left;
+    margin-left: 150%;
+    max-width: 180px;
   }
 
   .members-text-left h2 {
-    padding-top: -10%;
-    padding-bottom: 4%;
-    padding-left: 15%;
+    margin-right: 120%;
+    font-size: 20px;
   }
 
   .members-text-left ul {
-    list-style: none;
     font-size: 8px;
-    margin-right: 45%;
-    padding-left: 5%;
+    margin-right: 155%;
+    margin-left: -150%;
   }
 
-  .members-answer-left ul {
-    list-style: none;
-    padding-right: 20%;
-    padding-left: 60%;
-    padding-top: 17%;
+  .members-ans-left ul {
+    padding-top: 73%;
+    margin-left: -170%;
     font-size: 8px;
-    margin-left: -29rem;
   }
 }
 @media screen and (max-width: 415px) {
-  .banner-area-mem h2 {
-    padding-top: 65%;
-    font-size: 28px;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    color: #fff;
+  #header h2 {
+    font-size: 30px;
+    padding-top: 50%;
   }
-
-  .banner-area-mem p {
+  #header p {
     font-size: 23px;
   }
 
-  .banner-area-mem {
+  .banner-area {
     width: 100%;
-    height: 400px;
+    height: 300px;
   }
 
   .container-mem {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 80%;
     margin: 90px;
     margin-bottom: -5%;
@@ -975,9 +848,6 @@
   }
 
   .container-mem2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 80%;
     margin: 90px;
     margin-bottom: -5%;
@@ -997,49 +867,46 @@
 
   .members-img img {
     max-width: 150px;
-    transition: transform 0.3s;
-    margin-right: 10%;
-    margin-left: 30%;
+  }
+  .members-text ul {
+    padding-right: -10%;
+    font-size: 8px;
+    font-weight: 500;
   }
 
-  .members-text ul {
-    padding-right: 10%;
-    margin-top: 5%;
+  .members-ans ul {
+    padding-top: 48%;
+    font-size: 8px;
+    margin-left: -10%;
   }
 
   .members-img2-right img {
-    max-width: 150px;
-    transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: -10%;
-    margin-left: 150%;
+    margin-left: 145%;
+    max-width: 150px;
   }
 
   .members-text-left h2 {
-    padding-top: -10%;
-    padding-bottom: 4%;
-    padding-left: 55%;
+    margin-right: 150%;
+    font-size: 20px;
   }
 
   .members-text-left ul {
-    list-style: none;
     font-size: 8px;
-    margin-right: 20%;
-    padding-left: 5%;
+    margin-right: 155%;
+    margin-left: -150%;
   }
 
-  .members-answer-left ul {
-    padding-right: 10%;
-    padding-left: 20%;
-    padding-top: 16%;
-    margin-left: -16rem;
+  .members-ans-left ul {
+    padding-top: 84%;
+    margin-left: -180%;
+    font-size: 8px;
   }
 }
 
 @media screen and (max-width: 390px) {
   .members-img img {
     max-width: 120px;
-    transition: transform 0.3s;
   }
 
   .members-text ul {
@@ -1048,29 +915,22 @@
 
   .members-img2-right img {
     max-width: 120px;
-    transition: transform 0.3s;
     margin-top: 10%;
-    margin-right: -10%;
-    margin-left: 190%;
+    margin-left: 170%;
   }
 
   .members-text-left h2 {
-    padding-top: -10%;
-    padding-bottom: 4%;
-    padding-left: 60%;
+    margin-right: 70%;
+    font-size: 20px;
   }
 
   .members-text-left ul {
-    list-style: none;
-    font-size: 8px;
-    margin-right: 10%;
-    padding-left: 30%;
+    margin-right: 140%;
+    margin-left: -150%;
   }
 
-  .members-answer-left ul {
-    padding-right: 10%;
-    padding-left: 20%;
-    padding-top: 16%;
-    margin-left: -12rem;
+  .members-ans-left ul {
+    padding-top: 84%;
+    margin-left: -170%;
   }
 }

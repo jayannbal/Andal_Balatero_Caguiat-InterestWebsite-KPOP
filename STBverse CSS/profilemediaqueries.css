@@ -9,24 +9,24 @@
   select {
     font-size: 12pt;
   }
-}
 
-html {
-  font-size: 55%;
-}
+  html {
+    font-size: 55%;
+  }
 
-body {
-  background-size: cover;
-  background-position: center center;
-}
+  body {
+    background-size: cover;
+    background-position: center center;
+  }
 
-/* HEADER SECTION */
-.banner-area h2 {
-  padding-top: 30%;
-  font-size: 50px;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  color: #fff;
+  /* HEADER SECTION */
+  .banner-area h2 {
+    padding-top: 30%;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
 }
 
 /* HEADER SECTION */
