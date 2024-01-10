@@ -826,7 +826,7 @@ ul {
   transition: transform 0.3s;
   margin-top: 10%;
   margin-right: 50%;
-  margin-left: 110%;
+  margin-left: 80%;
 }
 
 .members-text {
@@ -1430,6 +1430,18 @@ ul {
   gap: 5rem;
 }
 
+.members-text h2  {
+  text-align: center;
+  padding-top: -10%;
+  padding-bottom: 4%;
+  padding-left: 50%;
+  font-size: 20px;
+  margin-left: 10%;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #2a0800;
+}
+
 .members-img2-right img {
   border-radius: 2.5rem;
   max-width: 300px;
@@ -1437,7 +1449,7 @@ ul {
   transition: transform 0.3s;
   margin-top: 10%;
   margin-right: 20px;
-  margin-left: 400%;
+  margin-left: 430%;
   float: left;
 }
 
@@ -1445,7 +1457,7 @@ ul {
   color: #2a0800;
   font-family: "Poppins", sans-serif;
   flex: 1;
-  margin-left: -27rem;
+  margin-left: -5rem;
   font-weight: 500;
 }
 
@@ -1465,6 +1477,7 @@ ul {
   padding-top: -10%;
   padding-bottom: 4%;
   padding-right: 60%;
+  margin-left: 10%;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -1481,9 +1494,9 @@ ul {
   list-style: none;
   padding-right: 50%;
   padding-left: 10%;
-  padding-top: 12%;
+  padding-top: 13%;
   font-size: 17px;
-  margin-left: -37rem;
+  margin-left: -52rem;
 }
 
 .members-ans-left ul li {
