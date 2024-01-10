@@ -419,9 +419,24 @@
   .banner-area {
     height: 520px;
   }
+
+  .members-text-left h2 {
+    margin-right: 40%;
+    margin-left: -50%;
+  }
+  .members-text-left ul {
+    margin-right: 100%;
+    margin-left: -80%;
+  }
+  .members-ans-left ul {
+    padding-top: 30%;
+    margin-right: 80%;
+    margin-left: -110%;
+  }
+
   .members-img2-right img {
     max-width: 250px;
-    margin-left: 200%;
+    margin-left: 230%;
   }
 }
 
@@ -469,7 +484,7 @@
 
   .members-img2-right img {
     margin-top: 10%;
-    margin-left: 183%;
+    margin-left: 178%;
   }
 
   .button {
@@ -504,7 +519,7 @@
 
   .members-img2-right img {
     margin-top: 10%;
-    margin-left: 170%;
+    margin-left: 165%;
     max-width: 230px;
   }
 
@@ -532,7 +547,7 @@
 
   .members-ans-left ul {
     padding-top: 47%;
-    margin-left: -130%;
+    margin-left: -135%;
     font-size: 12px;
   }
 
@@ -804,7 +819,7 @@
 
   .members-img2-right img {
     margin-top: 10%;
-    margin-left: 150%;
+    margin-left: 130%;
     max-width: 180px;
   }
 
@@ -821,7 +836,7 @@
 
   .members-ans-left ul {
     padding-top: 73%;
-    margin-left: -170%;
+    margin-left: -190%;
     font-size: 8px;
   }
 }
