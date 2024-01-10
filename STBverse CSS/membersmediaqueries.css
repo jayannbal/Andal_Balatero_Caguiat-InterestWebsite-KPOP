@@ -586,6 +586,61 @@
   .members-facts-five p {
     font-size: 12px;
   }
+  .members-facts-six h2 {
+    font-size: 18px;
+  }
+  .members-facts-six p {
+    font-size: 12px;
+  }
+  .members-facts-seven h2 {
+    font-size: 18px;
+  }
+  .members-facts-seven p {
+    font-size: 12px;
+  }
+
+  .members-facts-eight h2 {
+    font-size: 18px;
+  }
+
+  .members-facts-eight p {
+    font-size: 12px;
+  }
+  .members-facts-nine h2 {
+    font-size: 18px;
+  }
+
+  .members-facts-nine p {
+    font-size: 12px;
+  }
+  .members-facts-ten h2 {
+    font-size: 18px;
+  }
+
+  .members-facts-ten p {
+    font-size: 12px;
+  }
+  .members-facts-eleven h2 {
+    font-size: 18px;
+  }
+
+  .members-facts-eleven p {
+    font-size: 12px;
+  }
+  .members-facts-twelve h2 {
+    font-size: 18px;
+  }
+
+  .members-facts-twelve p {
+    font-size: 12px;
+  }
+  .members-facts-thirteen h2 {
+    font-size: 18px;
+  }
+
+  .members-facts-thirteen p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 600px) {
